@@ -1,4 +1,4 @@
-import time
+mport time
 from glob import glob
 from pathlib import Path
 from swifttools.xrt_prods import XRTProductRequest, countActiveJobs
