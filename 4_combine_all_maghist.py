@@ -9,9 +9,13 @@ source_dirs = glob('download_scripts/*/')
 for s in source_dirs:
     print(f'Doing {s}')
     maghist_files = glob(f'{s}*/*maghist*')
+    src_reg_files = glob(f'{s}*src*.reg') 
+
     if len(maghist_files) == 0:
         print('No maghist files found')
         continue
+    input()
+
     all_tabs = []
 
     for f in tqdm(maghist_files):

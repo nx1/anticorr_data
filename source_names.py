@@ -33,6 +33,9 @@ source_names = ['ESO_243-49_HLX-1',
                 'SMC_X-3',
                 'SS433',
                 'SWIFT_J0243.6+6124',
-                'NAME_UGC_6456_ULX']
+                'NAME_UGC_6456_ULX',
+                'NOVA_Cyg_1989',          # v404 Cygni
+                '[LB2005]_NGC_5236_ULX1', # Outer ULX M83
+                'NAME_M83_ULX-1']         # Inner ULX M83
 
 

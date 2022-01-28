@@ -19,7 +19,7 @@ for s in source_dirs:
     # Create txt files with each line containing sk_img file
     for k, v in d.items():
         txt_path = s+k
-        print(f'Creating {txt_path} \t lines={len(v)}')
+        print(f'Creating {txt_path:<50} lines={len(v)}')
         with open(txt_path, 'w+') as f:
             for l in v:
                 stem = '/'.join(v[0].split('/')[2:])

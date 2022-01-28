@@ -1,4 +1,4 @@
-mport time
+import time
 from glob import glob
 from pathlib import Path
 from swifttools.xrt_prods import XRTProductRequest, countActiveJobs
@@ -14,6 +14,12 @@ reqs = [XRTProductRequest(email) for i in range(n_jobs)]
 
 print('Swift XRT ULX script')
 print(f'email: {email} max_jobs={max_jobs} n_jobs={n_jobs}')
+
+
+# Fix glob square bracket issue
+to_replace = {'[':'[[]',
+              ']':'[]]'}
+
 
 
 # Set up all jobs
@@ -42,6 +48,17 @@ for i in range(n_jobs):
                       allowUL='no')
 
     req.addSpectrum(hasRedshift=False)
+
+
+    req.savedir = f'UKSSDC/{source_name}'
+    savedir_esc = req.savedir.translate(str.maketrans(to_replace)) # Used to fix globbing square brackets
+
+    req.is_downloaded = False
+
+    for f in glob(f'{savedir_esc}/*'):
+        if 'tar.gz' in f:
+            print(f'File found: {f}, assuming request is downloaded')
+            req.is_downloaded = True
     assert req.isValid()[0]
 
 print('-'*50)
@@ -50,29 +67,31 @@ input()
 
 
 n_submitted = 0
-while n_submitted <= n_jobs:
+while n_submitted < n_jobs-1:
     while countActiveJobs(email) <= max_jobs:
         req = reqs[n_submitted]
 
-        print(f'Active Jobs = {countActiveJobs(email)} <= {max_jobs}, submitting job {n_submitted}/{n_jobs}')
-        req.submit()
-        time.sleep(5) # wait a bit for the job to be submitted
+        print(f'Active Jobs = {countActiveJobs(email)} <= {max_jobs} {req.savedir}')
+        if req.is_downloaded==False:
+            print(f'submitting job {n_submitted}/{n_jobs} {req.getAllPars()["name"]}')
+            req.submit()
+            time.sleep(5) # wait a bit for the job to be submitted
         n_submitted+=1
 
 
     for r in reqs[:n_submitted-1]:
-        if r.complete:
-            source_name = r.getAllPars()["name"]
-            print(f'Request for {source_name} is complete!')
-            savedir = f'UKSSDC/{source_name}'
-            Path(savedir).mkdir(parents=True, exist_ok=True)
-
-            print(f'Saving to {savedir}, stem={source_name}')
-            try:
-                dl = r.downloadProducts(savedir, stem=source_name)
-                print(dl)
-            except RuntimeError:
-                print('Runtime Error, probably already saved')
+        if r.is_downloaded==False:
+            if r.complete:
+                source_name = r.getAllPars()["name"]
+                print(f'Request for {source_name} is complete!')
+                Path(r.savedir).mkdir(parents=True, exist_ok=True)
+                print(f'Saving to {r.savedir}, stem={source_name}')
+                try:
+                    dl = r.downloadProducts(r.savedir, stem=source_name)
+                    print(dl)
+                    r.is_downloaded = True
+                except RuntimeError:
+                    print('Runtime Error, probably already saved')
 
 
     print(f"I have submitted {n_submitted} / {n_jobs} jobs, active={countActiveJobs(email)}")

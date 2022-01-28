@@ -14,7 +14,7 @@ for s in source_dirs:
 
     xrt_po_files = glob(f'{s}*/*po_cl.evt.gz') # get all xrt pointing files
     # Create txt files with each line containing sk_img file
-    print(f'Creating {xrt_po_txt_path} \t files_to_stack={len(xrt_po_files)}')
+    print(f'Creating {xrt_po_txt_path:<50} files_to_stack={len(xrt_po_files)}')
     xrt_po_files = xrt_po_files[:500] # can only load 500 files in at once in xselect
     with open(xrt_po_txt_path, 'w+') as f:
         for l in xrt_po_files:

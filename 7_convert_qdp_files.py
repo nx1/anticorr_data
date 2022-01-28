@@ -3,21 +3,17 @@ import qdp
 import pandas as pd
 
 curve_qdps   = glob('UKSSDC/*/*USERPROD*/*/*curve.qdp')
-curve2_qdps  = glob('UKSSDC/*/*USERPROD*/*/*curve2.qdp')
 hardrat_qdps = glob('UKSSDC/*/*USERPROD*/*/*hardrat.qdp')
 
 print('Files to process:')
-print(f'curve.qdp : {len(curve_qdps)}\tcurve2.qdp : {len(curve2_qdps)}\thardrat.qdp : {len(hardrat_qdps)}')
+print(f'curve.qdp : {len(curve_qdps)} \t hardrat.qdp : {len(hardrat_qdps)}')
 print('Press any key to start...')
 
 input()
 
-# read all files of the form `curve.qdp and curve2.qdp'
-for f in curve_qdps+curve2_qdps:
-    if 'curve2' in f:
-        colnames = ['MJD', 'T_+ve', 'T_-ve', 'Rate', 'Ratepos', 'Rateneg', 'BGrate', 'BGerr', 'FracExp', 'obsID']
-    else:
-        colnames = ['MJD', 'T_+ve', 'T_-ve', 'Rate', 'Ratepos', 'Rateneg', 'obsID']
+# read all files of the form `curve.qdp'
+for f in curve_qdps:
+    colnames = ['MJD', 'T_+ve', 'T_-ve', 'Rate', 'Ratepos', 'Rateneg', 'obsID']
     dfs = qdp.read_qdp(f) # if two dfs : first table WT mode 2nd PO mode
     print(f)
 
@@ -62,8 +58,4 @@ for f in hardrat_qdps:
         print(f'Saving file to {fn}')
         df.to_csv(fn, index=False)
     print('-'*50)
-
-        
-
-
 
