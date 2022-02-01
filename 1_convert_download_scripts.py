@@ -8,7 +8,7 @@ def convert_script(script_path):
     script_path_no_sh = script_path[:-3]
     srcname = script_path_no_sh.split('/')[-1]
     out_path = script_path_no_sh + '_UKSSDC.sh'
-    print(f'Converting script {script_path} --> {out_path}')
+    print(f'Converting script {script_path:<40} --> {out_path}')
 
     with open(script_path, 'r') as f:
         lines = f.readlines()

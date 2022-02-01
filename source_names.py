@@ -36,6 +36,8 @@ source_names = ['ESO_243-49_HLX-1',
                 'NAME_UGC_6456_ULX',
                 'NOVA_Cyg_1989',          # v404 Cygni
                 '[LB2005]_NGC_5236_ULX1', # Outer ULX M83
-                'NAME_M83_ULX-1']         # Inner ULX M83
-
-
+                'NAME_M83_ULX-1',         # Inner ULX M83
+                'NAME_NGC_1365-X1',
+                '[SK2009]_X2',             #1365 X-2
+                'NAME_IC_10_X-1',
+                '[WMR2006]_NGC4945_XMM1']
