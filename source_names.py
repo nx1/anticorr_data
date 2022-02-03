@@ -40,4 +40,5 @@ source_names = ['ESO_243-49_HLX-1',
                 'NAME_NGC_1365-X1',
                 '[SK2009]_X2',             #1365 X-2
                 'NAME_IC_10_X-1',
-                '[WMR2006]_NGC4945_XMM1']
+                '[WMR2006]_NGC4945_XMM1',
+                '[LB2005]_NGC_3031_X6']

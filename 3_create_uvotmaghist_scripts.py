@@ -34,6 +34,9 @@ for s in source_dirs:
 
 sh_path = 'uvotmaghist_all_sources.sh'
 print(f'Creating {sh_path}')
+
 with open(sh_path, 'w+') as f:
-    for l in all_uvotmaghist_paths:
-        f.write(f'{l}\n')
+    for l in source_dirs:
+        f.write(f'cd {l}\n')
+        f.write(f'./uvotmaghist_all.sh\n')
+        f.write('cd ../..\n')

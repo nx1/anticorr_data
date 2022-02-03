@@ -51,7 +51,7 @@ for s in source_dirs[:]:
     """
 
 df = pd.DataFrame(all_sd)
-print(df.sort_values('n_obs', ascending=False)
+print(df.sort_values('n_obs', ascending=False))
 
 savepath = 'tables/query_local_sources.csv'
 print(f'Saving source details to : {savepath}')

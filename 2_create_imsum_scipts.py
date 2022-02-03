@@ -22,7 +22,7 @@ for s in source_dirs:
         print(f'Creating {txt_path:<50} lines={len(v)}')
         with open(txt_path, 'w+') as f:
             for l in v:
-                stem = '/'.join(v[0].split('/')[2:])
+                stem = '/'.join(l.split('/')[2:])
                 f.write(f'{stem}\n')
 
     # Create the source imsum script

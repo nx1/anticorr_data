@@ -66,9 +66,9 @@ print(f'{n_jobs} jobs to run, press any key to submit...')
 input()
 
 
-n_submitted = 0
-while n_submitted < n_jobs-1:
-    while countActiveJobs(email) <= max_jobs:
+n_submitted = 36
+while n_submitted < n_jobs:
+    while (countActiveJobs(email) <= max_jobs) and (n_submitted < n_jobs):
         req = reqs[n_submitted]
 
         print(f'Active Jobs = {countActiveJobs(email)} <= {max_jobs} {req.savedir}')
