@@ -5,19 +5,19 @@ search for spaces in vim via:
         :set nohlsearch
 """
 
-source_names = ['ESO_243-49_HLX-1',
+source_names = ['ESO_243-49_HLX-1',         
                 'NAME_Holmberg_IX_X-1',
                 'Holmberg_II_X-1',
                 'M31_ULX-1',
-                '[LM2005]_NGC_598_ULX1',  # AKA M33 X-8
-                'RX_J133001+47137', # M51 ULX-7
+                '[LM2005]_NGC_598_ULX1',    # AKA M33 X-8
+                'RX_J133001+47137',         # M51 ULX-7
                 '[LM2005]_NGC_3031_ULX1',
                 'M82_X-2',
                 '[LM2005]_NGC_1042_ULX1',
                 'NAME_NGC_1313_X-1',
                 'NAME_NGC_1313_X-2',
                 '[LM2005]_NGC_247_ULX1',
-                '[LB2005]_NGC_253_X20', # NGC 253 ULX1
+                '[LB2005]_NGC_253_X20',     # NGC 253 ULX1
                 'NAME_NGC_300_ULX1',
                 '[LM2005]_NGC_4395_ULX1',
                 '[LM2005]_NGC_5204_ULX1',
