@@ -26,6 +26,19 @@ df_all_summary = pd.DataFrame(all_summary).sort_values('n_obs', ascending=False)
 tab_master = vstack(all_tabs)
 print(df_all_summary)
 
+print('Looping over obsids to create shell script...')
+all_lines = []
+for obsid in tab_master['OBSID']:
+    line = f'curl -o xmm/{obsid}.tar "http://nxsa.esac.esa.int/nxsa-sl/servlet/data-action-aio?obsno={obsid}"'
+    all_lines.append(line)
+
+download_sh = 'download_xmm.sh'
+with open(download_sh, 'w+') as f:
+    for l in all_lines:
+        f.write(f'{l}\n')
+
+print(f'File written to {download_sh}')
+
 savepath = 'tables/xmmmaster_n_obs.csv'
 savepath_master = 'tables/xmmmaster.csv'
 print(f'saving to {savepath}')
