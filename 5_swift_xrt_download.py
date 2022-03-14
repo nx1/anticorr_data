@@ -3,8 +3,9 @@ from glob import glob
 from pathlib import Path
 from swifttools.xrt_prods import XRTProductRequest, countActiveJobs
 
-from source_names import source_names
+from source_names_dict import source_names_dict
 
+source_names = list(source_names_dict.keys())
 email = 'nk7g14@soton.ac.uk'
 max_jobs = 5
 n_jobs = len(source_names)

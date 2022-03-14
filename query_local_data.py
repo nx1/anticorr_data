@@ -22,6 +22,7 @@ input()
 all_sd = []             # All source directory information
 
 for s in source_dirs[:]:
+    print(s)
     obs_dirs    = glob(f'{s}*/')
 
     sd = {}

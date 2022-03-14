@@ -1,8 +1,12 @@
-from source_names import source_names
+from os.path import exists
 import numpy as np
 import pandas as pd
 from astroquery.heasarc import Heasarc
 from astropy.table import vstack
+from source_names_dict import source_names_dict
+
+source_names = list(source_names_dict.keys())
+
 
 h = Heasarc()
 
@@ -28,11 +32,17 @@ print(df_all_summary)
 
 print('Looping over obsids to create shell script...')
 all_lines = []
-for obsid in tab_master['OBSID']:
-    line = f'curl -o xmm/{obsid}.tar "http://nxsa.esac.esa.int/nxsa-sl/servlet/data-action-aio?obsno={obsid}"'
+for row in tab_master:
+    source_name = row['SEARCH_NAME']
+    obsid       = row['OBSID']
+    filepath = f'xmm/{source_name}/{obsid}.tar' 
+    line = f'curl -o {filepath} "http://nxsa.esac.esa.int/nxsa-sl/servlet/data-action-aio?obsno={obsid}" --create-dirs'
+    if exists(filepath):
+        line = '#'+ line
     all_lines.append(line)
 
 download_sh = 'download_xmm.sh'
+
 with open(download_sh, 'w+') as f:
     for l in all_lines:
         f.write(f'{l}\n')
@@ -44,6 +54,6 @@ savepath_master = 'tables/xmmmaster.csv'
 print(f'saving to {savepath}')
 print(f'saving to {savepath_master}')
 df_all_summary.to_csv(savepath, index=False)
-tab_master.write(savepath_master)
+tab_master.write(savepath_master, overwrite=True)
 n_obs_tot = df_all_summary["n_obs"].sum()
 print(f'Total obs={n_obs_tot} \t estimated size = {0.025*n_obs_tot} gb')

@@ -2,7 +2,6 @@
 query walton catalogue for swift observations
 """
 
-from source_names import source_names
 import numpy as np
 import pandas as pd
 from astropy.table import Table
@@ -10,6 +9,10 @@ from astropy.coordinates import SkyCoord
 import astropy.units as u
 from astroquery.heasarc import Heasarc
 from tqdm import tqdm
+from source_names_dict import source_names_dict
+
+source_names = list(source_names_dict.keys())
+
 
 cat = Table.read('external/final_ULX_catalogue_files/final_ULX_master_catalogue_format.fits')
 

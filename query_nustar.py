@@ -1,8 +1,10 @@
-from source_names import source_names
 import numpy as np
 import pandas as pd
 from astroquery.heasarc import Heasarc
 from astropy.table import vstack
+from source_names_dict import source_names_dict
+source_names = list(source_names_dict.keys())
+
 
 h = Heasarc()
 
@@ -13,10 +15,9 @@ for i, s in enumerate(source_names):
     summary = {}
     print(f'Querying {s} ({i}/{len(source_names)})')
     s_sp = s.replace('_',' ') # Heasarc does not like underscores :(
-    try:
-        tab = h.query_object(s_sp, mission='NUMASTER', resultmax=3000)
-    except:
-        pass
+    tab = h.query_object(s_sp, mission='NUMASTER', resultmax=3000)
+    if len(tab) == 0:
+        continue
     tab['SEARCH_NAME'] = s
     print(tab)
     summary['source_name'] = s

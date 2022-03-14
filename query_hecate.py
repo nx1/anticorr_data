@@ -2,7 +2,6 @@
 query hecate catalogue for swift observations
 """
 
-from source_names import source_names
 import numpy as np
 import pandas as pd
 from astropy.table import Table
@@ -10,6 +9,9 @@ from astropy.coordinates import SkyCoord
 import astropy.units as u
 from astroquery.heasarc import Heasarc
 from tqdm import tqdm
+
+from source_names_dict import source_names_dict
+source_names = list(source_names_dict.keys())
 
 cat = Table.read('external/hecate/HECATE_ULX_SOURCES.fits')
 cat = cat[cat['LX'] > 1e39]
