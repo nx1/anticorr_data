@@ -1,830 +1,830 @@
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008043/ -P M81/00090008043/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286048/ -P M81/00033286048/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079048/ -P M81/00090079048/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079053/ -P M81/00090079053/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008038/ -P M81/00090008038/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286046/ -P M81/00033286046/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188190/ -P M81/00032188190/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080024/ -P M81/00034080024/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188064/ -P M81/00032188064/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993012/ -P M81/00090993012/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00036557003/ -P M81/00036557003/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993005/ -P M81/00090993005/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079002/ -P M81/00090079002/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079032/ -P M81/00090079032/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00031756001/ -P M81/00031756001/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079013/ -P M81/00090079013/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079065/ -P M81/00090079065/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080027/ -P M81/00034080027/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188005/ -P M81/00032188005/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084311015/ -P M81/00084311015/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188179/ -P M81/00032188179/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008021/ -P M81/00090008021/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188098/ -P M81/00032188098/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730015/ -P M81/00095730015/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286068/ -P M81/00033286068/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188040/ -P M81/00032188040/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080002/ -P M81/00034080002/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286026/ -P M81/00033286026/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286036/ -P M81/00033286036/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008069/ -P M81/00090008069/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080020/ -P M81/00034080020/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286001/ -P M81/00033286001/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188176/ -P M81/00032188176/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993018/ -P M81/00090993018/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084570013/ -P M81/00084570013/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079047/ -P M81/00090079047/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286087/ -P M81/00033286087/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188108/ -P M81/00032188108/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188073/ -P M81/00032188073/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008034/ -P M81/00090008034/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008081/ -P M81/00090008081/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188008/ -P M81/00032188008/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188246/ -P M81/00032188246/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519025/ -P M81/00032519025/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286025/ -P M81/00033286025/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188236/ -P M81/00032188236/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00036557009/ -P M81/00036557009/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993011/ -P M81/00090993011/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035059011/ -P M81/00035059011/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008056/ -P M81/00090008056/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286060/ -P M81/00033286060/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079068/ -P M81/00090079068/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993075/ -P M81/00090993075/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188148/ -P M81/00032188148/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188026/ -P M81/00032188026/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286008/ -P M81/00033286008/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084311022/ -P M81/00084311022/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730002/ -P M81/00095730002/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519043/ -P M81/00032519043/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188192/ -P M81/00032188192/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079075/ -P M81/00090079075/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730006/ -P M81/00095730006/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008058/ -P M81/00090008058/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080018/ -P M81/00034080018/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188046/ -P M81/00032188046/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993043/ -P M81/00090993043/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188002/ -P M81/00032188002/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079010/ -P M81/00090079010/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090989016/ -P M81/00090989016/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090989010/ -P M81/00090989010/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188127/ -P M81/00032188127/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188249/ -P M81/00032188249/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993002/ -P M81/00090993002/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008013/ -P M81/00090008013/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090989011/ -P M81/00090989011/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008032/ -P M81/00090008032/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519036/ -P M81/00032519036/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188059/ -P M81/00032188059/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188153/ -P M81/00032188153/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286093/ -P M81/00033286093/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730044/ -P M81/00095730044/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079063/ -P M81/00090079063/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286062/ -P M81/00033286062/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079026/ -P M81/00090079026/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084311012/ -P M81/00084311012/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008061/ -P M81/00090008061/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188057/ -P M81/00032188057/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188206/ -P M81/00032188206/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008044/ -P M81/00090008044/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188189/ -P M81/00032188189/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090989004/ -P M81/00090989004/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519044/ -P M81/00032519044/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188200/ -P M81/00032188200/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188191/ -P M81/00032188191/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519007/ -P M81/00032519007/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519013/ -P M81/00032519013/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993042/ -P M81/00090993042/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080025/ -P M81/00034080025/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188174/ -P M81/00032188174/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993030/ -P M81/00090993030/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084311013/ -P M81/00084311013/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079060/ -P M81/00090079060/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188039/ -P M81/00032188039/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079020/ -P M81/00090079020/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079057/ -P M81/00090079057/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188230/ -P M81/00032188230/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008082/ -P M81/00090008082/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188120/ -P M81/00032188120/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008070/ -P M81/00090008070/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286028/ -P M81/00033286028/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993052/ -P M81/00090993052/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079098/ -P M81/00090079098/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519009/ -P M81/00032519009/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00356776000/ -P M81/00356776000/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079067/ -P M81/00090079067/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008079/ -P M81/00090008079/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286061/ -P M81/00033286061/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188178/ -P M81/00032188178/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993070/ -P M81/00090993070/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079036/ -P M81/00090079036/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079012/ -P M81/00090079012/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188238/ -P M81/00032188238/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079049/ -P M81/00090079049/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008031/ -P M81/00090008031/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188134/ -P M81/00032188134/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519006/ -P M81/00032519006/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188091/ -P M81/00032188091/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188209/ -P M81/00032188209/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035059010/ -P M81/00035059010/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286002/ -P M81/00033286002/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730038/ -P M81/00095730038/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188027/ -P M81/00032188027/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286074/ -P M81/00033286074/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519035/ -P M81/00032519035/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080009/ -P M81/00034080009/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079043/ -P M81/00090079043/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188067/ -P M81/00032188067/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188212/ -P M81/00032188212/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188233/ -P M81/00032188233/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519049/ -P M81/00032519049/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090524001/ -P M81/00090524001/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008010/ -P M81/00090008010/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188043/ -P M81/00032188043/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008054/ -P M81/00090008054/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188094/ -P M81/00032188094/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286027/ -P M81/00033286027/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188030/ -P M81/00032188030/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079088/ -P M81/00090079088/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286082/ -P M81/00033286082/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188060/ -P M81/00032188060/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286041/ -P M81/00033286041/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188154/ -P M81/00032188154/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188010/ -P M81/00032188010/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286034/ -P M81/00033286034/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188076/ -P M81/00032188076/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519048/ -P M81/00032519048/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730012/ -P M81/00095730012/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286051/ -P M81/00033286051/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188211/ -P M81/00032188211/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188103/ -P M81/00032188103/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079071/ -P M81/00090079071/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080013/ -P M81/00034080013/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993047/ -P M81/00090993047/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519012/ -P M81/00032519012/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079082/ -P M81/00090079082/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519003/ -P M81/00032519003/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730025/ -P M81/00095730025/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008001/ -P M81/00090008001/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519047/ -P M81/00032519047/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188248/ -P M81/00032188248/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730021/ -P M81/00095730021/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008019/ -P M81/00090008019/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090524005/ -P M81/00090524005/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188014/ -P M81/00032188014/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286009/ -P M81/00033286009/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188048/ -P M81/00032188048/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079087/ -P M81/00090079087/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079093/ -P M81/00090079093/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008025/ -P M81/00090008025/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079069/ -P M81/00090079069/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084311014/ -P M81/00084311014/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188162/ -P M81/00032188162/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008009/ -P M81/00090008009/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080017/ -P M81/00034080017/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519023/ -P M81/00032519023/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079022/ -P M81/00090079022/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188015/ -P M81/00032188015/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188139/ -P M81/00032188139/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084311010/ -P M81/00084311010/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079077/ -P M81/00090079077/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008008/ -P M81/00090008008/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188130/ -P M81/00032188130/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993006/ -P M81/00090993006/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188183/ -P M81/00032188183/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188061/ -P M81/00032188061/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188253/ -P M81/00032188253/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188080/ -P M81/00032188080/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079103/ -P M81/00090079103/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090524004/ -P M81/00090524004/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00080711004/ -P M81/00080711004/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008068/ -P M81/00090008068/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730016/ -P M81/00095730016/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090524007/ -P M81/00090524007/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286088/ -P M81/00033286088/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188047/ -P M81/00032188047/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008071/ -P M81/00090008071/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188149/ -P M81/00032188149/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519046/ -P M81/00032519046/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079084/ -P M81/00090079084/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188146/ -P M81/00032188146/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993072/ -P M81/00090993072/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993003/ -P M81/00090993003/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084570004/ -P M81/00084570004/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188007/ -P M81/00032188007/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188237/ -P M81/00032188237/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993031/ -P M81/00090993031/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730032/ -P M81/00095730032/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090524009/ -P M81/00090524009/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008007/ -P M81/00090008007/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079003/ -P M81/00090079003/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519083/ -P M81/00032519083/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993001/ -P M81/00090993001/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090525003/ -P M81/00090525003/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188068/ -P M81/00032188068/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730039/ -P M81/00095730039/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188201/ -P M81/00032188201/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188136/ -P M81/00032188136/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188116/ -P M81/00032188116/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008002/ -P M81/00090008002/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730034/ -P M81/00095730034/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730023/ -P M81/00095730023/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993016/ -P M81/00090993016/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008074/ -P M81/00090008074/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188152/ -P M81/00032188152/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993058/ -P M81/00090993058/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286079/ -P M81/00033286079/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188242/ -P M81/00032188242/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730018/ -P M81/00095730018/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079001/ -P M81/00090079001/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090989006/ -P M81/00090989006/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188082/ -P M81/00032188082/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286063/ -P M81/00033286063/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519017/ -P M81/00032519017/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008039/ -P M81/00090008039/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286033/ -P M81/00033286033/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188151/ -P M81/00032188151/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090525002/ -P M81/00090525002/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188011/ -P M81/00032188011/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084311017/ -P M81/00084311017/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993029/ -P M81/00090993029/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084311024/ -P M81/00084311024/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188177/ -P M81/00032188177/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188199/ -P M81/00032188199/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035059004/ -P M81/00035059004/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188066/ -P M81/00032188066/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188235/ -P M81/00032188235/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730045/ -P M81/00095730045/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035335002/ -P M81/00035335002/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286047/ -P M81/00033286047/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286039/ -P M81/00033286039/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084311002/ -P M81/00084311002/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188089/ -P M81/00032188089/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286005/ -P M81/00033286005/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090989005/ -P M81/00090989005/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188033/ -P M81/00032188033/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188070/ -P M81/00032188070/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286094/ -P M81/00033286094/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188038/ -P M81/00032188038/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00013911001/ -P M81/00013911001/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084313010/ -P M81/00084313010/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993063/ -P M81/00090993063/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079030/ -P M81/00090079030/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188056/ -P M81/00032188056/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286066/ -P M81/00033286066/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519050/ -P M81/00032519050/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00080711003/ -P M81/00080711003/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286086/ -P M81/00033286086/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286090/ -P M81/00033286090/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00089156002/ -P M81/00089156002/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286035/ -P M81/00033286035/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286072/ -P M81/00033286072/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519027/ -P M81/00032519027/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008006/ -P M81/00090008006/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008055/ -P M81/00090008055/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079072/ -P M81/00090079072/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286052/ -P M81/00033286052/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084570014/ -P M81/00084570014/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286029/ -P M81/00033286029/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730005/ -P M81/00095730005/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730037/ -P M81/00095730037/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084313008/ -P M81/00084313008/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188205/ -P M81/00032188205/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008005/ -P M81/00090008005/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188185/ -P M81/00032188185/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993067/ -P M81/00090993067/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084570002/ -P M81/00084570002/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079017/ -P M81/00090079017/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519028/ -P M81/00032519028/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993069/ -P M81/00090993069/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079070/ -P M81/00090079070/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188216/ -P M81/00032188216/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993051/ -P M81/00090993051/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008004/ -P M81/00090008004/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993036/ -P M81/00090993036/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188023/ -P M81/00032188023/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008076/ -P M81/00090008076/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188095/ -P M81/00032188095/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00089119001/ -P M81/00089119001/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993024/ -P M81/00090993024/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993008/ -P M81/00090993008/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188232/ -P M81/00032188232/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090989008/ -P M81/00090989008/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079027/ -P M81/00090079027/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286085/ -P M81/00033286085/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090989014/ -P M81/00090989014/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188182/ -P M81/00032188182/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188085/ -P M81/00032188085/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993035/ -P M81/00090993035/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286070/ -P M81/00033286070/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519030/ -P M81/00032519030/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188244/ -P M81/00032188244/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519020/ -P M81/00032519020/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730028/ -P M81/00095730028/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188118/ -P M81/00032188118/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079041/ -P M81/00090079041/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084311018/ -P M81/00084311018/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286024/ -P M81/00033286024/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079096/ -P M81/00090079096/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993019/ -P M81/00090993019/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993064/ -P M81/00090993064/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079040/ -P M81/00090079040/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188165/ -P M81/00032188165/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286023/ -P M81/00033286023/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993059/ -P M81/00090993059/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519029/ -P M81/00032519029/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519015/ -P M81/00032519015/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079054/ -P M81/00090079054/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993066/ -P M81/00090993066/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286038/ -P M81/00033286038/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079029/ -P M81/00090079029/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188109/ -P M81/00032188109/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188032/ -P M81/00032188032/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286075/ -P M81/00033286075/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084311006/ -P M81/00084311006/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519010/ -P M81/00032519010/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079009/ -P M81/00090079009/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035059009/ -P M81/00035059009/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00080427001/ -P M81/00080427001/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079044/ -P M81/00090079044/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00036557004/ -P M81/00036557004/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286049/ -P M81/00033286049/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008046/ -P M81/00090008046/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080004/ -P M81/00034080004/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084313011/ -P M81/00084313011/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008045/ -P M81/00090008045/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730014/ -P M81/00095730014/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079028/ -P M81/00090079028/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188074/ -P M81/00032188074/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188184/ -P M81/00032188184/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286003/ -P M81/00033286003/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730043/ -P M81/00095730043/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188207/ -P M81/00032188207/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008072/ -P M81/00090008072/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188075/ -P M81/00032188075/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286043/ -P M81/00033286043/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286011/ -P M81/00033286011/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188135/ -P M81/00032188135/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00036557002/ -P M81/00036557002/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079050/ -P M81/00090079050/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079090/ -P M81/00090079090/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286013/ -P M81/00033286013/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080011/ -P M81/00034080011/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730036/ -P M81/00095730036/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188247/ -P M81/00032188247/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188100/ -P M81/00032188100/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080015/ -P M81/00034080015/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008033/ -P M81/00090008033/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00259527001/ -P M81/00259527001/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730042/ -P M81/00095730042/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730035/ -P M81/00095730035/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519042/ -P M81/00032519042/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079023/ -P M81/00090079023/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519022/ -P M81/00032519022/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519084/ -P M81/00032519084/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188194/ -P M81/00032188194/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084311008/ -P M81/00084311008/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084311007/ -P M81/00084311007/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730007/ -P M81/00095730007/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079006/ -P M81/00090079006/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188111/ -P M81/00032188111/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008077/ -P M81/00090008077/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00081703001/ -P M81/00081703001/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080006/ -P M81/00034080006/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008042/ -P M81/00090008042/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993038/ -P M81/00090993038/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730026/ -P M81/00095730026/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188218/ -P M81/00032188218/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079038/ -P M81/00090079038/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079074/ -P M81/00090079074/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286032/ -P M81/00033286032/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188018/ -P M81/00032188018/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079035/ -P M81/00090079035/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286022/ -P M81/00033286022/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188022/ -P M81/00032188022/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008017/ -P M81/00090008017/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993074/ -P M81/00090993074/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188006/ -P M81/00032188006/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730024/ -P M81/00095730024/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993049/ -P M81/00090993049/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286030/ -P M81/00033286030/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286016/ -P M81/00033286016/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084570001/ -P M81/00084570001/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188164/ -P M81/00032188164/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519085/ -P M81/00032519085/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079089/ -P M81/00090079089/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993062/ -P M81/00090993062/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188208/ -P M81/00032188208/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188204/ -P M81/00032188204/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008014/ -P M81/00090008014/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188163/ -P M81/00032188163/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286021/ -P M81/00033286021/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188225/ -P M81/00032188225/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188106/ -P M81/00032188106/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188227/ -P M81/00032188227/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008073/ -P M81/00090008073/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286069/ -P M81/00033286069/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188050/ -P M81/00032188050/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286014/ -P M81/00033286014/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188155/ -P M81/00032188155/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286007/ -P M81/00033286007/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730008/ -P M81/00095730008/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008026/ -P M81/00090008026/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519039/ -P M81/00032519039/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286006/ -P M81/00033286006/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286096/ -P M81/00033286096/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188241/ -P M81/00032188241/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188028/ -P M81/00032188028/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079031/ -P M81/00090079031/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519021/ -P M81/00032519021/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730011/ -P M81/00095730011/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008015/ -P M81/00090008015/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188058/ -P M81/00032188058/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035335006/ -P M81/00035335006/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035335001/ -P M81/00035335001/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188188/ -P M81/00032188188/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993056/ -P M81/00090993056/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188175/ -P M81/00032188175/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993034/ -P M81/00090993034/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286073/ -P M81/00033286073/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188131/ -P M81/00032188131/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188161/ -P M81/00032188161/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188224/ -P M81/00032188224/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079064/ -P M81/00090079064/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090525001/ -P M81/00090525001/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286042/ -P M81/00033286042/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00036557006/ -P M81/00036557006/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080012/ -P M81/00034080012/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035059007/ -P M81/00035059007/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188035/ -P M81/00032188035/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286083/ -P M81/00033286083/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188077/ -P M81/00032188077/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008050/ -P M81/00090008050/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188223/ -P M81/00032188223/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079025/ -P M81/00090079025/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188203/ -P M81/00032188203/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993053/ -P M81/00090993053/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079062/ -P M81/00090079062/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730010/ -P M81/00095730010/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993007/ -P M81/00090993007/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188129/ -P M81/00032188129/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008041/ -P M81/00090008041/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993050/ -P M81/00090993050/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084311016/ -P M81/00084311016/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519019/ -P M81/00032519019/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286091/ -P M81/00033286091/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993004/ -P M81/00090993004/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008003/ -P M81/00090008003/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730027/ -P M81/00095730027/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188250/ -P M81/00032188250/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188031/ -P M81/00032188031/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035059008/ -P M81/00035059008/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00036557008/ -P M81/00036557008/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730001/ -P M81/00095730001/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993055/ -P M81/00090993055/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008028/ -P M81/00090008028/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035335007/ -P M81/00035335007/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519038/ -P M81/00032519038/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286018/ -P M81/00033286018/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080026/ -P M81/00034080026/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286089/ -P M81/00033286089/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008048/ -P M81/00090008048/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090263001/ -P M81/00090263001/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188107/ -P M81/00032188107/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008018/ -P M81/00090008018/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080023/ -P M81/00034080023/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079039/ -P M81/00090079039/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188125/ -P M81/00032188125/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730017/ -P M81/00095730017/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035059005/ -P M81/00035059005/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188029/ -P M81/00032188029/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188252/ -P M81/00032188252/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079091/ -P M81/00090079091/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188121/ -P M81/00032188121/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993023/ -P M81/00090993023/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090263002/ -P M81/00090263002/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008035/ -P M81/00090008035/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519004/ -P M81/00032519004/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286092/ -P M81/00033286092/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993037/ -P M81/00090993037/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286084/ -P M81/00033286084/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084570009/ -P M81/00084570009/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188001/ -P M81/00032188001/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079033/ -P M81/00090079033/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188013/ -P M81/00032188013/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079055/ -P M81/00090079055/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519034/ -P M81/00032519034/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286057/ -P M81/00033286057/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008049/ -P M81/00090008049/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188117/ -P M81/00032188117/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519037/ -P M81/00032519037/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008047/ -P M81/00090008047/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090525004/ -P M81/00090525004/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188021/ -P M81/00032188021/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993015/ -P M81/00090993015/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188138/ -P M81/00032188138/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993026/ -P M81/00090993026/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079004/ -P M81/00090079004/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286078/ -P M81/00033286078/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993054/ -P M81/00090993054/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519026/ -P M81/00032519026/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079015/ -P M81/00090079015/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079019/ -P M81/00090079019/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519040/ -P M81/00032519040/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035059006/ -P M81/00035059006/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008040/ -P M81/00090008040/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188054/ -P M81/00032188054/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090524008/ -P M81/00090524008/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188090/ -P M81/00032188090/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084570007/ -P M81/00084570007/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519014/ -P M81/00032519014/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188115/ -P M81/00032188115/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188144/ -P M81/00032188144/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084311004/ -P M81/00084311004/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188195/ -P M81/00032188195/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188096/ -P M81/00032188096/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188025/ -P M81/00032188025/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286020/ -P M81/00033286020/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079073/ -P M81/00090079073/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188198/ -P M81/00032188198/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080028/ -P M81/00034080028/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519041/ -P M81/00032519041/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993033/ -P M81/00090993033/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084311020/ -P M81/00084311020/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519005/ -P M81/00032519005/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730033/ -P M81/00095730033/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080031/ -P M81/00034080031/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730009/ -P M81/00095730009/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993017/ -P M81/00090993017/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188051/ -P M81/00032188051/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730031/ -P M81/00095730031/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188187/ -P M81/00032188187/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188049/ -P M81/00032188049/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008012/ -P M81/00090008012/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079046/ -P M81/00090079046/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188055/ -P M81/00032188055/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079008/ -P M81/00090079008/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084311019/ -P M81/00084311019/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00080711001/ -P M81/00080711001/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993022/ -P M81/00090993022/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993021/ -P M81/00090993021/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079083/ -P M81/00090079083/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286019/ -P M81/00033286019/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188170/ -P M81/00032188170/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079007/ -P M81/00090079007/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993061/ -P M81/00090993061/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188101/ -P M81/00032188101/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090989009/ -P M81/00090989009/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188105/ -P M81/00032188105/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188196/ -P M81/00032188196/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079085/ -P M81/00090079085/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993065/ -P M81/00090993065/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079037/ -P M81/00090079037/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188063/ -P M81/00032188063/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079059/ -P M81/00090079059/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188160/ -P M81/00032188160/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035059012/ -P M81/00035059012/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080003/ -P M81/00034080003/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993060/ -P M81/00090993060/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286045/ -P M81/00033286045/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079016/ -P M81/00090079016/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286067/ -P M81/00033286067/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080032/ -P M81/00034080032/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084313001/ -P M81/00084313001/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008063/ -P M81/00090008063/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286058/ -P M81/00033286058/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730020/ -P M81/00095730020/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079076/ -P M81/00090079076/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035335005/ -P M81/00035335005/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993044/ -P M81/00090993044/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008065/ -P M81/00090008065/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008030/ -P M81/00090008030/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519016/ -P M81/00032519016/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080005/ -P M81/00034080005/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084311011/ -P M81/00084311011/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519008/ -P M81/00032519008/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188143/ -P M81/00032188143/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519002/ -P M81/00032519002/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188017/ -P M81/00032188017/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008011/ -P M81/00090008011/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008062/ -P M81/00090008062/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188158/ -P M81/00032188158/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188193/ -P M81/00032188193/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286077/ -P M81/00033286077/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008037/ -P M81/00090008037/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008075/ -P M81/00090008075/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188053/ -P M81/00032188053/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00036557001/ -P M81/00036557001/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188171/ -P M81/00032188171/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188078/ -P M81/00032188078/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035335003/ -P M81/00035335003/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084570010/ -P M81/00084570010/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188180/ -P M81/00032188180/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00080427002/ -P M81/00080427002/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079052/ -P M81/00090079052/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188141/ -P M81/00032188141/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079095/ -P M81/00090079095/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084311021/ -P M81/00084311021/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519011/ -P M81/00032519011/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084313007/ -P M81/00084313007/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286081/ -P M81/00033286081/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079100/ -P M81/00090079100/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080001/ -P M81/00034080001/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993040/ -P M81/00090993040/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079102/ -P M81/00090079102/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188240/ -P M81/00032188240/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188004/ -P M81/00032188004/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286076/ -P M81/00033286076/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035059015/ -P M81/00035059015/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188239/ -P M81/00032188239/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090989012/ -P M81/00090989012/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188219/ -P M81/00032188219/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188044/ -P M81/00032188044/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993014/ -P M81/00090993014/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730040/ -P M81/00095730040/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084570017/ -P M81/00084570017/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188093/ -P M81/00032188093/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519031/ -P M81/00032519031/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079056/ -P M81/00090079056/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008023/ -P M81/00090008023/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008020/ -P M81/00090008020/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090524003/ -P M81/00090524003/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286064/ -P M81/00033286064/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188087/ -P M81/00032188087/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993057/ -P M81/00090993057/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188156/ -P M81/00032188156/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993032/ -P M81/00090993032/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084313009/ -P M81/00084313009/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188213/ -P M81/00032188213/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730041/ -P M81/00095730041/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993041/ -P M81/00090993041/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730030/ -P M81/00095730030/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079021/ -P M81/00090079021/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035059014/ -P M81/00035059014/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080016/ -P M81/00034080016/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188072/ -P M81/00032188072/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730003/ -P M81/00095730003/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090989003/ -P M81/00090989003/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079045/ -P M81/00090079045/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008066/ -P M81/00090008066/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079094/ -P M81/00090079094/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188210/ -P M81/00032188210/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188168/ -P M81/00032188168/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993009/ -P M81/00090993009/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286037/ -P M81/00033286037/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035335004/ -P M81/00035335004/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008078/ -P M81/00090008078/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00089188001/ -P M81/00089188001/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188245/ -P M81/00032188245/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00089188002/ -P M81/00089188002/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188024/ -P M81/00032188024/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008060/ -P M81/00090008060/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035335009/ -P M81/00035335009/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188088/ -P M81/00032188088/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188065/ -P M81/00032188065/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00013911003/ -P M81/00013911003/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188012/ -P M81/00032188012/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730022/ -P M81/00095730022/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188220/ -P M81/00032188220/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188034/ -P M81/00032188034/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730046/ -P M81/00095730046/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008022/ -P M81/00090008022/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079011/ -P M81/00090079011/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188113/ -P M81/00032188113/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286017/ -P M81/00033286017/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188009/ -P M81/00032188009/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286080/ -P M81/00033286080/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008067/ -P M81/00090008067/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079081/ -P M81/00090079081/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730004/ -P M81/00095730004/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188140/ -P M81/00032188140/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286095/ -P M81/00033286095/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035059003/ -P M81/00035059003/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008059/ -P M81/00090008059/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080029/ -P M81/00034080029/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00036557007/ -P M81/00036557007/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079079/ -P M81/00090079079/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079051/ -P M81/00090079051/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035059002/ -P M81/00035059002/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188221/ -P M81/00032188221/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188251/ -P M81/00032188251/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188114/ -P M81/00032188114/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188128/ -P M81/00032188128/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188099/ -P M81/00032188099/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188020/ -P M81/00032188020/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188215/ -P M81/00032188215/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993013/ -P M81/00090993013/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993048/ -P M81/00090993048/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079024/ -P M81/00090079024/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080019/ -P M81/00034080019/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188122/ -P M81/00032188122/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008036/ -P M81/00090008036/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079018/ -P M81/00090079018/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730013/ -P M81/00095730013/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286059/ -P M81/00033286059/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084311023/ -P M81/00084311023/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286044/ -P M81/00033286044/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730029/ -P M81/00095730029/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188202/ -P M81/00032188202/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084570012/ -P M81/00084570012/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008024/ -P M81/00090008024/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188081/ -P M81/00032188081/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188110/ -P M81/00032188110/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188217/ -P M81/00032188217/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079078/ -P M81/00090079078/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090989001/ -P M81/00090989001/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084570016/ -P M81/00084570016/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090989015/ -P M81/00090989015/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188036/ -P M81/00032188036/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188104/ -P M81/00032188104/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188186/ -P M81/00032188186/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079101/ -P M81/00090079101/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079061/ -P M81/00090079061/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079005/ -P M81/00090079005/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993025/ -P M81/00090993025/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084313002/ -P M81/00084313002/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188097/ -P M81/00032188097/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519001/ -P M81/00032519001/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008057/ -P M81/00090008057/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079080/ -P M81/00090079080/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188169/ -P M81/00032188169/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035059013/ -P M81/00035059013/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035335008/ -P M81/00035335008/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188019/ -P M81/00032188019/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090989007/ -P M81/00090989007/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084570011/ -P M81/00084570011/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080010/ -P M81/00034080010/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188062/ -P M81/00032188062/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188228/ -P M81/00032188228/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993028/ -P M81/00090993028/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188042/ -P M81/00032188042/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993010/ -P M81/00090993010/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286055/ -P M81/00033286055/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080014/ -P M81/00034080014/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188124/ -P M81/00032188124/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188086/ -P M81/00032188086/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188102/ -P M81/00032188102/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079034/ -P M81/00090079034/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079066/ -P M81/00090079066/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286010/ -P M81/00033286010/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080030/ -P M81/00034080030/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188150/ -P M81/00032188150/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008016/ -P M81/00090008016/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084570008/ -P M81/00084570008/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035059001/ -P M81/00035059001/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286071/ -P M81/00033286071/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993045/ -P M81/00090993045/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084311001/ -P M81/00084311001/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079086/ -P M81/00090079086/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188126/ -P M81/00032188126/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188069/ -P M81/00032188069/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519033/ -P M81/00032519033/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519032/ -P M81/00032519032/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084570003/ -P M81/00084570003/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079058/ -P M81/00090079058/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188045/ -P M81/00032188045/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188226/ -P M81/00032188226/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079099/ -P M81/00090079099/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00013911004/ -P M81/00013911004/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00013911002/ -P M81/00013911002/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188132/ -P M81/00032188132/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079097/ -P M81/00090079097/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188172/ -P M81/00032188172/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286004/ -P M81/00033286004/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188137/ -P M81/00032188137/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00080711002/ -P M81/00080711002/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993073/ -P M81/00090993073/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079092/ -P M81/00090079092/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090524002/ -P M81/00090524002/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286053/ -P M81/00033286053/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993020/ -P M81/00090993020/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188243/ -P M81/00032188243/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993039/ -P M81/00090993039/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008064/ -P M81/00090008064/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188167/ -P M81/00032188167/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188157/ -P M81/00032188157/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188214/ -P M81/00032188214/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993027/ -P M81/00090993027/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188119/ -P M81/00032188119/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188231/ -P M81/00032188231/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286050/ -P M81/00033286050/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00089156001/ -P M81/00089156001/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519045/ -P M81/00032519045/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286031/ -P M81/00033286031/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188112/ -P M81/00032188112/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079014/ -P M81/00090079014/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090989002/ -P M81/00090989002/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188142/ -P M81/00032188142/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188234/ -P M81/00032188234/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519018/ -P M81/00032519018/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00036557005/ -P M81/00036557005/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993046/ -P M81/00090993046/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286054/ -P M81/00033286054/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993071/ -P M81/00090993071/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188041/ -P M81/00032188041/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008052/ -P M81/00090008052/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188016/ -P M81/00032188016/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519024/ -P M81/00032519024/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008029/ -P M81/00090008029/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188197/ -P M81/00032188197/
-wget -nc -nH --no-check-certificate --cut-dirs=5 -r -l0 -c  -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286065/ -P M81/00033286065/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008043/ -P M81/00090008043/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286048/ -P M81/00033286048/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079048/ -P M81/00090079048/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079053/ -P M81/00090079053/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008038/ -P M81/00090008038/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286046/ -P M81/00033286046/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188190/ -P M81/00032188190/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080024/ -P M81/00034080024/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188064/ -P M81/00032188064/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993012/ -P M81/00090993012/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00036557003/ -P M81/00036557003/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993005/ -P M81/00090993005/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079002/ -P M81/00090079002/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079032/ -P M81/00090079032/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00031756001/ -P M81/00031756001/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079013/ -P M81/00090079013/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079065/ -P M81/00090079065/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080027/ -P M81/00034080027/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188005/ -P M81/00032188005/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084311015/ -P M81/00084311015/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188179/ -P M81/00032188179/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008021/ -P M81/00090008021/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188098/ -P M81/00032188098/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730015/ -P M81/00095730015/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286068/ -P M81/00033286068/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188040/ -P M81/00032188040/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080002/ -P M81/00034080002/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286026/ -P M81/00033286026/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286036/ -P M81/00033286036/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008069/ -P M81/00090008069/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080020/ -P M81/00034080020/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286001/ -P M81/00033286001/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188176/ -P M81/00032188176/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993018/ -P M81/00090993018/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084570013/ -P M81/00084570013/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079047/ -P M81/00090079047/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286087/ -P M81/00033286087/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188108/ -P M81/00032188108/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188073/ -P M81/00032188073/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008034/ -P M81/00090008034/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008081/ -P M81/00090008081/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188008/ -P M81/00032188008/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188246/ -P M81/00032188246/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519025/ -P M81/00032519025/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286025/ -P M81/00033286025/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188236/ -P M81/00032188236/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00036557009/ -P M81/00036557009/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993011/ -P M81/00090993011/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035059011/ -P M81/00035059011/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008056/ -P M81/00090008056/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286060/ -P M81/00033286060/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079068/ -P M81/00090079068/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993075/ -P M81/00090993075/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188148/ -P M81/00032188148/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188026/ -P M81/00032188026/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286008/ -P M81/00033286008/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084311022/ -P M81/00084311022/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730002/ -P M81/00095730002/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519043/ -P M81/00032519043/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188192/ -P M81/00032188192/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079075/ -P M81/00090079075/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730006/ -P M81/00095730006/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008058/ -P M81/00090008058/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080018/ -P M81/00034080018/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188046/ -P M81/00032188046/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993043/ -P M81/00090993043/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188002/ -P M81/00032188002/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079010/ -P M81/00090079010/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090989016/ -P M81/00090989016/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090989010/ -P M81/00090989010/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188127/ -P M81/00032188127/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188249/ -P M81/00032188249/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993002/ -P M81/00090993002/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008013/ -P M81/00090008013/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090989011/ -P M81/00090989011/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008032/ -P M81/00090008032/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519036/ -P M81/00032519036/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188059/ -P M81/00032188059/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188153/ -P M81/00032188153/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286093/ -P M81/00033286093/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730044/ -P M81/00095730044/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079063/ -P M81/00090079063/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286062/ -P M81/00033286062/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079026/ -P M81/00090079026/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084311012/ -P M81/00084311012/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008061/ -P M81/00090008061/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188057/ -P M81/00032188057/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188206/ -P M81/00032188206/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008044/ -P M81/00090008044/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188189/ -P M81/00032188189/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090989004/ -P M81/00090989004/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519044/ -P M81/00032519044/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188200/ -P M81/00032188200/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188191/ -P M81/00032188191/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519007/ -P M81/00032519007/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519013/ -P M81/00032519013/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993042/ -P M81/00090993042/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080025/ -P M81/00034080025/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188174/ -P M81/00032188174/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993030/ -P M81/00090993030/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084311013/ -P M81/00084311013/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079060/ -P M81/00090079060/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188039/ -P M81/00032188039/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079020/ -P M81/00090079020/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079057/ -P M81/00090079057/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188230/ -P M81/00032188230/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008082/ -P M81/00090008082/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188120/ -P M81/00032188120/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008070/ -P M81/00090008070/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286028/ -P M81/00033286028/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993052/ -P M81/00090993052/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079098/ -P M81/00090079098/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519009/ -P M81/00032519009/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00356776000/ -P M81/00356776000/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079067/ -P M81/00090079067/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008079/ -P M81/00090008079/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286061/ -P M81/00033286061/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188178/ -P M81/00032188178/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993070/ -P M81/00090993070/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079036/ -P M81/00090079036/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079012/ -P M81/00090079012/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188238/ -P M81/00032188238/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079049/ -P M81/00090079049/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008031/ -P M81/00090008031/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188134/ -P M81/00032188134/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519006/ -P M81/00032519006/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188091/ -P M81/00032188091/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188209/ -P M81/00032188209/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035059010/ -P M81/00035059010/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286002/ -P M81/00033286002/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730038/ -P M81/00095730038/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188027/ -P M81/00032188027/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286074/ -P M81/00033286074/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519035/ -P M81/00032519035/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080009/ -P M81/00034080009/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079043/ -P M81/00090079043/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188067/ -P M81/00032188067/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188212/ -P M81/00032188212/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188233/ -P M81/00032188233/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519049/ -P M81/00032519049/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090524001/ -P M81/00090524001/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008010/ -P M81/00090008010/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188043/ -P M81/00032188043/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008054/ -P M81/00090008054/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188094/ -P M81/00032188094/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286027/ -P M81/00033286027/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188030/ -P M81/00032188030/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079088/ -P M81/00090079088/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286082/ -P M81/00033286082/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188060/ -P M81/00032188060/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286041/ -P M81/00033286041/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188154/ -P M81/00032188154/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188010/ -P M81/00032188010/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286034/ -P M81/00033286034/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188076/ -P M81/00032188076/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519048/ -P M81/00032519048/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730012/ -P M81/00095730012/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286051/ -P M81/00033286051/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188211/ -P M81/00032188211/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188103/ -P M81/00032188103/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079071/ -P M81/00090079071/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080013/ -P M81/00034080013/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993047/ -P M81/00090993047/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519012/ -P M81/00032519012/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079082/ -P M81/00090079082/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519003/ -P M81/00032519003/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730025/ -P M81/00095730025/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008001/ -P M81/00090008001/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519047/ -P M81/00032519047/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188248/ -P M81/00032188248/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730021/ -P M81/00095730021/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008019/ -P M81/00090008019/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090524005/ -P M81/00090524005/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188014/ -P M81/00032188014/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286009/ -P M81/00033286009/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188048/ -P M81/00032188048/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079087/ -P M81/00090079087/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079093/ -P M81/00090079093/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008025/ -P M81/00090008025/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079069/ -P M81/00090079069/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084311014/ -P M81/00084311014/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188162/ -P M81/00032188162/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008009/ -P M81/00090008009/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080017/ -P M81/00034080017/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519023/ -P M81/00032519023/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079022/ -P M81/00090079022/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188015/ -P M81/00032188015/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188139/ -P M81/00032188139/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084311010/ -P M81/00084311010/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079077/ -P M81/00090079077/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008008/ -P M81/00090008008/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188130/ -P M81/00032188130/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993006/ -P M81/00090993006/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188183/ -P M81/00032188183/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188061/ -P M81/00032188061/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188253/ -P M81/00032188253/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188080/ -P M81/00032188080/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079103/ -P M81/00090079103/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090524004/ -P M81/00090524004/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00080711004/ -P M81/00080711004/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008068/ -P M81/00090008068/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730016/ -P M81/00095730016/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090524007/ -P M81/00090524007/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286088/ -P M81/00033286088/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188047/ -P M81/00032188047/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008071/ -P M81/00090008071/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188149/ -P M81/00032188149/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519046/ -P M81/00032519046/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079084/ -P M81/00090079084/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188146/ -P M81/00032188146/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993072/ -P M81/00090993072/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993003/ -P M81/00090993003/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084570004/ -P M81/00084570004/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188007/ -P M81/00032188007/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188237/ -P M81/00032188237/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993031/ -P M81/00090993031/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730032/ -P M81/00095730032/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090524009/ -P M81/00090524009/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008007/ -P M81/00090008007/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079003/ -P M81/00090079003/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519083/ -P M81/00032519083/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993001/ -P M81/00090993001/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090525003/ -P M81/00090525003/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188068/ -P M81/00032188068/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730039/ -P M81/00095730039/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188201/ -P M81/00032188201/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188136/ -P M81/00032188136/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188116/ -P M81/00032188116/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008002/ -P M81/00090008002/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730034/ -P M81/00095730034/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730023/ -P M81/00095730023/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993016/ -P M81/00090993016/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008074/ -P M81/00090008074/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188152/ -P M81/00032188152/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993058/ -P M81/00090993058/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286079/ -P M81/00033286079/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188242/ -P M81/00032188242/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730018/ -P M81/00095730018/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079001/ -P M81/00090079001/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090989006/ -P M81/00090989006/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188082/ -P M81/00032188082/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286063/ -P M81/00033286063/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519017/ -P M81/00032519017/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008039/ -P M81/00090008039/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286033/ -P M81/00033286033/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188151/ -P M81/00032188151/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090525002/ -P M81/00090525002/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188011/ -P M81/00032188011/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084311017/ -P M81/00084311017/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993029/ -P M81/00090993029/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084311024/ -P M81/00084311024/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188177/ -P M81/00032188177/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188199/ -P M81/00032188199/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035059004/ -P M81/00035059004/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188066/ -P M81/00032188066/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188235/ -P M81/00032188235/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730045/ -P M81/00095730045/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035335002/ -P M81/00035335002/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286047/ -P M81/00033286047/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286039/ -P M81/00033286039/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084311002/ -P M81/00084311002/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188089/ -P M81/00032188089/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286005/ -P M81/00033286005/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090989005/ -P M81/00090989005/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188033/ -P M81/00032188033/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188070/ -P M81/00032188070/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286094/ -P M81/00033286094/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188038/ -P M81/00032188038/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00013911001/ -P M81/00013911001/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084313010/ -P M81/00084313010/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993063/ -P M81/00090993063/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079030/ -P M81/00090079030/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188056/ -P M81/00032188056/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286066/ -P M81/00033286066/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519050/ -P M81/00032519050/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00080711003/ -P M81/00080711003/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286086/ -P M81/00033286086/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286090/ -P M81/00033286090/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00089156002/ -P M81/00089156002/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286035/ -P M81/00033286035/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286072/ -P M81/00033286072/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519027/ -P M81/00032519027/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008006/ -P M81/00090008006/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008055/ -P M81/00090008055/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079072/ -P M81/00090079072/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286052/ -P M81/00033286052/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084570014/ -P M81/00084570014/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286029/ -P M81/00033286029/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730005/ -P M81/00095730005/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730037/ -P M81/00095730037/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084313008/ -P M81/00084313008/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188205/ -P M81/00032188205/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008005/ -P M81/00090008005/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188185/ -P M81/00032188185/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993067/ -P M81/00090993067/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084570002/ -P M81/00084570002/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079017/ -P M81/00090079017/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519028/ -P M81/00032519028/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993069/ -P M81/00090993069/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079070/ -P M81/00090079070/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188216/ -P M81/00032188216/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993051/ -P M81/00090993051/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008004/ -P M81/00090008004/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993036/ -P M81/00090993036/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188023/ -P M81/00032188023/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008076/ -P M81/00090008076/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188095/ -P M81/00032188095/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00089119001/ -P M81/00089119001/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993024/ -P M81/00090993024/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993008/ -P M81/00090993008/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188232/ -P M81/00032188232/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090989008/ -P M81/00090989008/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079027/ -P M81/00090079027/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286085/ -P M81/00033286085/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090989014/ -P M81/00090989014/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188182/ -P M81/00032188182/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188085/ -P M81/00032188085/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993035/ -P M81/00090993035/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286070/ -P M81/00033286070/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519030/ -P M81/00032519030/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188244/ -P M81/00032188244/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519020/ -P M81/00032519020/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730028/ -P M81/00095730028/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188118/ -P M81/00032188118/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079041/ -P M81/00090079041/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084311018/ -P M81/00084311018/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286024/ -P M81/00033286024/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079096/ -P M81/00090079096/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993019/ -P M81/00090993019/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993064/ -P M81/00090993064/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079040/ -P M81/00090079040/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188165/ -P M81/00032188165/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286023/ -P M81/00033286023/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993059/ -P M81/00090993059/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519029/ -P M81/00032519029/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519015/ -P M81/00032519015/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079054/ -P M81/00090079054/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993066/ -P M81/00090993066/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286038/ -P M81/00033286038/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079029/ -P M81/00090079029/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188109/ -P M81/00032188109/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188032/ -P M81/00032188032/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286075/ -P M81/00033286075/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084311006/ -P M81/00084311006/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519010/ -P M81/00032519010/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079009/ -P M81/00090079009/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035059009/ -P M81/00035059009/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00080427001/ -P M81/00080427001/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079044/ -P M81/00090079044/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00036557004/ -P M81/00036557004/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286049/ -P M81/00033286049/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008046/ -P M81/00090008046/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080004/ -P M81/00034080004/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084313011/ -P M81/00084313011/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008045/ -P M81/00090008045/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730014/ -P M81/00095730014/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079028/ -P M81/00090079028/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188074/ -P M81/00032188074/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188184/ -P M81/00032188184/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286003/ -P M81/00033286003/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730043/ -P M81/00095730043/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188207/ -P M81/00032188207/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008072/ -P M81/00090008072/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188075/ -P M81/00032188075/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286043/ -P M81/00033286043/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286011/ -P M81/00033286011/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188135/ -P M81/00032188135/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00036557002/ -P M81/00036557002/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079050/ -P M81/00090079050/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079090/ -P M81/00090079090/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286013/ -P M81/00033286013/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080011/ -P M81/00034080011/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730036/ -P M81/00095730036/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188247/ -P M81/00032188247/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188100/ -P M81/00032188100/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080015/ -P M81/00034080015/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008033/ -P M81/00090008033/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00259527001/ -P M81/00259527001/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730042/ -P M81/00095730042/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730035/ -P M81/00095730035/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519042/ -P M81/00032519042/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079023/ -P M81/00090079023/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519022/ -P M81/00032519022/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519084/ -P M81/00032519084/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188194/ -P M81/00032188194/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084311008/ -P M81/00084311008/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084311007/ -P M81/00084311007/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730007/ -P M81/00095730007/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079006/ -P M81/00090079006/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188111/ -P M81/00032188111/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008077/ -P M81/00090008077/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00081703001/ -P M81/00081703001/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080006/ -P M81/00034080006/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008042/ -P M81/00090008042/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993038/ -P M81/00090993038/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730026/ -P M81/00095730026/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188218/ -P M81/00032188218/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079038/ -P M81/00090079038/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079074/ -P M81/00090079074/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286032/ -P M81/00033286032/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188018/ -P M81/00032188018/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079035/ -P M81/00090079035/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286022/ -P M81/00033286022/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188022/ -P M81/00032188022/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008017/ -P M81/00090008017/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993074/ -P M81/00090993074/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188006/ -P M81/00032188006/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730024/ -P M81/00095730024/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993049/ -P M81/00090993049/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286030/ -P M81/00033286030/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286016/ -P M81/00033286016/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084570001/ -P M81/00084570001/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188164/ -P M81/00032188164/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519085/ -P M81/00032519085/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079089/ -P M81/00090079089/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993062/ -P M81/00090993062/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188208/ -P M81/00032188208/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188204/ -P M81/00032188204/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008014/ -P M81/00090008014/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188163/ -P M81/00032188163/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286021/ -P M81/00033286021/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188225/ -P M81/00032188225/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188106/ -P M81/00032188106/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188227/ -P M81/00032188227/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008073/ -P M81/00090008073/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286069/ -P M81/00033286069/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188050/ -P M81/00032188050/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286014/ -P M81/00033286014/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188155/ -P M81/00032188155/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286007/ -P M81/00033286007/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730008/ -P M81/00095730008/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008026/ -P M81/00090008026/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519039/ -P M81/00032519039/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286006/ -P M81/00033286006/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286096/ -P M81/00033286096/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188241/ -P M81/00032188241/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188028/ -P M81/00032188028/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079031/ -P M81/00090079031/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519021/ -P M81/00032519021/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730011/ -P M81/00095730011/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008015/ -P M81/00090008015/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188058/ -P M81/00032188058/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035335006/ -P M81/00035335006/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035335001/ -P M81/00035335001/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188188/ -P M81/00032188188/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993056/ -P M81/00090993056/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188175/ -P M81/00032188175/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993034/ -P M81/00090993034/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286073/ -P M81/00033286073/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188131/ -P M81/00032188131/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188161/ -P M81/00032188161/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188224/ -P M81/00032188224/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079064/ -P M81/00090079064/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090525001/ -P M81/00090525001/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286042/ -P M81/00033286042/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00036557006/ -P M81/00036557006/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080012/ -P M81/00034080012/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035059007/ -P M81/00035059007/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188035/ -P M81/00032188035/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286083/ -P M81/00033286083/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188077/ -P M81/00032188077/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008050/ -P M81/00090008050/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188223/ -P M81/00032188223/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079025/ -P M81/00090079025/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188203/ -P M81/00032188203/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993053/ -P M81/00090993053/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079062/ -P M81/00090079062/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730010/ -P M81/00095730010/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993007/ -P M81/00090993007/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188129/ -P M81/00032188129/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008041/ -P M81/00090008041/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993050/ -P M81/00090993050/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084311016/ -P M81/00084311016/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519019/ -P M81/00032519019/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286091/ -P M81/00033286091/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993004/ -P M81/00090993004/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008003/ -P M81/00090008003/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730027/ -P M81/00095730027/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188250/ -P M81/00032188250/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188031/ -P M81/00032188031/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035059008/ -P M81/00035059008/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00036557008/ -P M81/00036557008/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730001/ -P M81/00095730001/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993055/ -P M81/00090993055/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008028/ -P M81/00090008028/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035335007/ -P M81/00035335007/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519038/ -P M81/00032519038/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286018/ -P M81/00033286018/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080026/ -P M81/00034080026/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286089/ -P M81/00033286089/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008048/ -P M81/00090008048/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090263001/ -P M81/00090263001/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188107/ -P M81/00032188107/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008018/ -P M81/00090008018/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080023/ -P M81/00034080023/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079039/ -P M81/00090079039/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188125/ -P M81/00032188125/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730017/ -P M81/00095730017/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035059005/ -P M81/00035059005/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188029/ -P M81/00032188029/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188252/ -P M81/00032188252/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079091/ -P M81/00090079091/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188121/ -P M81/00032188121/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993023/ -P M81/00090993023/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090263002/ -P M81/00090263002/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008035/ -P M81/00090008035/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519004/ -P M81/00032519004/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286092/ -P M81/00033286092/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993037/ -P M81/00090993037/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286084/ -P M81/00033286084/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084570009/ -P M81/00084570009/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188001/ -P M81/00032188001/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079033/ -P M81/00090079033/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188013/ -P M81/00032188013/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079055/ -P M81/00090079055/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519034/ -P M81/00032519034/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286057/ -P M81/00033286057/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008049/ -P M81/00090008049/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188117/ -P M81/00032188117/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519037/ -P M81/00032519037/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008047/ -P M81/00090008047/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090525004/ -P M81/00090525004/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188021/ -P M81/00032188021/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993015/ -P M81/00090993015/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188138/ -P M81/00032188138/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993026/ -P M81/00090993026/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079004/ -P M81/00090079004/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286078/ -P M81/00033286078/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993054/ -P M81/00090993054/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519026/ -P M81/00032519026/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079015/ -P M81/00090079015/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079019/ -P M81/00090079019/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519040/ -P M81/00032519040/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035059006/ -P M81/00035059006/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008040/ -P M81/00090008040/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188054/ -P M81/00032188054/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090524008/ -P M81/00090524008/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188090/ -P M81/00032188090/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084570007/ -P M81/00084570007/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519014/ -P M81/00032519014/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188115/ -P M81/00032188115/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188144/ -P M81/00032188144/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084311004/ -P M81/00084311004/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188195/ -P M81/00032188195/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188096/ -P M81/00032188096/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188025/ -P M81/00032188025/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286020/ -P M81/00033286020/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079073/ -P M81/00090079073/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188198/ -P M81/00032188198/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080028/ -P M81/00034080028/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519041/ -P M81/00032519041/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993033/ -P M81/00090993033/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084311020/ -P M81/00084311020/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519005/ -P M81/00032519005/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730033/ -P M81/00095730033/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080031/ -P M81/00034080031/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730009/ -P M81/00095730009/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993017/ -P M81/00090993017/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188051/ -P M81/00032188051/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730031/ -P M81/00095730031/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188187/ -P M81/00032188187/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188049/ -P M81/00032188049/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008012/ -P M81/00090008012/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079046/ -P M81/00090079046/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188055/ -P M81/00032188055/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079008/ -P M81/00090079008/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084311019/ -P M81/00084311019/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00080711001/ -P M81/00080711001/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993022/ -P M81/00090993022/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993021/ -P M81/00090993021/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079083/ -P M81/00090079083/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286019/ -P M81/00033286019/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188170/ -P M81/00032188170/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079007/ -P M81/00090079007/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993061/ -P M81/00090993061/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188101/ -P M81/00032188101/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090989009/ -P M81/00090989009/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188105/ -P M81/00032188105/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188196/ -P M81/00032188196/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079085/ -P M81/00090079085/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993065/ -P M81/00090993065/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079037/ -P M81/00090079037/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188063/ -P M81/00032188063/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079059/ -P M81/00090079059/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188160/ -P M81/00032188160/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035059012/ -P M81/00035059012/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080003/ -P M81/00034080003/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993060/ -P M81/00090993060/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286045/ -P M81/00033286045/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079016/ -P M81/00090079016/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286067/ -P M81/00033286067/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080032/ -P M81/00034080032/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084313001/ -P M81/00084313001/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008063/ -P M81/00090008063/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286058/ -P M81/00033286058/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730020/ -P M81/00095730020/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079076/ -P M81/00090079076/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035335005/ -P M81/00035335005/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993044/ -P M81/00090993044/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008065/ -P M81/00090008065/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008030/ -P M81/00090008030/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519016/ -P M81/00032519016/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080005/ -P M81/00034080005/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084311011/ -P M81/00084311011/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519008/ -P M81/00032519008/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188143/ -P M81/00032188143/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519002/ -P M81/00032519002/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188017/ -P M81/00032188017/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008011/ -P M81/00090008011/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008062/ -P M81/00090008062/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188158/ -P M81/00032188158/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188193/ -P M81/00032188193/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286077/ -P M81/00033286077/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008037/ -P M81/00090008037/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008075/ -P M81/00090008075/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188053/ -P M81/00032188053/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00036557001/ -P M81/00036557001/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188171/ -P M81/00032188171/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188078/ -P M81/00032188078/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035335003/ -P M81/00035335003/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084570010/ -P M81/00084570010/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188180/ -P M81/00032188180/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00080427002/ -P M81/00080427002/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079052/ -P M81/00090079052/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188141/ -P M81/00032188141/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079095/ -P M81/00090079095/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084311021/ -P M81/00084311021/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519011/ -P M81/00032519011/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084313007/ -P M81/00084313007/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286081/ -P M81/00033286081/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079100/ -P M81/00090079100/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080001/ -P M81/00034080001/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993040/ -P M81/00090993040/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079102/ -P M81/00090079102/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188240/ -P M81/00032188240/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188004/ -P M81/00032188004/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286076/ -P M81/00033286076/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035059015/ -P M81/00035059015/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188239/ -P M81/00032188239/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090989012/ -P M81/00090989012/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188219/ -P M81/00032188219/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188044/ -P M81/00032188044/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993014/ -P M81/00090993014/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730040/ -P M81/00095730040/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084570017/ -P M81/00084570017/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188093/ -P M81/00032188093/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519031/ -P M81/00032519031/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079056/ -P M81/00090079056/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008023/ -P M81/00090008023/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008020/ -P M81/00090008020/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090524003/ -P M81/00090524003/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286064/ -P M81/00033286064/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188087/ -P M81/00032188087/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993057/ -P M81/00090993057/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188156/ -P M81/00032188156/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993032/ -P M81/00090993032/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084313009/ -P M81/00084313009/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188213/ -P M81/00032188213/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730041/ -P M81/00095730041/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993041/ -P M81/00090993041/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730030/ -P M81/00095730030/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079021/ -P M81/00090079021/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035059014/ -P M81/00035059014/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080016/ -P M81/00034080016/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188072/ -P M81/00032188072/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730003/ -P M81/00095730003/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090989003/ -P M81/00090989003/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079045/ -P M81/00090079045/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008066/ -P M81/00090008066/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079094/ -P M81/00090079094/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188210/ -P M81/00032188210/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188168/ -P M81/00032188168/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993009/ -P M81/00090993009/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286037/ -P M81/00033286037/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035335004/ -P M81/00035335004/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008078/ -P M81/00090008078/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00089188001/ -P M81/00089188001/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188245/ -P M81/00032188245/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00089188002/ -P M81/00089188002/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188024/ -P M81/00032188024/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008060/ -P M81/00090008060/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035335009/ -P M81/00035335009/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188088/ -P M81/00032188088/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188065/ -P M81/00032188065/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00013911003/ -P M81/00013911003/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188012/ -P M81/00032188012/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730022/ -P M81/00095730022/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188220/ -P M81/00032188220/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188034/ -P M81/00032188034/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730046/ -P M81/00095730046/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008022/ -P M81/00090008022/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079011/ -P M81/00090079011/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188113/ -P M81/00032188113/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286017/ -P M81/00033286017/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188009/ -P M81/00032188009/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286080/ -P M81/00033286080/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008067/ -P M81/00090008067/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079081/ -P M81/00090079081/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730004/ -P M81/00095730004/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188140/ -P M81/00032188140/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286095/ -P M81/00033286095/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035059003/ -P M81/00035059003/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008059/ -P M81/00090008059/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080029/ -P M81/00034080029/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00036557007/ -P M81/00036557007/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079079/ -P M81/00090079079/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079051/ -P M81/00090079051/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035059002/ -P M81/00035059002/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188221/ -P M81/00032188221/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188251/ -P M81/00032188251/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188114/ -P M81/00032188114/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188128/ -P M81/00032188128/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188099/ -P M81/00032188099/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188020/ -P M81/00032188020/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188215/ -P M81/00032188215/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993013/ -P M81/00090993013/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993048/ -P M81/00090993048/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079024/ -P M81/00090079024/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080019/ -P M81/00034080019/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188122/ -P M81/00032188122/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008036/ -P M81/00090008036/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079018/ -P M81/00090079018/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730013/ -P M81/00095730013/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286059/ -P M81/00033286059/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084311023/ -P M81/00084311023/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286044/ -P M81/00033286044/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00095730029/ -P M81/00095730029/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188202/ -P M81/00032188202/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084570012/ -P M81/00084570012/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008024/ -P M81/00090008024/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188081/ -P M81/00032188081/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188110/ -P M81/00032188110/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188217/ -P M81/00032188217/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079078/ -P M81/00090079078/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090989001/ -P M81/00090989001/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084570016/ -P M81/00084570016/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090989015/ -P M81/00090989015/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188036/ -P M81/00032188036/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188104/ -P M81/00032188104/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188186/ -P M81/00032188186/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079101/ -P M81/00090079101/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079061/ -P M81/00090079061/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079005/ -P M81/00090079005/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993025/ -P M81/00090993025/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084313002/ -P M81/00084313002/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188097/ -P M81/00032188097/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519001/ -P M81/00032519001/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008057/ -P M81/00090008057/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079080/ -P M81/00090079080/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188169/ -P M81/00032188169/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035059013/ -P M81/00035059013/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035335008/ -P M81/00035335008/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188019/ -P M81/00032188019/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090989007/ -P M81/00090989007/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084570011/ -P M81/00084570011/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080010/ -P M81/00034080010/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188062/ -P M81/00032188062/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188228/ -P M81/00032188228/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993028/ -P M81/00090993028/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188042/ -P M81/00032188042/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993010/ -P M81/00090993010/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286055/ -P M81/00033286055/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080014/ -P M81/00034080014/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188124/ -P M81/00032188124/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188086/ -P M81/00032188086/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188102/ -P M81/00032188102/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079034/ -P M81/00090079034/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079066/ -P M81/00090079066/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286010/ -P M81/00033286010/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00034080030/ -P M81/00034080030/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188150/ -P M81/00032188150/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008016/ -P M81/00090008016/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084570008/ -P M81/00084570008/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00035059001/ -P M81/00035059001/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286071/ -P M81/00033286071/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993045/ -P M81/00090993045/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084311001/ -P M81/00084311001/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079086/ -P M81/00090079086/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188126/ -P M81/00032188126/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188069/ -P M81/00032188069/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519033/ -P M81/00032519033/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519032/ -P M81/00032519032/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00084570003/ -P M81/00084570003/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079058/ -P M81/00090079058/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188045/ -P M81/00032188045/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188226/ -P M81/00032188226/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079099/ -P M81/00090079099/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00013911004/ -P M81/00013911004/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00013911002/ -P M81/00013911002/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188132/ -P M81/00032188132/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079097/ -P M81/00090079097/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188172/ -P M81/00032188172/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286004/ -P M81/00033286004/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188137/ -P M81/00032188137/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00080711002/ -P M81/00080711002/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993073/ -P M81/00090993073/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079092/ -P M81/00090079092/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090524002/ -P M81/00090524002/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286053/ -P M81/00033286053/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993020/ -P M81/00090993020/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188243/ -P M81/00032188243/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993039/ -P M81/00090993039/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008064/ -P M81/00090008064/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188167/ -P M81/00032188167/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188157/ -P M81/00032188157/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188214/ -P M81/00032188214/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993027/ -P M81/00090993027/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188119/ -P M81/00032188119/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188231/ -P M81/00032188231/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286050/ -P M81/00033286050/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00089156001/ -P M81/00089156001/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519045/ -P M81/00032519045/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286031/ -P M81/00033286031/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188112/ -P M81/00032188112/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090079014/ -P M81/00090079014/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090989002/ -P M81/00090989002/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188142/ -P M81/00032188142/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188234/ -P M81/00032188234/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519018/ -P M81/00032519018/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00036557005/ -P M81/00036557005/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993046/ -P M81/00090993046/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286054/ -P M81/00033286054/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090993071/ -P M81/00090993071/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188041/ -P M81/00032188041/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008052/ -P M81/00090008052/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188016/ -P M81/00032188016/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032519024/ -P M81/00032519024/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00090008029/ -P M81/00090008029/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00032188197/ -P M81/00032188197/
+wget -q -nH --no-check-certificate --cut-dirs=5 -r -l0 -c -N -np -R 'index*' -erobots=off --retr-symlinks https://www.swift.ac.uk/archive/reproc/00033286065/ -P M81/00033286065/

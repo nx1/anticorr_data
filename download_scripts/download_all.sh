@@ -1,9 +1,9 @@
 ./download_all_UKSSDC.sh
 ./ESO243-49_UKSSDC.sh
-./Ho-IX_UKSSDC.sh
-./Ho_II_UKSSDC.sh
+./Holmberg_II_UKSSDC.sh
+./Holmberg_IX_UKSSDC.sh
 ./IC10_UKSSDC.sh
-./M31_ULX-1_UKSSDC.sh
+./M31_UKSSDC.sh
 ./M33_UKSSDC.sh
 ./M51_UKSSDC.sh
 ./M81_UKSSDC.sh
