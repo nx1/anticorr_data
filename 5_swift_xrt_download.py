@@ -62,6 +62,7 @@ for i in range(n_jobs):
             req.is_downloaded = True
     assert req.isValid()[0]
 
+"""
 print('-'*50)
 print(f'{n_jobs} jobs to run, press any key to submit...')
 input()
@@ -99,4 +100,4 @@ while n_submitted < n_jobs:
     print('sleeping 2 min...')
     time.sleep(120)
 
-
+"""

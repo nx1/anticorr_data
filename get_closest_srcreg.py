@@ -1,18 +1,3 @@
-# 9_create_source_lightcurves.py
-# outputs to lightcurves/
-# SOURCE_NAME_UVOT_U_SRC_UVOTALL.FITS
-# SOURCE_NAME_UVOT_UW1_SRC_UVOTALL.FITS
-# SOURCE_NAME_XRT_FULL.FITS
-# SOURCE_NAME_XRT_HARD.FITS
-
-
-# 09_create lightcurves
-# 10_linear_correlation.py
-# 11_lomb_scargle_lightcurves.py
-# 12_cross_correlation.py
-# 
-
-
 from glob import glob
 import numpy as np
 
@@ -24,6 +9,26 @@ from astropy.table import vstack, hstack, join, unique
 from astroquery.simbad import Simbad
 
 from source_names_dict import source_names_dict
+
+
+def read_region_file(path):
+    with open(path, 'r') as f:
+        lines = f.readlines()
+        
+    reg_dict = {}
+    for l in lines:
+        if 'circle' in l:
+            reg = l.replace('\n','')
+            ra, dec, radius = reg.replace('circle(','').replace(')','').split(',')
+            reg_dict['path'] = path
+            reg_dict['region'] = reg
+            reg_dict['ra'] = ra
+            reg_dict['dec'] = dec
+            reg_dict['radius'] = radius
+            sc = SkyCoord(ra, dec,
+                           unit=(u.hourangle, u.deg),
+                                  frame='fk5')
+    return reg_dict, sc
 
 def get_src_region_dict(return_df=False):
     # Fix glob square bracket issue
@@ -46,29 +51,18 @@ def get_src_region_dict(return_df=False):
         
         
         src_reg_files = glob(f'/mnt/d/anticorr_data/download_scripts/{local_name}/*src*.reg*')
+        bkg_reg_file  = glob(f'/mnt/d/anticorr_data/download_scripts/{local_name}/*bkg*.reg*')[0]
+
         for r in src_reg_files:
-            with open(r, 'r') as f:
-                lines = f.readlines()
-        
-            reg_dict = {}
-            for l in lines:
-                if 'circle' in l:
-                    reg = l.replace('\n','')
-                    ra, dec, radius = reg.replace('circle(','').replace(')','').split(',')
-                    reg_dict['path'] = r
-                    reg_dict['region'] = reg
-                    reg_dict['ra'] = ra
-                    reg_dict['dec'] = dec
-                    reg_dict['radius'] = radius
-                    sc2 = SkyCoord(ra, dec,
-                                  unit=(u.hourangle, u.deg),
-                                  frame='fk5')
-                    
+            reg_dict, sc2 = read_region_file(r)
             sep = sc1.separation(sc2)
             if sep < min_sep:
                 min_sep = sep
                 min_sep_file = r
             #print(f'{simbad_name:<30} {r} Seperation = {sep}')
+
+        reg_dict_bkg, sc_bkg = read_region_file(r)
+
         
         dict2 = {}
         dict2['simbad_name'] = simbad_name
@@ -80,8 +74,13 @@ def get_src_region_dict(return_df=False):
         dict2['local_ra']    = sc2.ra
         dict2['local_dec']   = sc2.dec
         dict2['closest_srcreg'] = min_sep_file
+        dict2['closest_srcreg_short'] = '/'.join(min_sep_file.split('/')[-2:])
         dict2['closest_srcreg_sep_deg'] = min_sep
         dict2['closest_srcreg_sep_arcsec'] = min_sep.to("arcsec")
+        dict2['bkg_srcreg'] = bkg_reg_file
+        dict2['bkg_sc']     = sc_bkg
+        dict2['bkg_ra']     = sc_bkg.ra
+        dict2['bkg_dec']    = sc_bkg.dec
         all_dicts.append(dict2)
     
         src_region_dict[simbad_name] = min_sep_file
@@ -97,5 +96,4 @@ def get_src_region_dict(return_df=False):
 
 if __name__ == "__main__":
     src_region_dict, df = get_src_region_dict(return_df=True)
-
-    print(df[['simbad_name', 'local_name', 'simbad_ra', 'simbad_dec', 'local_ra', 'local_dec', 'closest_srcreg', 'closest_srcreg_sep_arcsec']].sort_values('closest_srcreg_sep_arcsec', ascending=False))
+    print(df[['simbad_name', 'local_name', 'simbad_ra', 'simbad_dec', 'local_ra', 'local_dec', 'closest_srcreg_short', 'closest_srcreg_sep_arcsec', 'bkg_ra', 'bkg_dec']].sort_values('closest_srcreg_sep_arcsec', ascending=False))
