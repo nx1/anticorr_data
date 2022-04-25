@@ -87,25 +87,24 @@ source_names_readable = {'ESO_243-49_HLX-1'             : 'ESO_243-49 HLX-1',
 
 source_names = list(source_names_dict.keys())
 
-# The subset of sources with strong counterpart candidates
-# as determined by eye.
-source_names_w_counterparts = ['Holmberg_II_X-1',
-                               'NAME_NGC_1313_X-2',
-                               'NAME_NGC_300_ULX1',
-                               'NAME_NGC_7793_P13',
-                               'NAME_NGC_925_ULX-1',
-                               'NAME_NGC_925_ULX-2',
-                               'NOVA_Cyg_1989',
+source_names_w_counterparts = ['[LB2005]_NGC_3031_X6',
                                'RX_J133001+47137',
-                               'SMC_X-3',
-                               'SS433',
-                               'SWIFT_J0243.6+6124',
-                               '[LB2005]_NGC_3031_X6',
+                               'NAME_NGC_1313_X-2',
+                               '[SK2009]_X2',
                                '[LB2005]_NGC_6946_ULX3',
+                               'NAME_NGC_300_ULX1',
+                               'SWIFT_J0243.6+6124',
+                               'Holmberg_II_X-1',
+                               'NOVA_Cyg_1989',
                                '[LM2005]_NGC_4559_ULX1',
+                               'NAME_NGC_7793_P13',
+                               'NAME_NGC_925_ULX-2',
+                               'NAME_NGC_925_ULX-1',
                                '[LM2005]_NGC_5204_ULX1',
-                               '[LM2005]_NGC_598_ULX1',
-                               '[SK2009]_X2']
+                               'SS433',
+                               'SMC_X-3',
+                               '[LM2005]_NGC_598_ULX1']
+
 
 if __name__ == "__main__":
     print(f'{len(source_names)} {len(source_names_readable)}')
