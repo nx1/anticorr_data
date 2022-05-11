@@ -5,7 +5,7 @@ import matplotlib.animation as animation
 from astropy.table import unique, join
 
 from source_names_dict import source_names_dict, source_names_w_counterparts, source_names_readable
-from uvot import read_uvotsource, calc_uvot_flags, plot_uvotsource_lc, filters, filter_colors, filter_markers
+from uvot import read_uvotsource, calc_uvot_flags, filters, filter_colors, filter_markers
 from xrt import load_xrt, rename_xrt_cols
 
 simbad_name = 'NAME_NGC_1313_X-2'
@@ -48,8 +48,6 @@ y = tab_join[xrt_rate]
 y_err = tab_join[xrt_rate_err]
 
 size  = len(x)
-
-
 
 
 # Plotting

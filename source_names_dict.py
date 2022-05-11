@@ -37,8 +37,7 @@ source_names_dict = {'ESO_243-49_HLX-1'             : 'ESO243-49',
                      '[SK2009]_X2'                  : 'NGC1365',       # 1365 X-2
                      'NAME_IC_10_X-1'               : 'IC10',
                      '[WMR2006]_NGC4945_XMM1'       : 'NGC4945',
-                     '[LB2005]_NGC_3031_X6'         : 'M81',
-                     '[LM2005]_NGC_4559_ULX1'       : 'NGC4559'}           #aka M81
+                     '[LM2005]_NGC_4559_ULX1'       : 'NGC4559'}
 
 
 source_names_readable = {'ESO_243-49_HLX-1'             : 'ESO_243-49 HLX-1',
@@ -47,7 +46,7 @@ source_names_readable = {'ESO_243-49_HLX-1'             : 'ESO_243-49 HLX-1',
                          'M31_ULX-1'                    : 'M31 ULX-1',
                          '[LM2005]_NGC_598_ULX1'        : 'M33 ULX-1',         # AKA M33 X-8
                          'RX_J133001+47137'             : 'M51 ULX-7',         # M51 ULX-7
-                         '[LM2005]_NGC_3031_ULX1'       : 'M81 ULX-1',         # AKA M81
+                         '[LM2005]_NGC_3031_ULX1'       : 'M81 X-6',         # AKA M81
                          'M82_X-2'                      : 'M82 X-2',
                          '[LM2005]_NGC_1042_ULX1'       : 'NGC1042 ULX-1',
                          'NAME_NGC_1313_X-1'            : 'NGC1313 X-1',
@@ -79,7 +78,6 @@ source_names_readable = {'ESO_243-49_HLX-1'             : 'ESO_243-49 HLX-1',
                          '[SK2009]_X2'                  : 'NGC1365 X-2',       # 1365 X-2
                          'NAME_IC_10_X-1'               : 'IC10 X-1',
                          '[WMR2006]_NGC4945_XMM1'       : 'NGC4945 XMM-1',
-                         '[LB2005]_NGC_3031_X6'         : 'M81 X-6',
                          '[LM2005]_NGC_4559_ULX1'       : 'NGC4559 ULX-1'}
 
 
@@ -87,8 +85,7 @@ source_names_readable = {'ESO_243-49_HLX-1'             : 'ESO_243-49 HLX-1',
 
 source_names = list(source_names_dict.keys())
 
-source_names_w_counterparts = ['[LB2005]_NGC_3031_X6',
-                               'RX_J133001+47137',
+source_names_w_counterparts = ['RX_J133001+47137',
                                'NAME_NGC_1313_X-2',
                                '[SK2009]_X2',
                                '[LB2005]_NGC_6946_ULX3',
@@ -111,3 +108,8 @@ if __name__ == "__main__":
     for simbad_name, readable_name in source_names_dict.items():
         if simbad_name not in list(source_names_readable.keys()):
              print(f'{simbad_name} not in readable source_names dict')
+
+    for simbad_name in source_names_w_counterparts:
+        if simbad_name not in list(source_names_dict.keys()):
+            print(f'{simbad_name} not in readable source_names dict')
+

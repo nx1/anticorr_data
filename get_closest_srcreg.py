@@ -31,6 +31,7 @@ def read_region_file(path):
     return reg_dict, sc
 
 def get_src_region_dict(return_df=False):
+    print('Getting source region dict')
     # Fix glob square bracket issue
     to_replace = {'[':'[[]',
                   ']':'[]]'}
@@ -42,7 +43,7 @@ def get_src_region_dict(return_df=False):
     all_dicts = []
     s = Simbad
     for simbad_name, local_name in source_names_dict.items():
-        print(f'{simbad_name:<50}{local_name}')
+        # print(f'{simbad_name:<50}{local_name}')
         min_sep_file = ''
         min_sep = 9999*u.deg
         

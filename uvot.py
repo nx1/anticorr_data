@@ -1,7 +1,10 @@
+from glob import glob
 import numpy as np
 import matplotlib.pyplot as plt
 from astropy.table import Table
 from astropy.time import Time
+
+from source_names_dict import source_names_dict
 
 def calc_uvot_flags(table):
     table['FLAG_AB_MAG_99']      = table['AB_MAG'] == 99
@@ -17,7 +20,17 @@ def calc_uvot_flags(table):
     print('==================')
     return table
 
-def read_uvotsource(path, filter_flags=False):
+
+def load_uvotsource(simbad_name, src_region_dict, filter_flags=True):
+    local_name = source_names_dict[simbad_name]
+    closest_src   = src_region_dict[simbad_name]
+    fits_files = glob(f'/mnt/d/anticorr_data/download_scripts/{local_name}/*uvotsource*fits*')
+    for f in fits_files:
+        if closest_src.split('/')[-1][:-4] in f:
+            tab_uvot = read_uvotsource(f, filter_flags)
+            return tab_uvot
+
+def read_uvotsource(path, filter_flags=True):
     print('Reading uvotsource...')
     print(f'Reading file {path}')
     tab = Table.read(path)
@@ -31,25 +44,11 @@ def read_uvotsource(path, filter_flags=False):
     tab['MJD_0'] = tab['MJD'] - tab['MJD'].min()
     
     tab = calc_uvot_flags(tab)
-    tab = tab[~tab['FLAG_AB_MAG_99']]
-    tab = tab[~tab['FLAG_UPPER_LIM']]
-    tab = tab[~tab['FLAG_AB_MAG_ERR>2']]
+    if filter_flags:
+        tab = tab[~tab['FLAG_AB_MAG_99']]
+        tab = tab[~tab['FLAG_UPPER_LIM']]
+        tab = tab[~tab['FLAG_AB_MAG_ERR>2']]
     return tab
-
-
-
-
-# Plotting Functions
-
-def plot_uvotsource_lc(path, ax=None):
-    tab = read_uvotsource(path)
-    if ax is None:
-        fig, ax = plt.subplots(figsize=(20,5))
-    ax.set_title(path)
-    for f in np.unique(tab['FILTER']):
-        sub = tab[tab['FILTER'] == f]
-        ax.errorbar(sub['MJD'], sub['MAG'], sub['MAG_ERR'], ls='none', lw=1.0, capsize=1.0, label=f)
-    ax.legend()
 
 
 filters = ['B', 'U', 'V', 'UVM2', 'UVW1', 'UVW2', 'WHITE']
