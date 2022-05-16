@@ -40,7 +40,7 @@ source_names_dict = {'ESO_243-49_HLX-1'             : 'ESO243-49',
                      '[LM2005]_NGC_4559_ULX1'       : 'NGC4559'}
 
 
-source_names_readable = {'ESO_243-49_HLX-1'             : 'ESO_243-49 HLX-1',
+source_names_readable = {'ESO_243-49_HLX-1'             : 'ESO 243-49 HLX-1',
                          'NAME_Holmberg_IX_X-1'         : 'Holmberg IX X-1',
                          'Holmberg_II_X-1'              : 'Holmberg II X-1',
                          'M31_ULX-1'                    : 'M31 ULX-1',
@@ -69,7 +69,7 @@ source_names_readable = {'ESO_243-49_HLX-1'             : 'ESO_243-49 HLX-1',
                          'NAME_NGC_925_ULX-2'           : 'NGC925 ULX-2',
                          'SMC_X-3'                      : 'SMC X-3',
                          'SS433'                        : 'SS433',
-                         'SWIFT_J0243.6+6124'           : 'Swift_J0243.6+6124',
+                         'SWIFT_J0243.6+6124'           : 'Swift J0243.6+6124',
                          'NAME_UGC_6456_ULX'            : 'UGC6456 ULX',
                          'NOVA_Cyg_1989'                : 'V404Cyg',           # v404 Cygni
                          '[LB2005]_NGC_5236_X11'        : 'M83 ULX-2',         # Outer ULX M83
