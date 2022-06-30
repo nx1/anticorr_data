@@ -8,7 +8,7 @@ from astropy.coordinates import SkyCoord
 from astropy.table import vstack, hstack, join, unique
 from astroquery.simbad import Simbad
 
-from source_names_dict import source_names_dict
+from source_names_dict import source_names_dict, source_names_readable
 
 
 def read_region_file(path):
@@ -43,6 +43,7 @@ def get_src_region_dict(return_df=False):
     all_dicts = []
     s = Simbad
     for simbad_name, local_name in source_names_dict.items():
+        readable_name = source_names_readable[simbad_name]
         # print(f'{simbad_name:<50}{local_name}')
         min_sep_file = ''
         min_sep = 9999*u.deg
@@ -68,6 +69,7 @@ def get_src_region_dict(return_df=False):
         dict2 = {}
         dict2['simbad_name'] = simbad_name
         dict2['local_name']  = local_name
+        dict2['readable_name'] = readable_name
         dict2['simbad_sc']   = sc1
         dict2['simbad_ra']   = sc1.ra
         dict2['simbad_dec']  = sc1.dec
@@ -97,4 +99,4 @@ def get_src_region_dict(return_df=False):
 
 if __name__ == "__main__":
     src_region_dict, df = get_src_region_dict(return_df=True)
-    print(df[['simbad_name', 'local_name', 'simbad_ra', 'simbad_dec', 'local_ra', 'local_dec', 'closest_srcreg_short', 'closest_srcreg_sep_arcsec', 'bkg_ra', 'bkg_dec']].sort_values('closest_srcreg_sep_arcsec', ascending=False))
+    print(df[['simbad_name', 'local_name', 'readable_name', 'simbad_ra', 'simbad_dec', 'local_ra', 'local_dec', 'closest_srcreg_short', 'closest_srcreg_sep_arcsec', 'bkg_ra', 'bkg_dec']].sort_values('closest_srcreg_sep_arcsec', ascending=False))

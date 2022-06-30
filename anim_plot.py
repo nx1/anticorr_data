@@ -22,7 +22,6 @@ args = parser.parse_args()
 
  
 simbad_name = args.simbad_name
-
 local_name  = source_names_dict[simbad_name]
 readable_name = source_names_readable[simbad_name]
 
@@ -125,8 +124,8 @@ lc = LineCollection(segments)
 
 ax[3].add_collection(lc)
 
-ax[3].set_xlim(min(x), max(x))
-ax[3].set_ylim(min(y), max(y))
+ax[3].set_xlim(np.mean(x) - 2*np.std(x), np.mean(x) + 2*np.std(x))
+ax[3].set_ylim(np.mean(y) - 2*np.std(y), np.mean(y) + 2*np.std(y))
 
 ax[3].set_xlabel(uvot_rate)
 ax[3].set_ylabel(xrt_rate)
@@ -158,8 +157,7 @@ ani = animation.FuncAnimation(fig, animate, fargs=[vl], interval=80, blit=True,
                               save_count=50, repeat=True, frames=size)
 
 plt.tight_layout()
-#from matplotlib.animation import PillowWriter
-#ani.save(f'figures/corr_anim/{simbad_name},{xrt_curve},{uvot_filter}.gif', writer=PillowWriter(fps=20))
-#ani.save(f'figures/corr_anim/{simbad_name},{uvot_filter},{xrt_curve}.mp4', writer=,FFwriter, fps=30)
-plt.show()
+from matplotlib.animation import PillowWriter
+ani.save(f'figures/corr_anim/{simbad_name},{xrt_curve},{uvot_filter}.gif', writer=PillowWriter(fps=20))
+#plt.show()
 #plt.close()

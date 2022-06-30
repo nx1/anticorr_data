@@ -1,9 +1,8 @@
 from itertools import combinations, product
 
-from source_names_dict import source_names_w_counterparts
+from source_names_dict import source_names_dict, source_names_w_counterparts
 from uvot import filters
 from xrt import curves
-
 
 curves.remove('HR')
 
@@ -13,11 +12,14 @@ print(source_names_w_counterparts)
 
 src_combs = list(product(source_names_w_counterparts, combs))
 
+
+sources = list(source_names_dict.keys())
+src_combs2 = list(product(sources, combs))
 all_params = []
 
 outfile = 'anim_gridder.sh'
 with open(outfile, 'w+') as f:
-    for simbad_name, lc in src_combs:
+    for simbad_name, lc in src_combs2:
         params = {}
         params['simbad_name'] = simbad_name
         params['xrt_curve'] = lc[0]

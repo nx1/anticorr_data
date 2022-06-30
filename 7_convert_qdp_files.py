@@ -1,8 +1,10 @@
+import linecache
 from glob import glob
-import qdp
 import pandas as pd
+import qdp
 
 curve_qdps   = glob('UKSSDC/*/*USERPROD*/*/*curve.qdp')
+curve_qdps   = glob('UKSSDC/*/*USERPROD*/*/*curve_nosys.qdp')
 hardrat_qdps = glob('UKSSDC/*/*USERPROD*/*/*hardrat.qdp')
 
 print('Files to process:')
@@ -13,13 +15,16 @@ input()
 
 # read all files of the form `curve.qdp'
 for f in curve_qdps:
-    colnames = ['MJD', 'T_+ve', 'T_-ve', 'Rate', 'Ratepos', 'Rateneg', 'obsID']
-    dfs = qdp.read_qdp(f) # if two dfs : first table WT mode 2nd PO mode
+    colnames = ['MJD', 'T_+ve', 'T_-ve', 'Rate', 'Ratepos', 'Rateneg', 'obsID'] # Use this for old curves that had obsid column
+    #colnames = ['MJD', 'T_+ve', 'T_-ve', 'Rate', 'Ratepos', 'Rateneg'] 
+    dfs = qdp.read_qdp(f) # if two dfs : first table WT mode 2nd PC mode
+    linenums = qdp.get_table_line_numbers(f)
     print(f)
+    print(linenums)
 
     for i, df in enumerate(dfs):
         df.columns = colnames
-        df['obsID'] = df['obsID'].str.extract(r'(\d{11})')
+        df['obsID'] = df['obsID'].str.extract(r'(\d{11})')   # Uncomment for old curves
         # print(df)
         if len(dfs) == 2:
             if i == 0:
@@ -55,7 +60,7 @@ for f in hardrat_qdps:
         df.columns = colnames
         df['obsID'] = df['obsID'].str.extract(r'(\d{11})')
         fn = f[:-4] +f'_{lctype}_{mode}.csv'
-        print(f'Saving file to {fn}')
+        print(f'Saving file to {fn} | len={len(df)}')
         df.to_csv(fn, index=False)
     print('-'*50)
 

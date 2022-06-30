@@ -46,7 +46,7 @@ for i in range(n_jobs):
                       softHi=1.5,
                       hardLo=1.5,
                       hardHi=10.0,
-                      allowUL='no')
+                      allowUL='both')
 
     req.addSpectrum(hasRedshift=False)
 
@@ -61,8 +61,8 @@ for i in range(n_jobs):
             print(f'File found: {f}, assuming request is downloaded')
             req.is_downloaded = True
     assert req.isValid()[0]
+    print('='*50)
 
-"""
 print('-'*50)
 print(f'{n_jobs} jobs to run, press any key to submit...')
 input()
@@ -100,4 +100,3 @@ while n_submitted < n_jobs:
     print('sleeping 2 min...')
     time.sleep(120)
 
-"""
