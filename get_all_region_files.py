@@ -18,6 +18,8 @@ def get_all_regions():
                 reg = l.replace('\n','')
                 ra, dec, radius = reg.replace('circle(','').replace(')','').split(',')
                 reg_dict['path'] = r
+                reg_dict['path_fn'] = r.split('/')[-1][:-4]
+                reg_dict['local_name'] = r.split('/')[1]
                 reg_dict['region'] = reg
                 reg_dict['ra'] = ra
                 reg_dict['dec'] = dec
@@ -32,8 +34,27 @@ def get_all_regions():
         all_regs.append(reg_dict)
     
     df = pd.DataFrame(all_regs)
+    df = df.dropna()
     return df
+
+def reshape_df_reg(df):
+    df_src = df[df['path'].str.contains('src')]
+    df_bkg = df[df['path'].str.contains('bkg')]
+    df_new = df_src.merge(df_bkg, how='outer', on='local_name', suffixes=('_src', '_bkg'))
+    return df_new
 
 if __name__ == "__main__":
     df = get_all_regions()
-    print(df)
+
+    pd.set_option('display.max_rows', None)
+    print(df[['path','ra','dec','radius']])
+
+    df_src_bkg = reshape_df_reg(df)
+    outcols = ['local_name','path_fn_src','ra_src','dec_src', 'radius_src','ra_bkg', 'dec_bkg','radius_bkg']
+    print(df_src_bkg[outcols])
+    latex_outfile = 'tables/src_bkg_reg.tex'
+    print(f'Saving to {latex_outfile}')
+    df_src_bkg[outcols].to_latex(latex_outfile, index=False)
+    
+    #df_bkg = df[df['path'].str.contains('bkg')]
+    #df_src = df[df['path'].str.contains('src')]

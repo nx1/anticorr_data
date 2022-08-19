@@ -8,8 +8,8 @@ from source_names_dict import source_names_dict
 
 curves = ['PC', 'HARD', 'SOFT', 'HR']
 
-curve_rmf = {'PC' : Table.read('../external/swift_rsp/swxpc0to12s6_20130101v014.rmf'),
-             'WT' : Table.read('../external/swift_rsp/swxwt0to2s6_20131212v015.rmf')}
+curve_rmf = {'PC' : Table.read('/mnt/d/anticorr_data/external/swift_rsp/swxpc0to12s6_20130101v014.rmf'),
+             'WT' : Table.read('/mnt/d/anticorr_data/external/swift_rsp/swxwt0to2s6_20131212v015.rmf')}
 
 # Fix glob square bracket issue
 to_replace = {'[':'[[]',
