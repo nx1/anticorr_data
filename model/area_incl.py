@@ -10,12 +10,12 @@ if __name__ == "__main__":
                 'z0':4.0,
                 'r':3,
                 'i':7.4,
-                'mask_z':False}
+                'mask_z':True}
 
     # Lists for storing results
     res = []
 
-    for i in np.arange(0,360,1):
+    for i in np.arange(0,90,1):
         #mo_input['x0'] = x0
         mo_input['i'] = i
         
@@ -35,32 +35,19 @@ if __name__ == "__main__":
     
     # Create Results DataFrames
     df_res  = pd.DataFrame(res)
+    print(df_res)
     
     # Calculate secondary quantities
-    df_res['area_seg1']   = df_res['area_x1_y1_seg1'].abs() + df_res['area_x2_y2_seg1'].abs()
-    df_res['area_seg2']   = df_res['area_x1_y1_seg2'].abs() + df_res['area_x2_y2_seg2'].abs()
-    
-    df_res['area_seg1_rot']   = df_res['area_x1_y1_rot_seg1'].abs() + df_res['area_x2_y2_rot_seg1'].abs()
-    df_res['area_seg2_rot']   = df_res['area_x2_y2_rot_seg2'].abs() + df_res['area_x2_y2_rot_seg2'].abs()
     
     df_res['area_star_2d'] = np.pi * df_res['r']**2
     
-    df_res['area_ratio_seg1_star'] = df_res['area_seg1'] / df_res['area_star_2d']
-    df_res['area_ratio_seg2_star'] = df_res['area_seg2'] / df_res['area_star_2d']
-    
-    df_res['area_ratio_seg1_rot_star'] = df_res['area_seg1_rot'] / df_res['area_star_2d']
-    df_res['area_ratio_seg2_rot_star'] = df_res['area_seg2_rot'] / df_res['area_star_2d']
-    
-    
-    
-    
+    df_res['area_ratio_irr_star'] = df_res['area_irr_proj'] / df_res['area_star_2d']
     
     
     print(df_res)
 
     plt.figure(figsize=(6,6))
-    plt.plot(df_res['i'], df_res['area_ratio_seg1_rot_star'], color='red')
-    plt.plot(df_res['i'], df_res['area_ratio_seg2_rot_star'], color='black')
+    plt.plot(df_res['i'], df_res['area_ratio_irr_star'], color='red')
     plt.xlabel('Inclination (i)')
     plt.ylabel(r'Irradiated Fraction (A / $\pi r^2$)')
     

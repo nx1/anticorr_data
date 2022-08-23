@@ -42,7 +42,10 @@ class Model:
         self.h_cone = 1 # Height of inner cone 
         self.r_cone = self.h_cone * np.tan(self.theta/2)
         self.A_cone = np.pi * self.r_cone**2
-        self.A_cone_proj = self.A_cone * np.cos(self.i)
+        self.A_cone_proj = self.A_cone * np.cos(np.deg2rad(self.i))
+         
+        # Calculate the oribtal seperation
+        self.a = np.sqrt(self.x0**2 + self.y0**2 + self.z0**2)
 
         self.extent = 20
 
@@ -64,22 +67,30 @@ class Model:
         self.x2_rot_seg2 = [np.nan]
         self.y2_rot_seg2 = [np.nan]
         
+        # Initialize x1,y1, x2,y2 joined segments
+        self.x_rot_seg1 = [np.nan]
+        self.y_rot_seg1 = [np.nan]
+
+        self.x_rot_seg2 = [np.nan]
+        self.y_rot_seg2 = [np.nan]
         
-        # Initialize areas
-        self.area_x1_y1_seg1 = np.nan
-        self.area_x2_y2_seg1 = np.nan
-        self.area_x1_y1_rot_seg1 = np.nan
-        self.area_x2_y2_rot_seg1 = np.nan
-        self.area_x1_y1_seg2 = np.nan
-        self.area_x2_y2_seg2 = np.nan
-        self.area_x1_y1_rot_seg2 = np.nan
-        self.area_x2_y2_rot_seg2 = np.nan
+        self.x_rot_lens = [np.nan]
+        self.y_rot_lens = [np.nan]
+        
+        # Initialize area
+        self.area_irr_proj = np.nan
+
+        
+
+
+    def __repr__(self):
+        return repr(f'Model : {self.__str__()}')
 
     def __str__(self):
-        return f'theta_{np.rad2deg(self.theta):.2f},x0_{self.x0},y0_{self.y0},z0_{self.z0},r_{self.r},i_{self.i},mask_z_{self.mask_z}'
+        return f'theta={np.rad2deg(self.theta):.2f},x0={self.x0:.2f},y0={self.y0:.2f},z0={self.z0:.2f},r={self.r:.2f},i={self.i:.2f},mask_z={self.mask_z}'
         
     def __str_latex__(self):
-        return fr'$\theta$ = {np.rad2deg(self.theta):.2f}$^\circ$ $x_0$ = {self.x0} $y_0$ = {self.y0} $z_0$ = {self.z0} $r$ = {self.r} $i$ = {self.i} mask_z = {self.mask_z}'
+        return fr'$\theta$ = {np.rad2deg(self.theta):.2f}$^\circ$ $x_0$ = {self.x0:.2f} $y_0$ = {self.y0:.2f} $z_0$ = {self.z0:.2f} $r$ = {self.r} $i$ = {self.i:.2f} mask_z = {self.mask_z}'
 
     def f_x1(self, z):
         c, x0, y0, z0, r = self.c, self.x0, self.y0, self.z0, self.r
@@ -107,7 +118,15 @@ class Model:
         self.x_circ = self.x0 + np.cos(2*np.pi / n * i) * self.r
         self.y_circ = self.y0 + np.sin(2*np.pi / n * i) * self.r
         self.z_circ = self.z0 + np.zeros(n)
-
+        
+    def calc_rot_equator_circle(self):
+        """Calculate the points on a circle around the z axis but around the new
+        rotated position of the star."""
+        n = self.ngrid
+        i = np.arange(0,n,1)
+        self.x_circ_rot = self.x0_rot + np.cos(2*np.pi / n * i) * self.r
+        self.y_circ_rot = self.y0_rot + np.sin(2*np.pi / n * i) * self.r
+        self.z_circ_rot = self.z0_rot + np.zeros(n)
 
     def area_2d(self, x, y):
         """Calculate area via Shoelace Method."""
@@ -187,7 +206,7 @@ class Model:
     def plot(self):
         t0 = time()
         
-        fig = plt.figure(figsize=(15,7.5))
+        fig = plt.figure(figsize=(15,7.5), facecolor='white')
         ax1 = fig.add_subplot(121, projection='3d')
         ax2 = fig.add_subplot(243)
         ax3 = fig.add_subplot(244)
@@ -224,7 +243,8 @@ class Model:
         x_sp = x0 + r*np.cos(u)*np.sin(v)
         y_sp = y0 + r*np.sin(u)*np.sin(v)
         z_sp = z0 + r*np.cos(v)
-        ax1.plot_wireframe(x_sp, y_sp, z_sp, color="grey", alpha=0.8)
+        #ax1.plot_wireframe(x_sp, y_sp, z_sp, color="grey", alpha=0.8)
+        ax1.plot_surface(x_sp, y_sp, z_sp, color="lightblue", alpha=0.5)
 
         # Plot equatorial circle
         ax1.plot(self.x_circ, self.y_circ, self.z_circ, color='blue')
@@ -268,12 +288,6 @@ class Model:
         # Plot equatorial circle
         ax2.plot(self.x_circ, self.y_circ, color='blue')
 
-        # plot maximum & minimum x and y
-        ax2.scatter(self.x1[0], self.y1[0], label='x1,y1[0]')
-        ax2.scatter(self.x1[-1], self.y1[-1], label='x1,y1[-1]')
-        ax2.scatter(self.x2[0], self.y2[0], label='x2,y2[0]')
-        ax2.scatter(self.x2[-1], self.y2[-1], label='x2,y2[-1]')
-
         ax2.legend()
         autosize_ax_sq(ax2)
 
@@ -284,6 +298,12 @@ class Model:
         
         # Plot equatorial circle
         ax3.plot(self.x_circ, self.z_circ, color='blue')
+
+        # Plot Cone extent
+        x_cone_pos  = np.sqrt(z**2 * c**2)
+        x_cone_neg = -np.sqrt(z**2 * c**2)
+        ax3.plot(x_cone_pos, z, ls='dotted', color='grey')
+        ax3.plot(x_cone_neg, z, ls='dotted', color='grey')
 
         ax3.set_xlabel('x')
         ax3.set_ylabel('z')
@@ -298,6 +318,11 @@ class Model:
         # Plot equatorial circle
         ax4.plot(self.y_circ, self.z_circ, color='blue')
 
+        # Plot Cone extent
+        x_cone_pos  = np.sqrt(z**2 * c**2)
+        x_cone_neg = -np.sqrt(z**2 * c**2)
+        ax4.plot(x_cone_pos, z, ls='dotted', color='grey')
+        ax4.plot(x_cone_neg, z, ls='dotted', color='grey')
 
         ax4.set_xlabel('y')
         ax4.set_ylabel('z')
@@ -305,24 +330,29 @@ class Model:
         autosize_ax_sq(ax4)
         
         # Plot projected plane at specific inclination
-        ax5.set_title(f'PROJ i = {self.i}')
-        ax5.plot(self.x1_rot_seg1, self.y1_rot_seg1, color='red', label=f'x1_y1_rot_seg1 A={self.area_x1_y1_rot_seg1:.2f}')#, label=f'A = {self.area_x1_y1_rot_seg1:.2f}')
-        ax5.plot(self.x2_rot_seg1, self.y2_rot_seg1, color='black', label=f'x2_y2_rot_seg1 A={self.area_x2_y2_rot_seg1:.2f}')#, label=f'A = {self.area_x2_y2_rot_seg2:.2f}')
-        ax5.plot(self.x1_rot_seg2, self.y1_rot_seg2, color='darkred', label=f'x1_y1_rot_seg2 A={self.area_x1_y1_rot_seg2:.2f}')#, label=f'A = {self.area_x1_y1_rot_seg1:.2f}')
-        ax5.plot(self.x2_rot_seg2, self.y2_rot_seg2, color='grey', label=f'x2_y2_rot_seg2 A={self.area_x2_y2_rot_seg2:.2f}')#, label=f'A = {self.area_x2_y2_rot_seg2:.2f}')
+        #ax5.set_title(f'PROJ i = {self.i}')
+        #ax5.plot(self.x1_rot_seg1, self.y1_rot_seg1, color='red', label=f'x1_y1_rot_seg1')
+        #ax5.plot(self.x2_rot_seg1, self.y2_rot_seg1, color='black', label=f'x2_y2_rot_seg1')
+        #ax5.plot(self.x1_rot_seg2, self.y1_rot_seg2, color='darkred', label=f'x1_y1_rot_seg2')
+        #ax5.plot(self.x2_rot_seg2, self.y2_rot_seg2, color='grey', label=f'x2_y2_rot_seg2')
+        
+        ax5.plot(self.x_rot_seg1, self.y_rot_seg1, color='green', label='x,y_rot_seg1')
+        ax5.plot(self.x_rot_seg2, self.y_rot_seg2, color='purple', label='x,y_rot_seg2')
+        ax5.plot(self.x_rot_lens, self.y_rot_lens, color='red', label=f'Projected Area = {self.area_irr_proj:.2f}')
+        ax5.set_aspect('equal')
 
-        # A rotated sphere is still a sphere, a rotated circle however is not...
-        ax5.plot(self.x_circ, self.y_circ, color='lightblue')
-
-        # plot maximum & minimum x and y
-        ax5.scatter(self.x1_rot_seg1[-1], self.y1_rot_seg1[-1], label='x1,y1_rot_seg1[-1]')
-        ax5.scatter(self.x2_rot_seg1[-1], self.y2_rot_seg1[-1], label='x1,y1_rot_seg1[-1]')
+        ax5_in = ax5.inset_axes([0.8, 0.1, 0.15, 0.15])
+        ax5_in.plot(self.x_rot_lens, self.y_rot_lens, color='red')
+        ax5_in.set_aspect('equal')
+        ax5_in.set_xticks([])
+        ax5_in.set_yticks([])
+        
+        
+        
+        # Plot the projected sphere at the new rotated position
+        ax5.plot(self.x_circ_rot, self.y_circ_rot, color='lightblue')
 
         # ax5.scatter(self.x1_rot_seg2[-1], self.y1_rot_seg2[-1], label='x1,y1_rot_seg2[-1]')
-
-
- 
-
 
         ax5.set_xlabel('x')
         ax5.set_ylabel('y')
@@ -332,27 +362,23 @@ class Model:
         
         #plt.tight_layout()
         
-        #fn = f'plt_out/{self.__str__()}.png'
-        #print(f'Saving to : {fn}')
-        #plt.savefig(fn)
+        fn = f'plt_out/{self.__str__()}.png'
+        print(f'Saving to : {fn}')
+        plt.savefig(fn)
         self.t_plot = time() - t0
-        # plt.show()
+        #plt.show()
+        plt.close(fig)
         
-        # plt.close(fig)
-        
-        
+
     def run(self):
         t0 = time()
         
-        self.z = np.linspace(-self.extent, self.extent, 10000)
+        self.z = np.linspace(-self.extent, self.extent, 100000)
         
         # Limit z values to lower hemisphere of the sphere
         if self.mask_z:
             mask = np.where(self.z < self.z0)
             self.z = self.z[mask]
-        
-        # Calculate the circle around the equator of the star
-        self.calc_equator_circle()
 
         # Calculate the intersections
         self.x1 = self.f_x1(self.z)
@@ -363,22 +389,24 @@ class Model:
         # Reshape coordinates
         vecs1 = np.vstack([self.x1, self.y1, self.z]).T # [[x1,y1,z1],[x1,y2,z2],...[xn,yn,zn]]
         vecs2 = np.vstack([self.x2, self.y2, self.z]).T
-        vecs_circ = np.vstack([self.x_circ, self.y_circ, self.z_circ]).T
+        vec_circ_center = np.array([self.x0, self.y0, self.z0])
         
         # Create Rotation Vector
         rot = R.from_euler('zyx', [0, self.i, 0], degrees=True)
-        
+
         # Apply rotation Vector
         vecs_rotated1 = rot.apply(vecs1)
         vecs_rotated2 = rot.apply(vecs2)
+        vec_circ_center_rotated = rot.apply(vec_circ_center)
 
-        vecs_circ_rotated = rot.apply(vecs_circ)
-        
         # Reshape Coordinates
         self.x1_rot, self.y1_rot, self.z1_rot = vecs_rotated1.T
         self.x2_rot, self.y2_rot, self.z2_rot = vecs_rotated2.T
-        self.x_circ_rot, self.y_circ_rot, self.z_circ_rot = vecs_circ_rotated.T
+        self.x0_rot, self.y0_rot, self.z0_rot = vec_circ_center_rotated
 
+        # Calculate the circle around the equator of the star 
+        self.calc_equator_circle()
+        self.calc_rot_equator_circle()
         
         # Find the continuous line segments that where successfully evaluated for a given z
         # x1 = [nan,nan,nan]                                     idx = []
@@ -392,79 +420,95 @@ class Model:
         idxs_y = np.where(np.diff(np.isnan(self.y1_rot)))[0] # indexs where the two parts of the curve start and end.
        
         self.idx = idxs_x
+        self.n_idx = len(idxs_x)
 
-
-        if len(idxs_x) == 0:
-            print('No segments found, star outside the cone?')
+        if self.n_idx == 0:
+            print(f'n_idx={self.n_idx} No segments found, star outside the cone?')
             return 1
         
-        if len(idxs_x) == 1:
-            print('WARNING! len(idxs_x) == 1 curve may be outside of zrange...')
+        if self.n_idx == 1:
+            print(f'n_idx={self.n_idx} WARNING! n_idx == 1 curve may be outside of zrange... (if mask_z=False)')
+            # Collect Segments
             self.x1_seg1 = self.x1[idxs_x[0]+1:]
             self.y1_seg1 = self.y1[idxs_x[0]+1:]
             self.x2_seg1 = self.x1[idxs_x[0]+1:]
             self.y2_seg1 = self.y2[idxs_x[0]+1:]
             
-            self.x1_rot_seg1 = self.x1[idxs_x[0]+1:]
-            self.y1_rot_seg1 = self.y1[idxs_x[0]+1:]
-            self.x2_rot_seg1 = self.x2[idxs_x[0]+1:]
-            self.y2_rot_seg1 = self.y2[idxs_x[0]+1:]
-        
-        if len(idxs_x) == 2:
-            # One segment (grazing)
-            print('one segment, grazing?')
+            # Collect Rotated Segments
+            self.x1_rot_seg1 = self.x1_rot[idxs_x[0]+1:]
+            self.y1_rot_seg1 = self.y1_rot[idxs_x[0]+1:]
+            self.x2_rot_seg1 = self.x2_rot[idxs_x[0]+1:]
+            self.y2_rot_seg1 = self.y2_rot[idxs_x[0]+1:]
+
+        if self.n_idx == 2:
+            print(f'n_idx={self.n_idx} one segment, grazing?')
+            
+            # Collect Segments
             self.x1_seg1 = self.x1[idxs_x[0]+1:idxs_x[1]]
             self.y1_seg1 = self.y1[idxs_x[0]+1:idxs_x[1]]
             self.x2_seg1 = self.x2[idxs_x[0]+1:idxs_x[1]]
             self.y2_seg1 = self.y2[idxs_x[0]+1:idxs_x[1]]
             
+            # Collect Rotated Segments
             self.x1_rot_seg1 = self.x1_rot[idxs_x[0]+1:idxs_x[1]]
             self.y1_rot_seg1 = self.y1_rot[idxs_y[0]+1:idxs_y[1]]
             self.x2_rot_seg1 = self.x2_rot[idxs_x[0]+1:idxs_x[1]]
             self.y2_rot_seg1 = self.y2_rot[idxs_y[0]+1:idxs_y[1]]
 
-        if len(idxs_x) == 4:
-            # Two segments (full crossing)
+        if self.n_idx == 4:
+            print(f'n_idx={self.n_idx} Two segments, Full Crossing')
+
+            # Collect Segments
             self.x1_seg1 = self.x1[idxs_x[0]+1:idxs_x[1]]
             self.x1_seg2 = self.x1[idxs_x[2]+1:idxs_x[3]]
-
             self.y1_seg1 = self.y1[idxs_y[0]+1:idxs_y[1]]
             self.y1_seg2 = self.y1[idxs_y[2]+1:idxs_y[3]]
-
             self.x2_seg1 = self.x2[idxs_x[0]+1:idxs_x[1]]
             self.x2_seg2 = self.x2[idxs_x[2]+1:idxs_x[3]]
-
             self.y2_seg1 = self.y2[idxs_y[0]+1:idxs_y[1]]
             self.y2_seg2 = self.y2[idxs_y[2]+1:idxs_y[3]]
-
+            
+            # Collect Rotated Segments
             self.x1_rot_seg1 = self.x1_rot[idxs_x[0]+1:idxs_x[1]]
             self.x1_rot_seg2 = self.x1_rot[idxs_x[2]+1:idxs_x[3]]
-
             self.y1_rot_seg1 = self.y1_rot[idxs_y[0]+1:idxs_y[1]]
             self.y1_rot_seg2 = self.y1_rot[idxs_y[2]+1:idxs_y[3]]
-
             self.x2_rot_seg1 = self.x2_rot[idxs_x[0]+1:idxs_x[1]]
             self.x2_rot_seg2 = self.x2_rot[idxs_x[2]+1:idxs_x[3]]
-
             self.y2_rot_seg1 = self.y2_rot[idxs_y[0]+1:idxs_y[1]]
             self.y2_rot_seg2 = self.y2_rot[idxs_y[2]+1:idxs_y[3]]
 
+        # Join x1 and x2
+        self.x_rot_seg1 = np.concatenate([np.flip(self.x1_rot_seg1), self.x2_rot_seg1])
+        self.y_rot_seg1 = np.concatenate([np.flip(self.y1_rot_seg1), self.y2_rot_seg1])
+        if len(self.x_rot_seg1) == 0:
+            return 1
         
-        # Calculate areas
-        if len(idxs_x) >= 2:
-            self.area_x1_y1_seg1 = self.area_2d(self.x1_seg1, self.y1_seg1)
-            self.area_x2_y2_seg1 = self.area_2d(self.x2_seg1, self.y2_seg1)
+        # Find endpoints
+        x_rot_seg1_start, x_rot_seg1_end = self.x_rot_seg1[0], self.x_rot_seg1[-1]
+        y_rot_seg1_start, y_rot_seg1_end = self.y_rot_seg1[0], self.y_rot_seg1[-1]
+        
+        # Get the length from the start to the end point
+        self.chord_length_rot_seg1 = (x_rot_seg1_start - x_rot_seg1_end)**2 + (y_rot_seg1_start-y_rot_seg1_end)**2
+        
+        # Calculate the distance of each point on the circle to the start and end points
+        self.point_distances_start = np.sum(np.array([self.x_circ_rot - x_rot_seg1_start, self.y_circ_rot - y_rot_seg1_start])**2, axis=0)
+        self.point_distances_end   = np.sum(np.array([self.x_circ_rot - x_rot_seg1_end, self.y_circ_rot - y_rot_seg1_end])**2, axis=0)
+        
+        # Get the idxs of the points on the circle that are closer distance from the start and ends
+        self.path_idx = ((self.point_distances_end < self.chord_length_rot_seg1) & (self.point_distances_start < self.chord_length_rot_seg1))
+        
+        # Get the segment of the circle that satisfies the above condition
+        self.x_circ_rot_segment = self.x_circ_rot[self.path_idx]
+        self.y_circ_rot_segment = self.y_circ_rot[self.path_idx]
+        
+        # Join the circle segment with the intersection segment to create the closed lens
+        self.x_rot_lens = np.concatenate([self.x_rot_seg1, self.x_circ_rot_segment])
+        self.y_rot_lens = np.concatenate([self.y_rot_seg1, self.y_circ_rot_segment])
+        
+        # Calculate the area of the Lens
+        self.area_irr_proj = self.area_2d(self.x_rot_lens, self.y_rot_lens)
 
-            self.area_x1_y1_rot_seg1 = self.area_2d(self.x1_rot_seg1, self.y1_rot_seg1)
-            self.area_x2_y2_rot_seg1 = self.area_2d(self.x2_rot_seg1, self.y2_rot_seg1)
-            
-        if len(idxs_x) == 4:
-            self.area_x1_y1_seg2 = self.area_2d(self.x1_seg2, self.y1_seg2)
-            self.area_x2_y2_seg2 = self.area_2d(self.x2_seg2, self.y2_seg2)
-            
-            self.area_x1_y1_rot_seg2 = self.area_2d(self.x1_rot_seg2, self.y1_rot_seg2)
-            self.area_x2_y2_rot_seg2 = self.area_2d(self.x2_rot_seg2, self.y2_rot_seg2)
-        
         self.t_eval = time() - t0
         return 0
 
@@ -481,61 +525,7 @@ class Model:
 
 
 if __name__ == "__main__":
-    x0, y0, z0 = 0.0, 0.0, 10.0
-    star_pos_init = np.array([x0, y0, z0])
-    
-    res = []
-    
-    for phase_ang in np.arange(0,5,0.1):
-        rot = R.from_euler('xyz', [0, phase_ang, 0], degrees=True)
-        star_pos_rot = rot.apply(star_pos_init)
-        
-        mo_input = {'theta' : 15.0,
-                    'x0' : star_pos_rot[0],
-                    'y0' : star_pos_rot[1],
-                    'z0' : star_pos_rot[2],
-                    'r'  : 2.2,
-                    'i'  : 7.4,
-                    'mask_z':False}
-                    
-
-        mo = Model(**mo_input)
-        mo.run()
-        mo.plot()
-        mo.print()
-        out = mo.collect()
-        out['phase_ang'] = phase_ang
-        res.append(out)
-        
-    df_res = pd.DataFrame(res)
-    
-    
-    # Calculate secondary quantities
-    df_res['area_seg1']   = df_res['area_x1_y1_seg1'].abs() + df_res['area_x2_y2_seg1'].abs()
-    df_res['area_seg2']   = df_res['area_x1_y1_seg2'].abs() + df_res['area_x2_y2_seg2'].abs()
-    
-    df_res['area_seg1_rot']   = df_res['area_x1_y1_rot_seg1'].abs() + df_res['area_x2_y2_rot_seg1'].abs()
-    df_res['area_seg2_rot']   = df_res['area_x2_y2_rot_seg2'].abs() + df_res['area_x2_y2_rot_seg2'].abs()
-    
-    df_res['area_star_2d'] = np.pi * df_res['r']**2
-    
-    df_res['area_ratio_seg1_star'] = df_res['area_seg1'] / df_res['area_star_2d']
-    df_res['area_ratio_seg2_star'] = df_res['area_seg2'] / df_res['area_star_2d']
-    
-    df_res['area_ratio_seg1_rot_star'] = df_res['area_seg1_rot'] / df_res['area_star_2d']
-    df_res['area_ratio_seg2_rot_star'] = df_res['area_seg2_rot'] / df_res['area_star_2d']
-    
-    
-    
-    
-    
-    
-    plt.plot(df_res['phase_ang'], df_res['area_ratio_seg1_rot_star'], label='Projected area seg1')
-    plt.plot(df_res['phase_ang'], df_res['area_ratio_seg2_rot_star'], label='Projected area seg2')
-    plt.xlabel('Orbital Phase angle')
-    plt.ylabel(r'Irradiated Fraction (A / $\pi r^2$)')
-    
-    plt.legend()
-    plt.show()
-    
+    m = Model(theta=15, x0=2.0, y0=0.0, z0=10.0, r=2.2, i=7.4, mask_z=False)  # Grazing
+    m.run()
+    m.plot()
     

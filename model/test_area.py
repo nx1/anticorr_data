@@ -3,41 +3,25 @@ import matplotlib.pyplot as plt
 from area import Model
 
 
-m = Model(theta=15, x0=2.0, y0=0.0, z0=10.0, r=2.2, i=7.4, mask_z=False)
-m2 = Model(theta=15, x0=2.0, y0=0.0, z0=10.0, r=2.2, i=7.4, mask_z=True)
-m3 = Model(theta=15, x0=0.1, y0=0.0, z0=10.0, r=2.2, i=10.0, mask_z=True)
+m = Model(theta=15, x0=2.0, y0=0.0, z0=10.0, r=2.2, i=7.4, mask_z=False)  # Grazing
+m2 = Model(theta=15, x0=2.0, y0=0.0, z0=10.0, r=2.2, i=15.0, mask_z=True)  # Grazing
+m3 = Model(theta=15, x0=0.1, y0=0.0, z0=10.0, r=2.2, i=10.0, mask_z=True) # Full intersection
+m4 = Model(theta=15, x0=0.1, y0=0.0, z0=10.0, r=0.2, i=12, mask_z=True)    # Inside Cone
+m5 = Model(theta=15, x0=15, y0=15, z0=3, r=1.0, i =10, mask_z=True)       # Outside cone
 
-models = [m, m2, m3]
+models = [m, m2, m3, m4, m5]
 
 
 if __name__ == "__main__":
-
     
     for m in models:
-        print('='*50)
+        print('='*90)
+        print(m)
         m.run()
         m.print()
         m.plot()
-        m.plot_3d()
+        #m.plot_3d()
 
-        x_seg1 = np.concatenate([m.x1_seg1, np.flip(m.x2_seg1)])
-        y_seg1 = np.concatenate([m.y1_seg1, np.flip(m.y2_seg1)])
-        
-        x_rot_seg1 = np.concatenate([m.x1_rot_seg1, np.flip(m.x2_rot_seg1)])
-        y_rot_seg1 = np.concatenate([m.y1_rot_seg1, np.flip(m.y2_rot_seg1)])
-        
-        A = m.area_2d(x_seg1, y_seg1)
-        A_rot = m.area_2d(x_rot_seg1, y_rot_seg1)
-        
-        fig, ax = plt.subplots(figsize=(6,6))
-        ax.plot(x_seg1, y_seg1, label=f'A={A:.2f} | x, y | mask_z={m.mask_z}')
-        ax.plot(x_rot_seg1, y_rot_seg1, label=f'A={A_rot:.2f} | x,y rotated| mask_z={m.mask_z}')
-        
-        ax.legend()
-        ax.set_xlim(-4,4)
-        ax.set_ylim(-4,4)
-        #input()
-        break
-    plt.show()
+        plt.show()
 
 
