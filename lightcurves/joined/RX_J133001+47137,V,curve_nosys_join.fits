@@ -1,0 +1,330 @@
+SIMPLE  =                    T / conforms to FITS standard                      BITPIX  =                    8 / array data type                                NAXIS   =                    0 / number of array dimensions                     EXTEND  =                    T                                                  END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / array data type                                NAXIS   =                    2 / number of array dimensions                     NAXIS1  =                  606 / length of dimension 1                          NAXIS2  =                   61 / length of dimension 2                          PCOUNT  =                    0 / number of group parameters                     GCOUNT  =                    1 / number of groups                               TFIELDS =                  138 / number of table fields                         TTYPE1  = 'MET     '                                                            TFORM1  = 'D       '                                                            TUNIT1  = 's       '                                                            TTYPE2  = 'EXTNAME '                                                            TFORM2  = '12A     '                                                            TTYPE3  = 'TSTART  '                                                            TFORM3  = 'D       '                                                            TUNIT3  = 's       '                                                            TTYPE4  = 'TSTOP   '                                                            TFORM4  = 'D       '                                                            TUNIT4  = 's       '                                                            TTYPE5  = 'EXPOSURE'                                                            TFORM5  = 'E       '                                                            TUNIT5  = 's       '                                                            TTYPE6  = 'TELAPSE '                                                            TFORM6  = 'E       '                                                            TUNIT6  = 's       '                                                            TTYPE7  = 'TIME    '                                                            TFORM7  = 'D       '                                                            TUNIT7  = 's       '                                                            TTYPE8  = 'SRC_AREA'                                                            TFORM8  = 'E       '                                                            TUNIT8  = 'arcsec2 '                                                            TTYPE9  = 'BKG_AREA'                                                            TFORM9  = 'E       '                                                            TUNIT9  = 'arcsec2 '                                                            TTYPE10 = 'STD_AREA'                                                            TFORM10 = 'E       '                                                            TUNIT10 = 'arcsec2 '                                                            TTYPE11 = 'PLATE_SCALE'                                                         TFORM11 = 'E       '                                                            TUNIT11 = 'arcsec pix-1'                                                        TTYPE12 = 'RAW_TOT_CNTS'                                                        TFORM12 = 'E       '                                                            TUNIT12 = 'count   '                                                            TTYPE13 = 'RAW_TOT_CNTS_ERR'                                                    TFORM13 = 'E       '                                                            TUNIT13 = 'count   '                                                            TTYPE14 = 'RAW_BKG_CNTS'                                                        TFORM14 = 'E       '                                                            TUNIT14 = 'count   '                                                            TTYPE15 = 'RAW_BKG_CNTS_ERR'                                                    TFORM15 = 'E       '                                                            TUNIT15 = 'count   '                                                            TTYPE16 = 'RAW_STD_CNTS'                                                        TFORM16 = 'E       '                                                            TUNIT16 = 'count   '                                                            TTYPE17 = 'RAW_STD_CNTS_ERR'                                                    TFORM17 = 'E       '                                                            TUNIT17 = 'count   '                                                            TTYPE18 = 'RAW_TOT_RATE'                                                        TFORM18 = 'E       '                                                            TUNIT18 = 'count s-1'                                                           TTYPE19 = 'RAW_TOT_RATE_ERR'                                                    TFORM19 = 'E       '                                                            TUNIT19 = 'count s-1'                                                           TTYPE20 = 'RAW_BKG_RATE'                                                        TFORM20 = 'E       '                                                            TUNIT20 = 'arcsec-2 count s-1'                                                  TTYPE21 = 'RAW_BKG_RATE_ERR'                                                    TFORM21 = 'E       '                                                            TUNIT21 = 'arcsec-2 count s-1'                                                  TTYPE22 = 'RAW_STD_RATE'                                                        TFORM22 = 'E       '                                                            TUNIT22 = 'count s-1'                                                           TTYPE23 = 'RAW_STD_RATE_ERR'                                                    TFORM23 = 'E       '                                                            TUNIT23 = 'count s-1'                                                           TTYPE24 = 'COI_STD_FACTOR'                                                      TFORM24 = 'E       '                                                            TTYPE25 = 'COI_STD_FACTOR_ERR'                                                  TFORM25 = 'E       '                                                            TTYPE26 = 'COI_BKG_FACTOR'                                                      TFORM26 = 'E       '                                                            TTYPE27 = 'COI_BKG_FACTOR_ERR'                                                  TFORM27 = 'E       '                                                            TTYPE28 = 'COI_TOT_RATE'                                                        TFORM28 = 'E       '                                                            TUNIT28 = 'count s-1'                                                           TTYPE29 = 'COI_TOT_RATE_ERR'                                                    TFORM29 = 'E       '                                                            TUNIT29 = 'count s-1'                                                           TTYPE30 = 'COI_BKG_RATE'                                                        TFORM30 = 'E       '                                                            TUNIT30 = 'arcsec-2 count s-1'                                                  TTYPE31 = 'COI_BKG_RATE_ERR'                                                    TFORM31 = 'E       '                                                            TUNIT31 = 'arcsec-2 count s-1'                                                  TTYPE32 = 'COI_SRC_RATE'                                                        TFORM32 = 'E       '                                                            TUNIT32 = 'count s-1'                                                           TTYPE33 = 'COI_SRC_RATE_ERR'                                                    TFORM33 = 'E       '                                                            TUNIT33 = 'count s-1'                                                           TTYPE34 = 'AP_FACTOR'                                                           TFORM34 = 'E       '                                                            TTYPE35 = 'AP_FACTOR_ERR'                                                       TFORM35 = 'E       '                                                            TTYPE36 = 'AP_COI_SRC_RATE'                                                     TFORM36 = 'E       '                                                            TUNIT36 = 'count s-1'                                                           TTYPE37 = 'AP_COI_SRC_RATE_ERR'                                                 TFORM37 = 'E       '                                                            TUNIT37 = 'count s-1'                                                           TTYPE38 = 'LSS_FACTOR'                                                          TFORM38 = 'E       '                                                            TTYPE39 = 'LSS_RATE'                                                            TFORM39 = 'E       '                                                            TUNIT39 = 'count s-1'                                                           TTYPE40 = 'LSS_RATE_ERR'                                                        TFORM40 = 'E       '                                                            TUNIT40 = 'count s-1'                                                           TTYPE41 = 'SENSCORR_FACTOR'                                                     TFORM41 = 'E       '                                                            TTYPE42 = 'SENSCORR_RATE'                                                       TFORM42 = 'E       '                                                            TUNIT42 = 'count s-1'                                                           TTYPE43 = 'SENSCORR_RATE_ERR'                                                   TFORM43 = 'E       '                                                            TUNIT43 = 'count s-1'                                                           TTYPE44 = 'CORR_RATE'                                                           TFORM44 = 'E       '                                                            TUNIT44 = 'count s-1'                                                           TTYPE45 = 'CORR_RATE_ERR'                                                       TFORM45 = 'E       '                                                            TUNIT45 = 'count s-1'                                                           TTYPE46 = 'AB_MAG  '                                                            TFORM46 = 'E       '                                                            TUNIT46 = 'mag     '                                                            TTYPE47 = 'AB_MAG_ERR'                                                          TFORM47 = 'E       '                                                            TUNIT47 = 'mag     '                                                            TTYPE48 = 'AB_MAG_ERR_STAT'                                                     TFORM48 = 'E       '                                                            TUNIT48 = 'mag     '                                                            TTYPE49 = 'AB_MAG_ERR_SYS'                                                      TFORM49 = 'E       '                                                            TUNIT49 = 'mag     '                                                            TTYPE50 = 'AB_MAG_BKG'                                                          TFORM50 = 'E       '                                                            TUNIT50 = 'arcsec-2 mag'                                                        TTYPE51 = 'AB_MAG_BKG_ERR_STAT'                                                 TFORM51 = 'E       '                                                            TUNIT51 = 'arcsec-2 mag'                                                        TTYPE52 = 'AB_MAG_BKG_ERR_SYS'                                                  TFORM52 = 'E       '                                                            TUNIT52 = 'arcsec-2 mag'                                                        TTYPE53 = 'AB_MAG_BKG_ERR'                                                      TFORM53 = 'E       '                                                            TUNIT53 = 'arcsec-2 mag'                                                        TTYPE54 = 'AB_MAG_LIM'                                                          TFORM54 = 'E       '                                                            TUNIT54 = 'mag     '                                                            TTYPE55 = 'AB_MAG_LIM_SIG'                                                      TFORM55 = 'E       '                                                            TUNIT55 = 'sigma   '                                                            TTYPE56 = 'AB_MAG_COI_LIM'                                                      TFORM56 = 'E       '                                                            TUNIT56 = 'mag     '                                                            TTYPE57 = 'AB_FLUX_AA'                                                          TFORM57 = 'E       '                                                            TUNIT57 = 'A-1 cm-2 erg s-1'                                                    TTYPE58 = 'AB_FLUX_AA_ERR_STAT'                                                 TFORM58 = 'E       '                                                            TUNIT58 = 'A-1 cm-2 erg s-1'                                                    TTYPE59 = 'AB_FLUX_AA_ERR_SYS'                                                  TFORM59 = 'E       '                                                            TUNIT59 = 'A-1 cm-2 erg s-1'                                                    TTYPE60 = 'AB_FLUX_AA_ERR'                                                      TFORM60 = 'E       '                                                            TUNIT60 = 'A-1 cm-2 erg s-1'                                                    TTYPE61 = 'AB_FLUX_AA_BKG'                                                      TFORM61 = 'E       '                                                            TUNIT61 = 'A-1 arcsec-2 cm-2 erg s-1'                                           TTYPE62 = 'AB_FLUX_AA_BKG_ERR_STAT'                                             TFORM62 = 'E       '                                                            TUNIT62 = 'A-1 arcsec-2 cm-2 erg s-1'                                           TTYPE63 = 'AB_FLUX_AA_BKG_ERR_SYS'                                              TFORM63 = 'E       '                                                            TUNIT63 = 'A-1 arcsec-2 cm-2 erg s-1'                                           TTYPE64 = 'AB_FLUX_AA_BKG_ERR'                                                  TFORM64 = 'E       '                                                            TUNIT64 = 'A-1 arcsec-2 cm-2 erg s-1'                                           TTYPE65 = 'AB_FLUX_AA_LIM'                                                      TFORM65 = 'E       '                                                            TUNIT65 = 'A-1 cm-2 erg s-1'                                                    TTYPE66 = 'AB_FLUX_AA_COI_LIM'                                                  TFORM66 = 'E       '                                                            TUNIT66 = 'A-1 cm-2 erg s-1'                                                    TTYPE67 = 'AB_FLUX_HZ'                                                          TFORM67 = 'E       '                                                            TUNIT67 = 'mjy     '                                                            TTYPE68 = 'AB_FLUX_HZ_ERR_STAT'                                                 TFORM68 = 'E       '                                                            TUNIT68 = 'mjy     '                                                            TTYPE69 = 'AB_FLUX_HZ_ERR_SYS'                                                  TFORM69 = 'E       '                                                            TUNIT69 = 'mjy     '                                                            TTYPE70 = 'AB_FLUX_HZ_ERR'                                                      TFORM70 = 'E       '                                                            TUNIT70 = 'mjy     '                                                            TTYPE71 = 'AB_FLUX_HZ_BKG'                                                      TFORM71 = 'E       '                                                            TUNIT71 = 'mjy/arcsec2'                                                         TTYPE72 = 'AB_FLUX_HZ_BKG_ERR_STAT'                                             TFORM72 = 'E       '                                                            TUNIT72 = 'mjy/arcsec2'                                                         TTYPE73 = 'AB_FLUX_HZ_BKG_ERR_SYS'                                              TFORM73 = 'E       '                                                            TUNIT73 = 'mjy/arcsec2'                                                         TTYPE74 = 'AB_FLUX_HZ_BKG_ERR'                                                  TFORM74 = 'E       '                                                            TUNIT74 = 'mjy/arcsec2'                                                         TTYPE75 = 'AB_FLUX_HZ_LIM'                                                      TFORM75 = 'E       '                                                            TUNIT75 = 'mjy     '                                                            TTYPE76 = 'AB_FLUX_HZ_COI_LIM'                                                  TFORM76 = 'E       '                                                            TUNIT76 = 'mjy     '                                                            TTYPE77 = 'MAG     '                                                            TFORM77 = 'E       '                                                            TUNIT77 = 'mag     '                                                            TTYPE78 = 'MAG_ERR '                                                            TFORM78 = 'E       '                                                            TUNIT78 = 'mag     '                                                            TTYPE79 = 'MAG_ERR_STAT'                                                        TFORM79 = 'E       '                                                            TUNIT79 = 'mag     '                                                            TTYPE80 = 'MAG_ERR_SYS'                                                         TFORM80 = 'E       '                                                            TUNIT80 = 'mag     '                                                            TTYPE81 = 'MAG_BKG '                                                            TFORM81 = 'E       '                                                            TUNIT81 = 'arcsec-2 mag'                                                        TTYPE82 = 'MAG_BKG_ERR_STAT'                                                    TFORM82 = 'E       '                                                            TUNIT82 = 'arcsec-2 mag'                                                        TTYPE83 = 'MAG_BKG_ERR_SYS'                                                     TFORM83 = 'E       '                                                            TUNIT83 = 'arcsec-2 mag'                                                        TTYPE84 = 'MAG_BKG_ERR'                                                         TFORM84 = 'E       '                                                            TUNIT84 = 'arcsec-2 mag'                                                        TTYPE85 = 'MAG_LIM '                                                            TFORM85 = 'E       '                                                            TUNIT85 = 'mag     '                                                            TTYPE86 = 'MAG_LIM_SIG'                                                         TFORM86 = 'E       '                                                            TUNIT86 = 'sigma   '                                                            TTYPE87 = 'MAG_COI_LIM'                                                         TFORM87 = 'E       '                                                            TUNIT87 = 'mag     '                                                            TTYPE88 = 'FLUX_AA '                                                            TFORM88 = 'E       '                                                            TUNIT88 = 'A-1 cm-2 erg s-1'                                                    TTYPE89 = 'FLUX_AA_ERR_STAT'                                                    TFORM89 = 'E       '                                                            TUNIT89 = 'A-1 cm-2 erg s-1'                                                    TTYPE90 = 'FLUX_AA_ERR_SYS'                                                     TFORM90 = 'E       '                                                            TUNIT90 = 'A-1 cm-2 erg s-1'                                                    TTYPE91 = 'FLUX_AA_ERR'                                                         TFORM91 = 'E       '                                                            TUNIT91 = 'A-1 cm-2 erg s-1'                                                    TTYPE92 = 'FLUX_AA_BKG'                                                         TFORM92 = 'E       '                                                            TUNIT92 = 'A-1 arcsec-2 cm-2 erg s-1'                                           TTYPE93 = 'FLUX_AA_BKG_ERR_STAT'                                                TFORM93 = 'E       '                                                            TUNIT93 = 'A-1 arcsec-2 cm-2 erg s-1'                                           TTYPE94 = 'FLUX_AA_BKG_ERR_SYS'                                                 TFORM94 = 'E       '                                                            TUNIT94 = 'A-1 arcsec-2 cm-2 erg s-1'                                           TTYPE95 = 'FLUX_AA_BKG_ERR'                                                     TFORM95 = 'E       '                                                            TUNIT95 = 'A-1 arcsec-2 cm-2 erg s-1'                                           TTYPE96 = 'FLUX_AA_LIM'                                                         TFORM96 = 'E       '                                                            TUNIT96 = 'A-1 cm-2 erg s-1'                                                    TTYPE97 = 'FLUX_AA_COI_LIM'                                                     TFORM97 = 'E       '                                                            TUNIT97 = 'A-1 cm-2 erg s-1'                                                    TTYPE98 = 'FLUX_HZ '                                                            TFORM98 = 'E       '                                                            TUNIT98 = 'mjy     '                                                            TTYPE99 = 'FLUX_HZ_ERR_STAT'                                                    TFORM99 = 'E       '                                                            TUNIT99 = 'mjy     '                                                            TTYPE100= 'FLUX_HZ_ERR_SYS'                                                     TFORM100= 'E       '                                                            TUNIT100= 'mjy     '                                                            TTYPE101= 'FLUX_HZ_ERR'                                                         TFORM101= 'E       '                                                            TUNIT101= 'mjy     '                                                            TTYPE102= 'FLUX_HZ_BKG'                                                         TFORM102= 'E       '                                                            TUNIT102= 'mjy/arcsec2'                                                         TTYPE103= 'FLUX_HZ_BKG_ERR_STAT'                                                TFORM103= 'E       '                                                            TUNIT103= 'mjy/arcsec2'                                                         TTYPE104= 'FLUX_HZ_BKG_ERR_SYS'                                                 TFORM104= 'E       '                                                            TUNIT104= 'mjy/arcsec2'                                                         TTYPE105= 'FLUX_HZ_BKG_ERR'                                                     TFORM105= 'E       '                                                            TUNIT105= 'mjy/arcsec2'                                                         TTYPE106= 'FLUX_HZ_LIM'                                                         TFORM106= 'E       '                                                            TUNIT106= 'mjy     '                                                            TTYPE107= 'FLUX_HZ_COI_LIM'                                                     TFORM107= 'E       '                                                            TUNIT107= 'mjy     '                                                            TTYPE108= 'COI_RATE_LIMIT'                                                      TFORM108= 'E       '                                                            TUNIT108= 'count s-1'                                                           TTYPE109= 'CORR_RATE_LIMIT'                                                     TFORM109= 'E       '                                                            TUNIT109= 'count s-1'                                                           TTYPE110= 'FILTER  '                                                            TFORM110= '8A      '                                                            TTYPE111= 'RA      '                                                            TFORM111= 'D       '                                                            TUNIT111= 'deg     '                                                            TTYPE112= 'DEC     '                                                            TFORM112= 'D       '                                                            TUNIT112= 'deg     '                                                            TTYPE113= 'DETX    '                                                            TFORM113= 'E       '                                                            TUNIT113= 'pix     '                                                            TTYPE114= 'DETY    '                                                            TFORM114= 'E       '                                                            TUNIT114= 'pix     '                                                            TTYPE115= 'NSIGMA  '                                                            TFORM115= 'E       '                                                            TTYPE116= 'FRAMTIME'                                                            TFORM116= 'E       '                                                            TUNIT116= 's       '                                                            TTYPE117= 'SATURATED'                                                           TFORM117= 'I       '                                                            TNULL117=                16959                                                  TTYPE118= 'SYS_ERR '                                                            TFORM118= 'L       '                                                            TTYPE119= 'SRCEXP  '                                                            TFORM119= 'E       '                                                            TUNIT119= 's       '                                                            TTYPE120= 'BKGEXP  '                                                            TFORM120= 'E       '                                                            TUNIT120= 's       '                                                            TTYPE121= 'OBSID   '                                                            TFORM121= '11A     '                                                            TTYPE122= 'MJD_1   '                                                            TFORM122= 'D       '                                                            TUNIT122= 's       '                                                            TTYPE123= 'YEAR    '                                                            TFORM123= 'D       '                                                            TTYPE124= 'MJD_0   '                                                            TFORM124= 'D       '                                                            TUNIT124= 's       '                                                            TTYPE125= 'FLAG_AB_MAG_99'                                                      TFORM125= 'L       '                                                            TTYPE126= 'FLAG_UPPER_LIM'                                                      TFORM126= 'L       '                                                            TTYPE127= 'FLAG_AB_MAG_ERR>2'                                                   TFORM127= 'L       '                                                            TTYPE128= 'FLAG_AB_MAG_>10_<30'                                                 TFORM128= 'L       '                                                            TTYPE129= 'MJD_2   '                                                            TFORM129= 'D       '                                                            TTYPE130= 'T_+ve   '                                                            TFORM130= 'D       '                                                            TTYPE131= 'T_-ve   '                                                            TFORM131= 'D       '                                                            TTYPE132= 'Rate    '                                                            TFORM132= 'D       '                                                            TTYPE133= 'Ratepos '                                                            TFORM133= 'D       '                                                            TTYPE134= 'Rateneg '                                                            TFORM134= 'D       '                                                            TTYPE135= 'MODE    '                                                            TFORM135= '2A      '                                                            TTYPE136= 'BAD     '                                                            TFORM136= 'L       '                                                            TTYPE137= 'UL      '                                                            TFORM137= 'L       '                                                            TTYPE138= 'BAND    '                                                            TFORM138= '4A      '                                                            EXTNAME = 'MAGHIST '                                                            TELESCOP= 'SWIFT   '                                                            INSTRUME= 'UVOTA   '                                                            TIMEPIXR=                  0.5                                                  END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             A é.ºžê!V           A é-çÛÜðA é/a÷QCOpCRÃ        B¾DD[{B¾? ƒDÊEHBðÀEsH5BvôöDÊEHBðÀ@ùŸ‰>=ú‰<Ã·$9Æ«ö@ùŸ‰>=ú‰?†i,<Õê©?}¦<„ÏA>P–Ž<Åþ²9Ë{@Éco>Ræ–?€ @?˜â€@ÉcÕ>{ç?€  @ÉcÕ>{ç?!-@Ë*Î>~ @Ë*Î>~ A}øË=-Ôä=-Ôä<#×
+A¯_î<Ž‰	<#×
+<Ž‰	A˜cÌ@@  A7?S&îæû$•ih"ËÉ$•ih"èÑøîÉ3Æ˜ÞîÉ3$Í/S)ÚÚd?Ï'‹=Žo;°´A=Žo;Éár8Ï¹7¬4œ8Ï¹=±êôB½ÅA~!Á=-Ôä=-Ôä<#×
+A¯th<Ž‰	<#×
+<Ž‰	A˜xF@@  A7hI&ïÔ$•†µ"ËÉ$•†µ"èÿ îøÆ˜Þîø$ÍW)ÛN?Î³S=E¿;°.‘=E¿;Ép/8Î™Ž7«²T8Î™Ž=±‡"B½ZŽ>¬÷,>®~GV       @iP"Êñf@GKAÖ•À  À  Aü>î<4Àg  FCOpCOp00030083001@ê%ü=ñ‰e@ŸUûvYèú        FFFF@ê%üA“R?‡ šFÏ)"¿‡ šFÏ)"?¤Á#Ì7üq?|ß¸·Áø³¿|ß¸·Áø³PCFFFULLA ð>’µ½QV           A ð>eèA ð>ÀW’ŽB3¦YB6‡U        B¾DDZ½B¾? ƒC·c–A’BÒD`úAìÖúC·c–A’BÒAª>ÐkÒ<Ð"h:\ÝAª>ÐkÒ?†¹ã=a1“?–!=
+}^A	‡Á>åá{<Ò¶Ë:a0ó@Òkù>èv?€ @?…þ„@Òlc>óXå?€  @Òlc>óXå?%z@ÔNØ>õ†Ö@ÔNØ>õ†ÖA}5= ¸= ¸<#×
+A®Õ|=…Ã<#×
+=…ÃAÇ@@  A7?S&ù¦›%[."Ôô*%[."÷ÆÉ „fhÓZß „fh%vqí)ÚÚd?Øy=úXd;¸§~=úXd;ÖÙs9eœW7·D˜9eœW>U±ãB½ÅA}^
+= ¸= ¸<#×
+A®é÷=…Ã<#×
+=…ÃAÛ”@@  A7hI&ù×%w}"Ôô*%w}"÷÷_ „€_ÓZß „€_%v¢@)ÛN?Ø =ùËð;¸Ë=ùËð;Ö`è9e…7¶¹ñ9e…>U9þB½ZŽ?O¸@?Q”ëV       @iP"Êñf@GKAÖ•À  À  Aoqµ<4Àg  FB3¦YB3¦Y00030083005@ê&Qòy¢“@ŸVùç˜l@m"K€ FFFF@ê&Q³xWÕ?Vº"f{¿Vº"f{?ËAò×s                WTTTFULLA öAõðoV           A öª1A öÙºÁÓC`CÄÑ        B'ÞDD[½B'Þ? ƒD–üBmõE.ÑBPá	D–üBmõA ¢Æ>bõb<Âhò9éZãA ¢Æ>bõb?†ß<ø²P?{O<CAI>yî‘<Ä©9î|·@Ò4ö>|™?ýŠ?“Gm@Ò2ñ>‘RW?€  @Ò2ñ>‘RW?)@Ô¸>’£‘@Ô¸>’£‘A}9Y=@)=@)<#×
+A¯n÷<¨ˆ5<#×
+<¨ˆ5A–ÜZ@@  A7?S&ùiP$¬ne"Ô¿á$¬ne"ç@; 7¢ÅB/ 7¢$ô®1)ÚÚd?ØD\=•„M;¸z(=•„M;È…8ó*ç7«w8ó*ç=Ô*/B½ÅA}bO=@)=@)<#×
+A¯ƒr<¨ˆ5<#×
+<¨ˆ5A–ðÕ@@  A7hI&ùš8$¬5"Ô¿á$¬5"çm” S!ÅB/ S!$ôÞ,)ÛN?×Ë=•0j;·î—=•0j;È˜8ò¢z7ªŠ8ò¢z=Ó³&B½ZŽ>Î87>ÐÂV       @iP"Êñf@GKAÖ•À  À  AÜ(²<4Àg  FC`C`00030083009@ê&˜ÂFµ@ŸV	/0í @Šê  FFFF@ê&˜×Z·?…‹PÉÍe¿¿…‹PÉÍe¿?“WHº?o3€¤Äß²¿o3€¤Äß²PCFFFULLA ÷©UÁ@V           A ÷¨@‘mA ÷©ÈfC@®4CCÄ¥        BÎDDV1BÎ? ƒDÈ€BÉËE„ÛNB€ÍûDÈ€BÉËA1â>JÿŠ<æ(-9ß#%A1â>JÿŠ?†Üæ<×—€?Á»<~¬°AV>`Wp<éP×9ä÷@Ñ>c6?ÿQ?—Dç@Ñ>†-s?€  @Ñ>†-s?)þ@ÒûP>‡eÓ@ÒûP>‡eÓA}Pó=2_®=2_®<#×
+A­òì<ˆb<#×
+<ˆbA—\)@@  A7?S&ø[$Ÿ6|"ÓŸš$Ÿ6|#	-E žvê„ žv$ç_)ÚÚd?×P=Š;·€0=Š;íå8éux7Êìý8éux=ÈPSB½ÅA}yé=2_®=2_®<#×
+A®g<ˆb<#×
+<ˆbA—p¤@@  A7hI&øH$ŸUµ"ÓŸš$ŸUµ#	H+ ¸Üê„ ¸Ü$ç0¬)ÛN?Ö¦Ÿ=‰À ;¶õ\=‰À ;í_”8èò}7ÊSw8èò}=ÇßðB½ZŽ>Â°‘>ÄuKV       @iP"Êñf@GKAÖ•À  À  Aór<4Àg  FC@®4C@®400030083013@ê&«ò[v@ŸV
+ÝÛL@ö“zB  FFFF@ê&¬ìi¿?‹À?Bh¿‹À?Bh?Œ¶¼ëlí?kKˆ>¨\U¿kKˆ>¨\UPCFFFULLA úI¥Bü&V           A úHtÓoA úJÖ$ÝC•úRC˜a”        B¾DDZûB¾? ƒE3ÃBJ²1F>RñB×¸E3ÃBJ²1AÒb>,þ.=SÆC9ðAÒb>,þ.?‡îÓ<¢j?ƒCÞ</EA"K>B&4=Y-29ûÉ¥@¿[`>EóÄ?€ x?™sÄ@¿\>mPh?€  @¿\>mPh?+˜@Á÷>o{Û@Á÷>o{ÛA~Ú˜=,Y5=,Y5<#×
+A¨
+<!T<#×
+<!TA–ÏÖ@@  A7?S&ã@$ŒÍ¥"Á²V$ŒÍ¥#`. 	ŒYÖN 	Œ$ö¿)ÚÚd?Äæ,=t/;§ôË=t/<]pR9 ]T8<ã9 ]T=Õ\ÁB½ÅA=,Y5=,Y5<#×
+A¨¡…<!T<#×
+<!TA–äQ@@  A7hI&ã?Ç$ŒéA"Á²V$ŒéA#’B &“YÖN &“$ö?ÿ)ÛN?Äw´=s¦;§u¹=s¦<\ô9 P8<Tš9 P=ÔåB½ZŽ>Ï[T>ÑAmV       @iP"Êñf@GKAÖ•À  À  AþZV<4Àg  FC•úRC•úR00030083015@ê&ËÕÅ¼O@ŸV©‰E@òú†]@ FFFF@ê&Ëñ¶Cà?uE\©å`Í¿uE\©å`Í?“ˆûç—~a?yuÀT!¿u!áblBPCFFFULLA ýQœ™Ô•V           A ýQÕÇÎA ýR6]á]CW3CÄ        BÞDD]BBÞ? ƒD”\ÍBÎÀE9ÌBW¶D”\ÍBÎÀ@úö]>^õ€<ÌÞL9íÙ½@úö]>^õ€?†rd<ù×Á?Ú<˜ÎAÍ>tí#<Ï^E9ó^@Çöà>wÁ·?þ?’5@Çõ¾>Ç?€  @Çõ¾>Ç?-q@ÉÌ¥>ŽÍ@ÉÌ¥>ŽÍA~Ö=D¯Î=D¯Î<#×
+A®ù<£©<#×
+<£©A–¹r@@  A7?S&íK;$§ë"ÊiÈ$§ë"ó×› 0Ïÿ¾ 0$øI)ÚÚd?ÍÂƒ=‘šu;¯ƒ´=‘šu;Óp8ø$È7´[¢8ø$È=×…’B½ÅA~?Ì=D¯Î=D¯Î<#×
+A¯Ž<£©<#×
+<£©A–Íí@@  A7hI&íyÃ$¨ñ"ÊiÈ$¨ñ"ôl 2?Ïÿ¾ 2?$ø¾)ÛN?ÍO=‘HÄ;®þê=‘HÄ;Òù}8÷™7³Ó/8÷™=×§B½ZŽ>Ñs‹>Ó_šV       @iP"Êñf@GKAÖ•À  À  AÕ!<4Àg  FCW3CW300030083018@ê&ðŸ ³ü@ŸVã*Ø_@Œ%åRà FFFF@ê&ð´"e?…È,L'¿¿…È,L'¿?’Ozf£x?múÉ¬©8@¿múÉ¬©8@PCFFFULLA þë?½1ºV           A þêåöÓ1A þë™ƒCB°·ÈB³Œ½        BDDYwB? ƒD1­‘AË¿PDÉtZBóéD1­‘AË¿PA ²>““ñ<¾?:ÿA ²>““ñ?†ž²=!¥=?rÎ<ÎUAYî>¢†<Àf9:V@Ó±¦>¤7D?€ ±?‹ãõ@Ó²Ë>³xx?€  @Ó²Ë>³xx?.j@Õ¦õ>µ }@Õ¦õ>µ }A}=k¢”=k¢”<#×
+A¯Ÿ­<Ý„<#×
+<Ý„A”qa@@  A7?S&û;?$Ôü<"ÖMS$Ôü<"â=Š 4NjÀü
+ 4Nj%!›™)ÚÚd?ÙØ_=¸®~;¹ÒÉ=¸®~;Ä,Ü9Xh7§V¹9Xh>!¶B½ÅA}Aù=k¢”=k¢”<#×
+A¯´(<Ý„<#×
+<Ý„A”…Ü@@  A7hI&ûl‚$Õ& "ÖMS$Õ& "âiè 4qÅÀü
+ 4qÅ%!»I)ÛN?Ù^'=¸Fá;¹F3=¸Fá;Ã¾Ì9 ±7¦Ø9 ±>ÓB½ZŽ?,Á?	o9V       @iP"Êñf@GKAÖ•À  À  Aª“<4Àg  FB°·ÈB°·È00030083019@ê'
+›] @ŸV—çä@ |Ê9° FFFF@ê'èµ¥?|+ÀXZ,
+¿|+ÀXZ,
+?ÜU€åî‡?r×Çaå	¿o–ï"ìPCFFFULLA¡nn˜ V           A¡nNû+A¡n½Ø5BBŸ‰:        BÎDDZûBÎ? ƒD%—ßAÄ<QE;çB6Œ˜D%—ßAÄ<QAý)>Ÿ÷Ó=ª:B…Aý)>Ÿ÷Ó?†õÃ='Þ~?‚/(<³½AT5>±ð=C:HTx@ÃM>³®Ö?ÿQ?ˆ•5@ÃœÇ>¿»6?€  @ÃœÇ>¿»6?0Ž@Ån4>Áƒh@Ån4>ÁƒhA~x-=ˆ7…=ˆ7…<#×
+A¬Î<¿ßÐ<#×
+<¿ßÐA’F€@@  A7?S&è($ãŒâ"Æð$ãŒâ#*ž¼ kãŠ? kã%Oiè)ÚÚd?ÉN=ÅO¤;«¶ñ=ÅO¤<òA9LBô7üeù9LBô>3Ù¶B½ÅA~¡"=ˆ7…=ˆ7…<#×
+A¬"I<¿ßÐ<#×
+<¿ßÐA’Zú@@  A7hI&èU—$ã¹"Æð$ã¹#*À1 k¿Š? k¿%O’”)ÛN?ÈÝ.=Äàñ;«5=Äàñ<Ÿ@9KÐZ7û§9KÐZ>3tÎB½ZŽ?.Ä(?0cƒV       @iP"Êñf@GKAÖ•À  À  A‚7<4Àg  FBB00030083020@ê'.«U€ô@ŸVSÁ[÷@#&Ö?xð FFFF@ê'.¶ †ü?v³ÿÝÒýõ¿v³ÿÝÒýõ?†ÚD„”N×?rÈ“›íu©¿ns˜Ó÷PCTFFULLA¡ºµ†šÔV           A¡ºeÁÿ.A¡»K6zBBŸ‰7        B¾DDZûB¾? ƒDíqAÀ#DæÚB)¥ÅDíqAÀ#A ½m>œ•ö<õYš:4MGA ½m>œ•ö?†ŸO=+uh?ß¢<Á_IAf‰>¬s&<øðö:9Sà@Âqy>®ÆÂ?€ x?ˆô/@Âr/>» ™?€  @Âr/>» ™?1ô@ÄBö>¼¿–@ÄBö>¼¿–A~’•=…§r=…§r<#×
+A­bÈ<Îì&<#×
+<Îì&A’ã5@@  A7?S&æÈ1$Ýòƒ"ÄÛÉ$Ýòƒ#] YìÆù²Î YìÆ%AL¤)ÚÚd?È=Àsâ;ª²­=Àsâ;ýÓ¬9<öü7Ø„9<öü>'œœB½ÅA~»‹=…§r=…§r<#×
+A­wC<Îì&<#×
+<Îì&A’÷°@@  A7hI&æõr$Þ"ÄÛÉ$Þ#yÒ Zù²Î Z%Ar‹)ÛN?Ç¬¼=Àè;ª1ˆ=Àè;ýED9<Œø7×àG9<Œø>'>“B½ZŽ?"ÜÔ?$b·V       @iP"Êñf@GKAÖ•À  À  A’°<4Àg  FBB00030083021@ê'JŽÝ
+Á@ŸVÅ¯ÈÕ@$å¸À FFFF@ê'J™“Ð?v³ÿÝÒýõ¿v³ÿÝÒýõ?“·õfI
+                PCTTFULLA¡	%çClV           A¡	%¤B¦ôA¡	&)ÇßãBƒjB……9        BÞDDZ9BÞ? ƒD%A±r“D´øsBUD%A±r“A‹Ð>¬ÖD<åÐš:>è5A‹Ð>¬ÖD?†Æ=9Ÿ?Á <Ú4°A
+ï>¾Ã‡<èöù:Câð@Í…¢>Á?þ?ˆ6@@Í„x>Íº?€  @Í„x>Íº?4¦@Ït	>ÏqD@Ït	>ÏqDA}›ô=Š÷=Š÷<#×
+A­öE<éµî<#×
+<éµîA’DÆ@@  A7?S&óñ3$óíò"Ð“$óíò#øn fWFé¬` fWF%O“)ÚÚd?Ó†N=Óƒ|;´n=Óƒ|;í‰k9G»7ÊžÔ9G»>3ýoB½ÅA}Äê=Š÷=Š÷<#×
+A®
+À<éµî<#×
+<éµîA’YA@@  A7hI&ô!	$ôÇ"Ð“$ôÇ#	J f„qé¬` f„q%O»Ï)ÛN?Ó¢=ÓÑ;³æ=ÓÑ;í&9GK	7Ê‰9GK	>3˜tB½ZŽ?.áÚ?0†ŒV       @iP"Êñf@GKAÖ•À  À  AŒ›<4Àg  FBƒjBƒj00030083025@ê'€/\hÖ@ŸVyGí#@(?­÷ FFFF@ê'€0³?nÏé·¿Ž¿nÏé·¿Ž?Œ)„áö«?z¬Ã[Î¡¨¿t¬< ÑŽPCTFFULLA¡É£÷¹àV           A¡É:1î$A¡Ê½…BÐ5sBÓ‹—        BÎDD] BÎ? ƒDR¶¨AÝÏÚE$DBJßDR¶¨AÝÏÚAŠ1>ˆ\Þ=z4:!ð@AŠ1>ˆ\Þ?†ªZ=|5?‚š<¢_ËAI>–E}=ŠÉ:&É@¾¢½>˜nþ?€ $?‹7Œ@¾¢ó>¥Ê¯?€  @¾¢ó>¥Ê¯?6A@Àq>§\Š@Àq>§\ŠA~éÿ=q¹‡=q¹‡<#×
+A¬Æ[<­‘Ú<#×
+<­‘ÚA“ôG@@  A7?S&âJ?$ÄÌv"Áà$ÄÌv#å D
+òÅ D
+%*õï)ÚÚd?Ä7á=ª¥c;§`=ª¥c<)¸9*7èK¸9*>=ÞB½ÅAõ=q¹‡=q¹‡<#×
+A¬ÚÖ<­‘Ú<#×
+<­‘ÚA”Â@@  A7hI&âvŸ$Äó"Áà$Äó#&° DEòÅ DE%+v)ÛN?ÃÉÊ=ªE¦;¦á}=ªE¦<ÝS9)¯š7ç›ú9)¯š>ê²B½ZŽ?*?ckV       @iP"Êñf@GKAÖ•À  À  A¤Â9<4Àg  FBÐ5sBÐ5s00030083028@ê' 8Q‡@ŸV HDÞA@*?¥ÿÛ` FFFF@ê' Ošdí?6í^ù¿6í^ù?sÅ·¯¯/®?g“Ç”öéù¿aå+gPCFFFULLA¡½0ØEV           A¡¼²k3ÛA¡½Sö|¯BžÿB¡‹I        B+ÿDD_B+ÿ? ƒD&¦AÄ™DúhöB0…D&¦AÄ™A¬Ï>žE×=gP:9BGA¬Ï>žE×?†ã='Œù?‚¦<¹Ü·AÞ>®ú°=w¦:>Íç@ÇËÉ>±iÃ?ý?‰(î@ÇÉu>¾ì?€  @ÇÉu>¾ì?;@ÉµG>¿ïì@ÉµG>¿ïìA~Ù=„> =„> <#×
+A¬Çš<Æ­I<#×
+<Æ­IA’¨7@@  A7?S&í/À$á²n"ÊRX$á²n#ñd `]gß“ `]g%F)ÚÚd?Íª¯=Ã´=;¯oa=Ã´=<49BŒˆ7è*n9BŒˆ>,:B½ÅA~AÏ=„> =„> <#×
+A¬Ü<Æ­I<#×
+<Æ­IA’¼±@@  A7hI&í^C$áÞ°"ÊRX$áÞ°#* `‰fß“ `‰f%F¥û)ÛN?Í7L=ÃFp;®ê§=ÃFp<ÉÚ9Ba7çzÈ9Ba>+½©B½ZŽ?'4{?(Î!V       @iP"Êñf@GKAÖ•À  À  A”— <4Àg  FBžÿBžÿ00030083033@ê( ¶2.@ŸV(½é½@0#Â†H FFFF@ê( Àþ	7?vðÜíÛù$¿vðÜíÛù$?|Ûl!ç0{?oZ9²SO¿g™´ÇroßPCTFFULLA¡ üÕN‚•V           A¡ ü„‹±¯A¡ ý&SzBžùwB¡…¢        BßDDXwBß? ƒD%z=AÄK¡Dì¸þB+ÂøD%z=AÄK¡A<i>ž£<ø‚+:4P-A<i>ž£?†Ýx='ÎØ?æ<¾ÿ7AaÅ>®¬ <ü1ã:9h[@Ë`„>°ù:?ÿ?‰‡‚@Ë_Ä>¾&?€  @Ë_Ä>¾&?C-@Ía@>À2@Ía@>À2A}ÈŸ=ïÖ=ïÖ<#×
+A­Eè<ÌWP<#×
+<ÌWPA’à@@  A7?S&ñ$áÌ "Î,$áÌ #FÖ ZÛüöD ZÛ%A‘ž)ÚÚd?Ñi=ÃÊó;² ê=ÃÊó< ’y9=Þ7ÛX…9=Þ>'ØlB½ÅA}ñ•=ïÖ=ïÖ<#×
+A­Zc<ÌWP<#×
+<ÌWPA’ô—@@  A7hI&ñ°i$áøç"Î,$áøç#cé Z/›üöD Z/›%A·“)ÛN?Ðóž=Ã];²Æ=Ã]< JW9<¡Î7Ú²“9<¡Î>'zAB½ZŽ?#j?$`V       @iP"Êñf@GKAÖ•À  À  A—¾}<4Àg  FBžùwBžùw00030083037@ê(¡‚Vf†@ŸV6ÖÒøÛ@5*#&é FFFF@ê(¡kës?wód”¿wód”?{TÕ‰"Â¼?opXá I¿g356˜˜hPCTFFULLA¡±ÌòÛ†nV           A¡±ÌI<ÞA¡±Íœ¡ÏÿC'ÍC)ÆJ        BÎDDUóBÎ? ƒD¿/…BuE•¥ƒBˆ0ƒD¿/…BuAsÙ>cqy=wÞ:ùAsÙ>cqy?‡•w<ÝúÙ?‚J?<pï®A!2>}û=$p:¬Q@Øäµ>€Ï§?ÿQ?“´Ž@Øä!>”¤.?€  @Øä!>”¤.?›“@Û‡>–‚@Û‡>–‚A|ž—=>|N=>|N<#×
+A«¤g<€h<#×
+<€hA•{@@  A7?S')$°û."ÜH‰$°û.#2ç %j„šé %j„%O)ÚÚd?ßìç=™vL;¿„=™vL< Ò9o8SL9o=öPÀB½ÅA|Ç=>|N=>|N<#×
+A«¸â<€h<#×
+<€hA•¤ö@@  A7hI'8{$±ã"ÜH‰$±ã#3
+( %Šôšé %Šô%$))ÛN?ßoE=™ 2;¾r=™ 2<ÉÊ9š8ï/9š=õÆB½ZŽ>î”>ñ“V       @iP"Êñf@GKAÖ•À  À  AÞ¸d<4Àg  FC'ÍC'Í00030083041@ê/ ƒÅ$@ŸVÐë´•$@S…$w~ FFFF@ê/6çª?ˆ qfÌ&‘¿ˆ qfÌ&‘?q,V¯fW?a<Y€-¿Zç#²„ PCFFFULLA§~W<K
+V           A§~WQyXA§~W°ÿ>B<lB?Ì        B	­DDU1B	­? ƒC¤ü‹A‹¬eDESuAÞ¨×C¤ü‹A‹¬e@àŸ‡>¾)
+<¯&#:E¢¥@àŸ‡>¾)
+?…¾ =k©ð?U =I”@ê³/>ÎÇŽ<°øë:IŠ{@´kƒ>Ñ ?€ •?…uÌ@´lT>ÙþÍ?€  @´lT>ÙþÍ?…!@»µ>âŸí@»µ>âŸíA\#=§ê5=§ê5<#×
+A°Y…=D…<#×
+=D…A‘qÑ@@  A7?S&ÜŽ[%>,"¼"Â%>,"Ð˜ lým±‚¹ lým%d;v)ÚÚd?¿?=ç…;£"e=ç…;´r9M7™ëÓ9M>EçB½ÅA…=§ê5=§ê5<#×
+A°n =D…<#×
+=D…A‘†L@@  A7hI&Ü¹›%XL"¼"Â%XL"ÐBf m+æ±‚¹ m+æ%dh8)ÛN?¾ÓÃ=æá;¢¦ù=æá;´Ð9MÁ7™w`9MÁ>EwýB½ZŽ?:³?BßV       @iP"Êñf@GKAÖ•À  À  Ac4ã<4Àg  FB<lB<l00035895002@êußÕ”ß‡@Ÿ\üz‡@ƒøåèÕˆ€FFFF@êuÜ»q†?¹=ø-›³¿¹=ø-›³?‡h)4+Öž?q†—"4Í¿l•í§ÓPCTFFULLA§‚÷U'OV           A§‚p-Ç°´A§ƒ~|†[êCîÔG'_        Bœ÷[DDYµBœ÷[?€ƒE\ÈÁBcöEþ,B²¨ÚE\ÈÁBcö@íxœ=õ0Ø<²7‘9zŠE@íxœ=õ0Ø?†Ä<lï?Zÿ<7Û@øÂ¤>øä<´³9“½@Á‹~>e?€“?³±@Áß>=^	?€  @Áß>=^	?…Ò@É;c>Dá	@É;c>Dá	A~#\=÷Ð=÷Ð<#×
+A°2ƒ<E6#<#×
+<E6#Aœ\@@  A7?S&ì l$g‚"ÉØ$g‚"ÓÈf–Cè´¦ñ–Cè$ê))ÚÚd?Í.g=H¾.;¯]=H¾.;·£‘8‚Kå7œ¥,8‚Kå=aLóB½ÅA~LR=÷Ð=÷Ð<#×
+A°Fþ<E6#<#×
+<E6#Aœp‡@@  A7hI&ìÎÓ$g¯v"ÉØ$g¯v"Óñî–a`´¦ñ–a`$‚£)ÛN?Ì»J=HMŽ;®€ô=HMŽ;·<‰8‚Ë7œ.©8‚Ë=`Î‹B½ZŽ>T…ð>\öÌV       @iP"Êñf@GKAÖ•À  À  B<˜X<4Àg  FCîÔCîÔ00035895003@êvôÝÒ@Ÿ]f j@„í»(ÀFFFF@êv	¿ÀR/?äiÝ‰û·¿äiÝ‰û·?§®6Ð‰                WTTTFULLA³™övEV           A³™AÔ¿
+A³™#«[CÊ‡‘E»J        Bœç[DDR­Bœç[?€ƒE1EÃBLÅpEÆT9Bñ†E1EÃBLÅp@à">j°<£rg9‚*@à">j°?…ºC< ¾W?=Þ<OŸƒ@êó>²<¥L9„Y@·†Ù>'õ?€q?ªÅz@·ŠY>=¨c?€  @·ŠY>=¨c?Ôq@Ë_>R&C@Ë_>R&CA}ôU=›0=›0<#×
+A°ôØ<_B<#×
+<_BA›r½@@  A7?S&ï$a$wÕ"Ëýb$wÕ"ÂX›à;¥ˆÎ›à;$Is)ÚÚd?Ï\É=VF;°á«=VF;¨Eq8‡)Y7‰W8‡)Y=z9¥B½ÅA~K=›0=›0<#×
+A±	R<_B<#×
+<_BA›‡8@@  A7hI&ïSF$wMJ"Ëýb$wMJ"Â5f›þÌ¥ˆÎ›þÌ$e¿)ÛN?Îèr=UÍÝ;°[Ø=UÍÝ;§ç	8†Ý„7¿8†Ý„=y­BB½ZŽ>]vj>uh®V       @iP"Êñf@GKAÖ•À  À  B*Õ<4Àg  FCÊ‡‘CÊ‡‘00032017001@ë4qÞz±þ@Ÿm®ÎÅB@ çZ’‰FFFF@ë4r{+]?²¾¢Üïi§¿²¾¢Üïi§?Ž[b|L ß?_	àÔk§™¿_	àÔk§™PCFFFULLA³™ùÞ+kV           A³™ìçkUïA³š&Q çD]XEÁ÷-        BœßDDUµBœß?€ƒEŠ&sB[Fb BÅEŠ&sB[@à½÷=Ïê–<£¼”9Qý@à½÷=Ïê–?…¾Ï<€Å©?>_<&fý@êÔh=â<¥SÖ9TÜN@¸,Ó=äoè?€ä?¾’¦@¸0û>*ë?€  @¸0û>*ë?ÕY@Ì÷><nÇ@Ì÷><nÇA}äz= NÉ= NÉ<#×
+A°ðß<2î7<#×
+<2î7AsÈ@@  A7?S&ïÿ$]“}"Ì·ä$]“}"Âh+zLó¥Ô’zLó$ef)ÚÚd?Ð`=@!|;±ƒd=@!|;¨’v8Y	¾7Ë	8Y	¾=FªîB½ÅA~p= NÉ= NÉ<#×
+A±Z<2î7<#×
+<2î7AˆC@@  A7hI&ð.$]¾ð"Ì·ä$]¾ð"ÂŽJz~¥Ô’z~$eJS)ÛN?Ï¥Ÿ=?µ±;°ý=?µ±;¨3ã8Xú7^@8Xú=F;xB½ZŽ>/Ó>BØV       @iP"Êñf@GKAÖ•À  À  BTq…<4Àg  FD]XD]X00032017002@ë4‡5^C@Ÿm°­ó¥@ è¯vËšàFFFF@ë4‡ò ?§Õ
+Ä–üÑ¿§Õ
+Ä–üÑ?”ë7ñß?f®QÙÞÐ}¿f®QÙÞÐ}PCFFFULLA³›iÔ;OV           A³›hÊòŒ½A³›iPµéâC§GCÃ]        BHbDD_ÆBHb?€ƒDz¸ Aò¤]EhvœBpaDz¸ Aò¤]@óÂß>kèž=Q˜:)¨@óÂß>kèž?†@ä=³Å?‚B]<ˆ©§@ÿ«•>6ñ=ë@:Ió@£ë>ƒt%?ùo?‹J@£‹¹>ŽÙ?€  @£‹¹>ŽÙ?ÖÖ@µ:i>žJà@µ:i>žJàAôü=rÅ¬=rÅ¬<#×
+A«Å#<‘Î^<#×
+<‘Î^A“ÐP@@  A7?S&Õ·$º"p"µÇ‡$º"p#0IÅ 8ôS_ý 8ôS%-¿‘)ÚÚd?¸Èì=¡f(;Ÿh=¡f(<Üv9 `18d?9 `1>¨ªB½ÅA€ù=rÅ¬=rÅ¬<#×
+A«Ùž<‘Î^<#×
+<‘Î^A“äË@@  A7hI&ÕD$ºFð"µÇ‡$ºFð#0lW 9—_ý 9—%-á£)ÛN?¸a@=¡›;((=¡›<†³9 68™9 6>T#B½ZŽ?[?ÂNV       @iP"Êñf@GKAÖ•À  À  A£!ˆ<4Àg  FC§GC§G00032017007@ë4ªW¡€@Ÿm³¼,'i@ êÝÆa°FFFF@ë4ªg*8K?„òb³“¿„òb³“?sÎ„\ñs                PCTTFULLA³ _÷{V           A³wCR¨A³.É|œNCkôF!Hå        B@ DDbÎB@ ?€ƒDÆm‘Bm²EgÐoBqz DÆm‘Bm²@×¤Õ>&½{<¤3A9«p@×¤Õ>&½{?…€ê<Ö€t?@<‡Îw@àêt>4¯þ<¥ÍÔ9®6ê@­þ>6¨F?úz?˜Ã@­úR>Yþ@?€  @­úR>Yþ@?Ø–@ÀÌ >q’î@ÀÌ >q’îA~áÈ=."F=."F<#×
+A°êx<’<#×
+<’A˜í~@@  A7?S&âµ^$Ž="ÁbA$Ž="Â÷ŸÌÛi¦NðÌÛi$ÀÝ<)ÚÚd?Ä”Ä=vP¡;§¯Z=vP¡;©Ú8±¢075$8±¢0=§<B½ÅA
+¾=."F=."F<#×
+A°þó<’<#×
+<’A™ù@@  A7hI&âáÓ$Ž$"ÁbA$Ž$"ÃÚÍ•¦NðÍ•$Á)ÛN?Ä&y=uÆp;§0}=uÆp;¨° 8±>‡7È
+8±>‡=¦Þ0B½ZŽ>”—>¤úV       @iP"Êñf@GKAÖ•À  À  AúÈ<4Àg  FCkôCkô00032017008@ë4Ó6E¤@Ÿm·VÑrÑ@ ío…7ÃðFFFF@ë4Ó9Z@ü?±_I-Çù¿±_I-Çù?‰|Í+ãß?f-uGïq¬¿f-uGïq¬PCFFFULLA³¥o)ô²V           A³¥_Á†A³¥ð~’åÞC›©—GbÒ        BœÿDDZ½Bœÿ?€ƒE‘\B1ãÀE›ŽËB‹ÚÂE‘\B1ãÀ@Û©Û>Fù<¦Å9•ïA@Û©Û>Fù?…œ<<¹ÿ?D•<j{¾@åJ›>Â	<¨kî9˜À¶@±¥¤> yá?€ ? Žº@±§4>IKJ?€  @±§4>IKJ?áC@ÄêÔ>_/@ÄêÔ>_/A~ƒÀ=wÒ=wÒ<#×
+A°Ç¤<|
+<#×
+<|
+Aš(	@@  A7?S&ç•$ƒ.ï"Å„*$ƒ.ï"Æ•³žÕ¨ï³žÕ$§l~)ÚÚd?ÈÈ*=c€.;«D­=c€.;«º8›À)7’{õ8›À)=‘,ÀB½ÅA~¬¶=wÒ=wÒ<#×
+A°Ü<|
+<#×
+<|
+Aš<„@@  A7hI&çºý$ƒH©"Å„*$ƒH©"Æ2k³Â¨ï³Â$§S)ÛN?ÈW…=c Š;ªÃ=c Š;«YÁ8›hÇ7’"8›hÇ=ÛMB½ZŽ>€r{>ŽaiV       @iP"Êñf@GKAÖ•À  À  B®7<4Àg  FC›©—C›©—00032017027@ë5žóg¹%@ŸmÉ3 @ ú+Wbü FFFF@ë5™nÿû-?¥ÑCqÄ¿¥ÑCqÄ?j§€âénÄ                PCFTFULLA³§*+/½ÏV           A³§GFäA³§AkºCˆ˜F7M        Bœç[DD[ÆBœç[?€ƒDù\ÍB+m™EŠ¹éB„jDù\ÍB+m™@é¬T> ¤i<©{¯9¡Tf@é¬T> ¤i?…ûÆ<À
+†?I¶<xVo@ô˜±>/JÚ<«0@9¤i@À"£>1æ?€q?ŸgG@À&M>\Š“?€  @À&M>\Š“?âü@Ôþï>tw½@Ôþï>tw½A}&²=‚B=‚B<#×
+A°£h<…xº<#×
+<…xºA™v¶@@  A7?S&úu«$»Ë"Õ¤Ê$»Ë"ÉL~ÁT«µÁT$µR‚)ÚÚd?Ù-=yCú;¹@¦=yCú;®ŒS8§£7”ä8§£=9ðB½ÅA}O¨=‚B=‚B<#×
+A°·ã<…xº<#×
+<…xºA™‹0@@  A7hI&ú¦È$×ú"Õ¤Ê$×ú"És÷Áyý«µÁyý$µv)ÛN?Ø³5=x¸!;¸´~=x¸!;®*e8§E7”s`8§E=œáºB½ZŽ>‹>š38V       @iP"Êñf@GKAÖ•À  À  B/<4Àg  FCˆ˜Cˆ˜00032017029@ë5Çi[`@ŸmÌ¿—Ê½@ ü²¶qÀFFFF@ë5ÇF,Õt?³¥ãS÷ÎÙ¿³¥ãS÷ÎÙ?f½é|}K}?R?i¼ž¿NÎ,¾çìPCTFFULLA³¨¨€¢ÑV           A³¨‘¯FÜA³¨¿R2\>CHXËF6Œ|        BßDDWµBß?€ƒDµˆþBP1EN‘
+BcÙèDµˆþBP1@çör>:ôì<¬´9½Í±@çör>:ôì?…ð<àÿ™?O<íè@ò¹'>Kß=<­Õ$9Á|·@½h >N?€ ®?—53@½i >s_¢?€  @½i >s_¢?ä‡@Ñø‡>†äî@Ñø‡>†äîA}fO=2æ=2æ<#×
+A°S<š°<#×
+<š°A—õ@@  A7?S&öç$žžì"Òœ$žžì"Ìhqã…®\€ã…$×ªÒ)ÚÚd?Ös=‰Š¨;¶Ÿ=‰Š¨;±>€8ÅHÒ7—0¾8ÅHÒ=»ÖB½ÅA}E=2æ=2æ<#×
+A°•Î<š°<#×
+<š°A˜	|@@  A7hI&÷x$ž¾"Òœ$ž¾"Ì†ã±¢®\€ã±¢$×Õ)ÛN?ÕŸV=‰=};¶ó=‰=};°Û8ÄÚ#7–¾\8ÄÚ#=º˜ëB½ZŽ>¥rf>·h_V       @iP"Êñf@GKAÖ•À  À  Aòpÿ<4Àg  FCHXËCHXË00032017032@ë5ë©–ÕJ@ŸmÏí3Ì@ þöºT¾PFFFF@ë5ë‘²¨¹?}.fl ê¿}.fl ê?ŠZ”À                PCFTFULLA³ª²¡˜7V           A³ª›%¢£A³ªÊËBÝi¿F;ß­        BœßDDX¾Bœß?€ƒD=ÍAÓ©CDØ£uB%D=ÍAÓ©C@Ú‹>t¹Š<£J+9øØó@Ú‹>t¹Š?…”¡=~å?=<Æ§1@äÖ>„¾Ü<¤ß29ýl@±Žþ>†(F?€ä?Œƒ8@±“ >“E”?€  @±“ >“E”?æ£@ÄÛä>£D@ÄÛä>£DA~…=f„}=f„}<#×
+A°÷<Õw<#×
+<ÕwA•`-@@  A7?S&ç|$¿û"Åu.$¿û"Áß ÿ†¥_” ÿ†%&Ù)ÚÚd?È¸ð=¦xG;«7¯=¦xG;¨‰92Ÿ7e—92Ÿ=û¹˜B½ÅA~®=f„}=f„}<#×
+A±|<Õw<#×
+<ÕwA•t¨@@  A7hI&ç©i$À!'"Åu.$À!'"Â ¾¥_” ¾%CO)ÛN?ÈHR=¦á;ª¶&=¦á;§½89 ê"7Žù9 ê"=û,]B½ZŽ>Þ¬á>öá<V       @iP"Êñf@GKAÖ•À  À  A®-°<4Àg  FBÝi¿BÝi¿00032017034@ë6+ê¬@ŸmÔDKê~@¡ÑpFFFF@ë6ì&i?zü{Ç0†¿zü{Ç0†?|¯Hœ?Õó?v%:þ·3¿mËò©¢œPCFFFULLA³ªÞäYÄÛV           A³ªÞßvŒiA³ªÞé<ýLAïAg        BP DDbÎBP ?€ƒBXùÛ@äZ…C»çA8F¾BXùÛ@äZ…@´k??=á,<’
+³:Ç½÷@´k??=á,?„“D>T?‚=±ò§@ºÞ,?Kû<“OO:Ë¦@›M?MdÌ?øu?€ß-@—!?NÊê?€  @—!?NÊê?æÑ@œ÷Í?e@l@œ÷Í?e@lA:>JøÉ>JøÉ<#×
+A±ñs=¿Š—<#×
+=¿Š—Aˆò@@  A7?S&¸“¹%†É"r%†É"­8Y î½£“Â î½£&Ëê)ÚÚd? m>iÀ7;ˆ…¿>iÀ7;–3j9Ï²7€N9Ï²?ŸÏB½ÅAN‰>JøÉ>JøÉ<#×
+A²î=¿Š—<#×
+=¿Š—A‰”@@  A7hI&¸·ë%†ãþ"r%†ãþ"­ZP îìt“Â îìt&é®)ÛN?Ÿ²¢>i=;ˆv>i=;•ß%9Î7|¿9Î?UöB½ZŽ?èêI@=V       @iP"Êñf@GKAÖ•À  À  @´hJ<4Àg  FAïAï00032017036@ë6!]T¾@ŸmÔ¢{Û\@¡Qö3K FFFF@ë6!w­þ?~¹ûnW¥¿~¹ûnW¥?‡Q‹Ü<                PCTTFULLA³«	n>¥QV           A³ªò®â[A³« -›BFC:SöF5úå        BßDDM¥Bß?€ƒD§ÔÍB·ÑE?ƒ–B[eùD§ÔÍB·Ñ@æ–B>AUä<«’E9ÄS@æ–B>AUä?…æ¯<éðj?N<•yf@ñ7²>R·O<­R9ÈZý@¼^>Tñº?€ ®?•‹@¼]>xÈÑ?€  @¼]>xÈÑ?æý@Ð}h>‰ç@Ð}h>‰çA}…É=7ØW=7ØW<#×
+A°‡â< ¦Ó<#×
+< ¦ÓA—¡U@@  A7?S&õ)?$¢(Š"ÑÀ$¢(Š"ËÎQë˜­Ùë˜$ßïç)ÚÚd?Ô”â=Œ›ì;µU^=Œ›ì;°¸Û8ÌI™7–¾¿8ÌI™=Â-•B½ÅA}®¿=7ØW=7ØW<#×
+A°œ]< ¦Ó<#×
+< ¦ÓA—µÐ@@  A7hI&õYR$¢HV"ÑÀ$¢HV"ËöHëÆÀ­ÙëÆÀ$àÑ)ÛN?Ôž=ŒM	;´Ì.=ŒM	;°Uµ8ËÖü7–L³8ËÖü=ÁÀ¤B½ZŽ>«Ç…>¾pÉV       @iP"Êñf@GKAÖ•À  À  AèÖ<4Àg  FC:SöC:Sö00032017035@ë6%eÚ´F@ŸmÔý£Ë@¡’~’®FFFF@ë6%]~)l?²êñŠêBÇ¿²êñŠêBÇ?k| ñ0s)?W)£x¦Á¿R¶œÅÚ%ŒPCTFFULLA³¬r=ËV           A³¬.A*ENA³¬µáQPÛCn‰G '        Bœç[DDX¾Bœç[?€ƒDÍ>VBåhEq¡¦BvwÕDÍ>VBåh@Ü¸€>'¦ï<©fk9¬Êx@Ü¸€>'¦ï?…£m<Ó /?IŒ<…Ô@æq„>6Ò<«Ž9°¸@²>8ó?€q?™}”@²>\ªt?€  @²>\ªt?èr@Å]Y>t¤}@Å]Y>t¤}A~y¨=,CÓ=,CÓ<#×
+A°¤‚<ï<#×
+<ïA˜ØË@@  A7?S&è>$Ö"Å÷$Ö"É2ûÏœ«ŸÊÏœ$Âªî)ÚÚd?É<ï=yq›;«¨G=yq›;®v48³‹j7”Ñ&8³‹j=¨ÌZB½ÅA~¢ž=,CÓ=,CÓ<#×
+A°¸ý<ï<#×
+<ïA˜íF@@  A7hI&èAÁ$òO"Å÷$òO"ÉZoÏ87«ŸÊÏ87$ÂÑ)ÛN?ÈÌ=xå¨;«&i=xå¨;®R8³&®7”`8³&®=¨m¦B½ZŽ>•P)>¥ŒœV       @iP"Êñf@GKAÖ•À  À  Aþ›í<4Àg  FCn‰Cn‰00032017038@ë6G—q0u@Ÿm×üq¹ç@¡µ—úq FFFF@ë6G‘¬§î?ÊUÌü.*¿ÊUÌü.*?sœ[?ìª?Vr÷ÞT¿Vr÷ÞTPCTFFULLA³®,ù°%[V           A³­ÇfCBA³®’QtCAûÈGK'B        BßDDX¾Bß?€ƒDªnÁBóÆEHù¦B`¼xDªnÁBóÆ@àë~>;U–<¬çS9ÁX„@àë~>;U–?…À<çáÀ?P³<‘ìÁ@ë>KºÖ<®®$9ÅÛ@µs>MõÊ?€ ®?•r9@µsü>pwè?€  @µsü>pwè?ê<@É-Ñ>…N@É-Ñ>…NA~$ˆ=8,=8,<#×
+A°v‚<œÓ<#×
+<œÓA—Ì @@  A7?S&ìw$œÀ~"ÉÊx$œÀ~"ÍgœçÉ–¯6)çÉ–$Û«3)ÚÚd?Í ‘=‡ëÎ;®ù=‡ëÎ;²Â8Èü27—íz8Èü2=¾zB½ÅA~M}=8,=8,<#×
+A°Šý<œÓ<#×
+<œÓA—à›@@  A7hI&ì¾Ú$œß;"ÉÊx$œß;"Íãç÷	¯6)ç÷	$ÛÖF)ÛN?Ì­{=‡ŸŒ;®u/=‡ŸŒ;±·Õ8È‹o7—z‰8È‹o=¾8B½ZŽ>¨}w>ºÏ†V       @iP"Êñf@GKAÖ•À  À  AèÓ<4Àg  FCAûÈCAûÈ00032017039@ë6q•÷«Ž@ŸmÛªô¿É@¡U€b"FFFF@ë6gïRÓt?xÜ¦f˜¿xÜ¦f˜?;)¡¹ù‹                PCFTFULLA³¯ˆNRuÍV           A³¯ ÐöL0A³°Ë®ŸkC…ÈG‡}\        BœïDDUµBœï?€ƒDðB(P]E‰—…Bƒ~úDðB(P]@å§ï>!
+0<«¦ã9¤@å§ï>!
+0?…àT<Ã”—?N	<ydK@ð2û>/t8<­f×9§8“@»~>1PØ?€þ?Ù/@»h>Zª?€  @»h>Zª?ë£@ÏgU>rqÔ@ÏgU>rqÔA}="t;="t;<#×
+A°†Ø<†H<#×
+<†HA™QÞ@@  A7?S&óâD$Ž‹J"ÐÕ$Ž‹J"Ëæ¾Ä¢+­íÞÄ¢+$¸Yý)ÚÚd?Óy[=w3ç;´c„=w3ç;°Î	8ª€·7–ÐÏ8ª€·=ŸÚ^B½ÅA}Åú="t;="t;<#×
+A°›S<†H<#×
+<†HA™fY@@  A7hI&ô$Ž§>"ÐÕ$Ž§>"Ì¹ÄÈº­íÞÄÈº$¸~$)ÛN?Ó¶=v©6;³Û=v©6;°j×8ª!7–^¶8ª!=Ÿ€¯B½ZŽ>cÖ>œÆ´V       @iP"Êñf@GKAÖ•À  À  Bò<4Àg  FC…ÈC…È00032017042@ë6’„”ç$@ŸmÞŽu@¡	dj5ÛðFFFF@ë6’:Ç¿?Ú¯Kò'¿Ú¯Kò'?qÎ_oÒ                PCTTFULLA³°ÆnFV           A³°›¬É!A³°ñ/Tï‰C@?F«        BXbDDeÖBXb?€ƒD ˜öB
+HE=¼BZsD ˜öB
+H@ÕÛ>7Ý_<¤b9½DÓ@ÕÛ>7Ý_?…tÇ<îXq?@
+<–`.@ÞøÃ>G“<¥±©9ÀÆ´@¬/>IL?÷k?”@Õ@¬j>i&{?€  @¬j>i&{?ìì@¾¾–>Aø@¾¾–>AøAc=<Yò=<Yò<#×
+A°ëò<¡°m<#×
+<¡°mA—ù¤@@  A7?S&àKd$—þ)"¿S$—þ)"ÂÖâ®ý¦2¯â®ý$×7Ö)ÚÚd?Â|é=ƒËa;¥æC=ƒËa;¨ò!8Ä<7¤8Ä<=ºž"B½ÅA:Y=<Yò=<Yò<#×
+A± m<¡°m<#×
+<¡°mA˜@@  A7hI&àw_$˜÷"¿S$˜÷"Âü´âÛq¦2¯âÛq$×b
+)ÛN?ÂË=ƒo;¥hÀ=ƒo;¨“X8Ä õ7¯8Ä õ=º5oB½ZŽ>¥Ö>·—V       @iP"Êñf@GKAÖ•À  À  AàÀ]<4Àg  FC@?C@?00032017043@ë6°®FsR@Ÿmá3}#@¡GNžÐFFFF@ë6°‹óÐŠ?„D3-ÃOò¿„D3-ÃOò?{âêEƒ—Ð                PCFTFULLA³±Ž±™ö©V           A³±Ž¬¶¾8A³±Ž¶}/AïAg        BœÿDD\½Bœÿ?€ƒBwaH@ò¶9C=ôA=BBwaH@ò¶9@Í³I?IÑ”<š2Ò:Í*@Í³I?IÑ”?…=ƒ>’E?+ì=­CÁ@Ö$?YÞ&<›œ :ÐºO@¦gâ?\4Ÿ?€ ?’@¦iY?^C?€  @¦iY?^C?í»@¸…?v4Í@¸…?v4ÍA¤î>9o+>9o+<#×
+A±w‘=ºiÜ<#×
+=ºiÜAˆÁ@@  A7?S&Øù¦%Áw"¹Í%Áw"¶úæ õpÝœL õpÝ&/1)ÚÚd?¼$,>{	Æ; |Z>{	Æ;ž©î9ÔÒü7‡W\9ÔÒü?ÕB½ÅAÍä>9o+>9o+<#×
+A±Œ=ºiÜ<#×
+=ºiÜAˆÕ@@  A7hI&Ù$2%ÝÚ"¹Í%ÝÚ"·Ç õ þœL õ þ&MŸ)ÛN?»º>z|î; ï>z|î;žPê9Ô[•7†ð÷9Ô[•?DVB½ZŽ?îR@øÊV       @iP"Êñf@GKAÖ•À  À  @ÆŒ³<4Àg  FAïAï00032017046@ë6Ã«2 ®@ŸmâÝ6<a@¡vÔtFFFF@ë6Ã³D¼„?tÜXº|¦¿tÜXº|¦?†^øˆèF{?uK'”»Ü¿p}JÐÖ?PCTFFULLA³² Œ­¦aV           A³±¼
+%ÙA³²D‰Q&éCT©-GùG        BP DDeÖBP ?€ƒD¿lÕBIÆE`y¦Bmx—D¿lÕBIÆ@æoÂ>4ê‡<°69ºOd@æoÂ>4ê‡?…å¨<Û
+§?W¡<Š1@ñ“>E+2<±ö9¾è@º_Ê>GQj?øu?—íe@ºZL>l“´?€  @ºZL>l“´?î1@Î¢?>ƒ)y@Î¢?>ƒ)yA}­Ž=0mï=0mï<#×
+A°M"<”d
+<#×
+<”d
+A˜"þ@@  A7?S&òúƒ$š;i"ÏC%$š;i"ÑC3ßq²€•ßq$Ó@µ)ÚÚd?Ò°f=…¼r;³¸=…¼r;µt8Á¿–7šÇó8Á¿–=·-èB½ÅA}Ö„=0mï=0mï<#×
+A°a<”d
+<#×
+<”d
+A˜7y@@  A7hI&ó*($šY§"ÏC%$šY§"Ñl<ßœÞ²€•ßœÞ$Ój")ÛN?Ò:2=…qj;³0"=…qj;µN8ÁRã7šRÙ8ÁRã=¶Ç"B½ZŽ>¢
+>³§NV       @iP"Êñf@GKAÖ•À  À  AöpM<4Àg  FCT©-CT©-00032017045@ë6ÎvÅÀ"@ŸmãÏs½@¡#CkÐFFFF@ë6ÔÜ½ö?vá¤ãie¿vá¤ãie?‰8›R }Ô                PCFTFULLA³³;]yÏÿV           A³³;X™jjA³³;bZ5“A– A³        BDDWµB?€ƒB…/@ûzC!%AI#ÜB…/@ûz@Þ´ô?Q”}<®ø¼:Úÿ@Þ´ô?Q”}?…°ò>â×?TÔ=£±@è›ã?cºv<°Ê£:Þà»@²`\?fG¥?€ B?w@²`¸?hK?€  @²`¸?hK?ïv@ÅÌA?€Ê›@ÅÌA?€Ê›A~oè>4úÇ>4úÇ<#×
+A°[Ë=¯3Ç<#×
+=¯3ÇAˆY¾@@  A7?S&è–¨%—qÍ"ÆfF%—qÍ"Ïã,!
+7±TM!
+7&"à)ÚÚd?É®>ƒQ«;¬½>ƒQ«;´BÜ9ã@7™Ã“9ã@?õ‡B½ÅA~˜Þ>4úÇ>4úÇ<#×
+A°pF=¯3Ç<#×
+=¯3ÇAˆn9@@  A7hI&èÄD%—"ÆfF%—"Ðð!#é±TM!#é&"¯Á)ÛN?É<Ý>ƒþ;«†–>ƒþ;³Ýº9âÀÿ7™O>9âÀÿ?¦rB½ZŽ?ùWö@
+>÷V       @iP"Êñf@GKAÖ•À  À  @ËáI<4Àg  FA– A– 00032017047@ë6ìP)ãï@Ÿmæmm”U@¡#…¨ FFFF@ë6ìoûÍ?€"Í+¬å¿€"Í+¬å?ƒ´ÍÒ†J1                PCTTFULLA³³Œ7.IV           A³³S_@  A³³ÄÏ.\’C<¡FâßÝ        B@ DDO¥B@ ?€ƒD£ÁÛB1ÎE?;çB[B\D£ÁÛB1Î@Þög>=„ó<©Å-9Â¦b@Þög>=„ó?…²°<ìw³?K<•’d@èãH>Móg<«|59Æa°@´88>P1?úz?”¾”@´4T>qî½?€  @´4T>qî½?ïÊ@ÇÓ;>†#@ÇÓ;>†#A~B=:”F=:”F<#×
+A°ŸŽ< Å‚<#×
+< Å‚A—¸‚@@  A7?S&êøë$»"ÈnÔ$»"É¥ÎéFa¬½éFa$Ý)ÚÚd?Ë¿-=ˆÅ;­Ì=ˆÅ;®ÙÅ8ÊFb7•&8ÊFb=À*,B½ÅA~k…=:”F=:”F<#×
+A°´	< Å‚<#×
+< Å‚A—Ìý@@  A7hI&ë&þ$Ùï"ÈnÔ$Ùï"ÉÍYét¬½ét$ÝÈö)ÛN?ËLÞ=ˆxK;­H¡=ˆxK;®w¬8ÉÔæ7”µ>8ÉÔæ=¿¾\B½ZŽ>©ù—>¼wKV       @iP"Êñf@GKAÖ•À  À  AãìÎ<4Àg  FC<¡C<¡00032017048@ë6ó÷”ø¢@Ÿmç6pú@¡{š6óÐFFFF@ë6óàð8½?Æ@$Ì™©¿Æ@$Ì™©?v¸ÞÙ>Ë                PCTTFULLA³´4tO±V           A³´ K“A³´KHSÐCÇiF6          B0 DD^½B0 ?€ƒD…¢B…ÔE&)ÃBLTD…¢B…Ô@ér>RqC<®¡9Ö½@ér>RqC?…÷D<ü9!?To< €ü@óßµ>e“d<°qy9Úù@@½´T>h ?ü?’¦q@½±»>„êF?€  @½±»>„êF?ðx@ÒZ'>“cÅ@ÒZ'>“cÅA}^==BÀÏ=BÀÏ<#×
+A°`.<¬y<#×
+<¬yA–Ëå@@  A7?S&÷YÙ$­Ph"Òýó$­Ph"ÏzS  ¾“°úÝ  ¾“$öŒ)ÚÚd?Özý=–HG;¶ô=–HG;³çò8ßEg7™v8ßEg=Õ½²B½ÅA}‡3=BÀÏ=BÀÏ<#×
+A°t©<¬y<#×
+<¬yA–à_@@  A7hI&÷ŠZ$­rd"Òýó$­rd"Ï£  ×Ò°úÝ  ×Ò$ö¯â)ÛN?Ö¨=•óö;¶i›=•óö;³ƒ8ÞÈ#7™ë8ÞÈ#=ÕEÇB½ZŽ>½æ>Ñ V       @iP"Êñf@GKAÖ•À  À  A×œ<4Àg  FCÇiCÇi00032017049@ë7î4@Z@Ÿmè}êý@¡{+oPFFFF@ë7á´ÿí?²³}Ãñ‹®¿²³}Ãñ‹®?wº0èÖÏ                PCTTFULLA³µ‡DÇ„V           A³µp©F<uA³µàHÆ“CÏÀF4Ü
+        BœÿDD^½Bœÿ?€ƒD‡àœAýÄâE! fBI0hD‡àœAýÄâ@Ûà>LˆØ<©+u9Óei@Ûà>LˆØ?…—î=²?IL<£ @äš)>]î‘<ªÞª9×m}@°5>``P?€ ?‘MA@°6>~´†?€  @°6>~´†?ñ×@Ãi	>:@Ãi	>:A~¥ê=Hàï=Hàï<#×
+A°§<¯6÷<#×
+<¯6÷A–ó—@@  A7?S&åÇî$¦-"Ä2$¦-"ÈìýQº«c¸ýQº$ò#)ÚÚd?Ç>Í=ÿ–;©õ"=ÿ–;®9#8Û§Ó7”8Û§Ó=ÑõB½ÅA~Îà=Hàï=Hàï<#×
+A°¼<¯6÷<#×
+<¯6÷A—@@  A7hI&åôý$¦1½"Ä2$¦1½"Éõýƒf«c¸ýƒf$òR‚)ÛN?ÆÏ=®Ì;©t=®Ì;­×d8Û,—7”, 8Û,—=ÑÂB½ZŽ>¹®¡>ÍêÿV       @iP"Êñf@GKAÖ•À  À  AÎ£™<4Àg  FCÏÀCÏÀ00032017050@ë7$B„@ŸmëP}Ô¼@¡}›‘ðFFFF@ë7#ú`;?²5âgØÅ¿²5âgØÅ?ƒ" ÛÈS                PCTTFULLA³·+OaV           A³·éÈÖMA³·&ÈuBo>TBsÉ        BßDDS¥Bß?€ƒCÒä¼AâLD{µÓAûx»CÒä¼AâL@áª>¨ñ/<¯šN:/o¯@áª>¨ñ/?…Å=P|b?V$=iÏ@ëÖ7>·ÇØ<±o°:2éß@µe2>¹Ñ§?ÿ?†ñ¼@µdâ>Ãæh?€  @µdâ>Ãæh?óc@É*>Ù@N@É*>Ù@NA~$Û=–€=–€<#×
+A°S³=!<#×
+=!A’Ð@@  A7?S&ìŒ$ÿv¦"ÉÆ°$ÿv¦"Ð¥@ Raõ±ùÚ Raõ%TJ)ÚÚd?Í¹=ÝƒÍ;®öH=ÝƒÍ;´ë&96lÂ7šS 96lÂ>8yB½ÅA~MÑ=–€=–€<#×
+A°h.=!<#×
+=!A’'K@@  A7hI&ìºj$ÿ¨¾"ÉÆ°$ÿ¨¾"ÐÎ* R‹6±ùÚ R‹6%Tt>)ÛN?Ì©¥=Ý†;®qê=Ý†;´…¥96i7™Þ^96i>7­2B½ZŽ?"Ë†?4‰oV       @iP"Êñf@GKAÖ•À  À  A€ˆ’<4Àg  FBo>TBo>T00032017052@ë7Hq		l@Ÿmî$è@¡Ã1x pFFFF@ë7JR!²?²m:¦Ôâ¿²m:¦Ôâ?„LERðgÝ                PCTTFULLA³¸ËêUÚV           A³¸Ëå­ÁA³¸ËïsŽóAï¤Ag#        Bœç[DD?„Bœç[?€ƒB‡¶É@ýNtC TþAH¸B‡¶É@ýNt@á²7?R º<­èí:Ù·Œ@á²7?R º?…ÅP>òž?Rf=£b@@ëß?e!h<¯´³:Ýü@¶£?g¤1?€q?(ï@¶
+?i½Ž?€  @¶
+?i½Ž?õ8@Éãá?M@Éãá?MA~Ö>2q»>2q»<#×
+A°i~=¯”<#×
+=¯”Aˆ`‹@@  A7?S&íf%˜iŽ"Ê%˜iŽ"ÎœY!ƒÌ°=„!ƒÌ&"¿)ÚÚd?ÍÚ4>„(€;¯—é>„(€;³'x9âWb7˜ÑÖ9âWb?‡LB½ÅA~=Ì>2q»>2q»<#×
+A°}ù=¯”<#×
+=¯”Aˆu@@  A7hI&í•%˜‡q"Ê%˜‡q"ÎÄÝ!d°=„!d&"0‡)ÛN?Íf¶>ƒÞZ;¯>ƒÞZ;²Âô9áØf7˜^89áØf?8tB½ZŽ?ø†§@	ÒÚV       @iP"Êñf@GKAÖ•À  À  @Îõx<4Àg  FAï¤Aï¤00032017053@ë7sa¶tœ@ŸmòDâh5@¡r<N³pFFFF@ë7sŽxâF?ƒœ×#ß1ò¿ƒœ×#ß1ò?‰ïô8L                PCFTFULLA³¹$ïJÀƒV           A³¹$ÝçtiA³¹% ®žBè»Ba        Bœç[DDUµBœç[?€ƒCl€ÅAl¥ÝDÝÃAÀ±+Cl€ÅAl¥Ý@Ýî>Ý?œ<´A€:jæŽ@Ýî>Ý?œ?…¦=‹z?^Ý=*1Ë@æÞû>ðBƒ<¶/š:o­@¯
+'>óå?€q?ƒÕ®@¯~>úTñ?€  @¯~>úTñ?õ”@Â$·?
+Ðí@Â$·?
+ÐíA~Â×=Æ¼ÿ=Æ¼ÿ<#×
+A°ö=6Ô%<#×
+=6Ô%A,È@@  A7?S&äJ‘%#;‚"Â»ä%#;‚"Ö;	 Œêš¶½w Œêš%”1¥)ÚÚd?Åô>Š[;¨Û>Š[;¹Âî9taG7žtª9taG>€€B½ÅA~ëÍ=Æ¼ÿ=Æ¼ÿ<#×
+A°-q=6Ô%<#×
+=6Ô%AAC@@  A7hI&äwU%#[…"Â»ä%#[…"Öe <¶½w <%”N´)ÛN?Å…>:ò;¨[O>:ò;¹Zµ9sØ+7üÈ9sØ+>€8B½ZŽ?c@~?|ÙV       @iP"Êñf@GKAÖ•À  À  A=o½<4Àg  FBè»Bè»00032017054@ë7{Òkøw@ŸmóQr@¡ùG¦ñ FFFF@ë7y¨‚ºp?²,¾ýï¿²,¾ýï?‚f9Œéˆ                PCTTFULLA³º‚o•¬GV           A³ºw£MjA³ºÇˆ$B¿àzEµ&        BœïDDWµBœï?€ƒD*´œAÈÎŒDÑ%ÛB"QD*´œAÈÎŒ@ãÀß>…õ<µéÿ:ï@ãÀß>…õ?…ÓX=#í~?b2<Êf›@ît>‘×<·áa:ÓŒ@µÁº>“?€þ?Šèþ@µÄ> ˆ?€  @µÄ> ˆ?öý@É™C>±ˆ.@É™C>±ˆ.A~C=tÄe=tÄe<#×
+A°`<Ùgg<#×
+<ÙggA”?0@@  A7?S&íÏ$ÐÂ"Ê6>$ÐÂ"Ø9 )¼¸p )¼%%L)ÚÚd?ÍŽ=µ ;¯W=µ ;»}89¦'7Ÿíð9¦'>T©B½ÅA~D9=tÄe=tÄe<#×
+A°Û<Ùgg<#×
+<ÙggA”S«@@  A7hI&í=K$Ðêþ"Ê6>$Ðêþ"Øc‚ )@æ¸p )@æ%%lw)ÛN?ÍË=´ž‘;®Ò[=´ž‘;»9Sà7Ÿtò9Sà>?B½ZŽ>ýy
+?’hV       @iP"Êñf@GKAÖ•À  À  A¢?ì<4Àg  FB¿àzB¿àz00032017056@ë7œõ¸z‡@ŸmõêÅN@¡|o FFFF@ë7œì.Ê5?£¬-y†¶¿£¬-y†¶?‚öGšù                PCTTFULLA³»	ŒP-àV           A³ºþÆA³»™•«BÝ‹ E·¤–        BDDV­B?€ƒDO9‰AÜÅDý–¸B2T¨DO9‰AÜÅ@ïtN><¿	;:W†@ïtN>?†#Z="´?to<·éË@úïâ>‹'<Á5:	>@¿«8>u?€ B?$É@¿«›>›ú?€  @¿«›>›ú?÷‰@Ô•´>¬‰p@Ô•´>¬‰pA}/I=a–D=a–D<#×
+A¯–[<Åoñ<#×
+<ÅoñA”¹@@  A7?S&ùùí$Êâe"Õ;=$Êâe"ã0Æ !aÊÁË… !aÊ%z)ÚÚd?ØÁÁ=¯ìI;¸å=¯ìI;ÄÿÆ9ï–7¨
+¡9ï–>®½B½ÅA}X?=a–D=a–D<#×
+A¯ªÖ<Åoñ<#×
+<ÅoñA”Íš@@  A7hI&ú*ò$Ë
+-"Õ;=$Ë
+-"ã]S !oÁË… !o%˜À)ÛN?ØH%=¯‰–;¸Y==¯‰–;Ä‘?9¡7§‹9¡>bB½ZŽ>ïôã?,V       @iP"Êñf@GKAÖ•À  À  A³)Ö<4Àg  FBÝ‹ BÝ‹ 00032017058@ë7©Å>˜C@Ÿm÷	“Ý¨@¡ØtÐíàFFFF@ë7©¾S°µ?¤i¸…õßF¿¤i¸…õßF?ƒS¿šµ#                PCTTFULLA³¼€˜÷®¼V           A³¼hz<´A³¼˜·` ÅBÝ®F@óD        BœßDDZ½Bœß?€ƒDI
+AÙ¼ÏDã¥ÛB)$rDI
+AÙ¼Ï@èHÊ>{“Ø<«vŸ9þËg@èHÊ>{“Ø?…òH=1w?M‡<Ááè@óN>‰/Ñ<­5f:Û¼@¾>ŠŸ&?€ä?`g@¾Ù>™·?€  @¾Ù>™·?ù@ÒÄ,>©Òo@ÒÄ,>©ÒoA}U~=_óþ=_óþ<#×
+A°‰R<ÐbY<#×
+<ÐbYA•)O@@  A7?S&÷Ö„$Ç±%"ÓhK$Ç±%"Ë¬š ²ù­¼F ²ù%Ç)ÚÚd?Öç=­'¤;·P;=­'¤;°›Ÿ9h)7–¥Ï9h)>·B½ÅA}~t=_óþ=_óþ<#×
+A°Í<ÐbY<#×
+<ÐbYA•=Ê@@  A7hI&ø$ÇØN"ÓhK$ÇØN"ËÔŠ Ðê­¼F Ðê%äL)ÛN?Ön…=¬Æ~;¶Å‹=¬Æ~;°8‰9à7–3Ö9à> ¹VB½ZŽ>äU>ýV       @iP"Êñf@GKAÖ•À  À  A´¿9<4Àg  FBÝ®BÝ®00032017060@ë7ÍTª¢ö@Ÿmú'¯’Ù@¡k‘™FFFF@ë7Í1dU‚?³ðµPöÚ1¿³ðµPöÚ1?„ùf³¾3?p1•«oÒ¿jo¿t´øPCTFFULLA³½Å^Ž/ZV           A³½»^ÄåA³½Ï^Wy§BÛoÑEŸü•        BDDZ½B?€ƒDK«ÇAÚñgEù
+B5×$DK«ÇAÚñg@í›w>l†<È»:
+J0@í›w>l†?†²=_ø?‡ˆ<´_@øèâ>‹’*<Ë!:n@º™	>?%?€ B?Œu…@º™j>šþ¿?€  @º™j>šþ¿?ú]@Îùú>«ëÉ@Îùú>«ëÉA}¦/=fß`=fß`<#×
+A¯' <Á…ú<#×
+<Á…úA”|‚@@  A7?S&óa¬$Ê)"Ï›%$Ê)"îÛ” &NbË¿H &Nb% Í)ÚÚd?Ó	Ú=¯KŠ;´g=¯KŠ;Ï©94©7°«Ò94©>n•B½ÅA}Ï%=fß`=fß`<#×
+A¯;{<Á…ú<#×
+<Á…úA”ý@@  A7hI&ó‘f$ÊP§"Ï›%$ÊP§"ï
+k &nþË¿H &nþ% ìŒ)ÛN?Ò“s=®é1;³|6=®é1;Î©u9ãÁ7°&)9ãÁ> [B½ZŽ>ö‘z?¿‹V       @iP"Êñf@GKAÖ•À  À  A®H<4Àg  FBÛoÑBÛoÑ00032017062@ë7ì¸†ô@ŸmüÚÍŒ/@¡þoØðFFFF@ë7ëý=º~?¢?MŒC =¿¢?MŒC =?ƒ©RtA}                PCTTFULLA³¿Ÿ 0<KV           A³¿•µ±…A³¿©0ªÇBÝ«E¡©        B@ DDK¥B@ ?€ƒDI»#AÚ_EšB88DI»#AÚ_@éV>{ù<Ì,Ì:
+Ëi@éV>{ù?…÷¾=õM?ŽÎ<²Ö@óóL>‰qØ<Î¨ð:b@´z>‹)ö?úz?ŒÒ@´v¸>˜:?€  @´v¸>˜:?üG@È.u>¨Ûù@È.u>¨ÛùA~:£=juI=juI<#×
+A¯ ¯<¾ý³<#×
+<¾ý³A”wõ@@  A7?S&ëd0$ÆV"ÈÊU$ÆV"óa &û”ÏIÜ &û”%!!b)ÚÚd?Ì2=¬,X;®v=¬,X;Ò·99Ê×7³½ë9Ê×>·¾B½ÅA~c˜=juI=juI<#×
+A¯*<¾ý³<#×
+<¾ý³A”Œp@@  A7hI&ë’Y$Æ¶F"ÈÊU$Æ¶F"ó2 'RÏIÜ 'R%!@û)ÛN?Ë©®=«Ë¿;­—½=«Ë¿;ÒA 9yš7³5ï9yš>iZB½ZŽ>÷X?	KV       @iP"Êñf@GKAÖ•À  À  Aª¬J<4Àg  FBÝ«BÝ«00032017063@ë81¶@Ÿn ÊõØà@¡!ÌÑ*…FFFF@ë8;pˆ?ƒèé#dy¿ƒèé#dy?˜=N5?zëe'¿u7‰rxPCFFFULLA³À©üóV           A³À¥`¿A³À®à¥'AA”G        Bœç[DDV­Bœç[?€ƒBˆ—
+@þC+AGëTBˆ—
+@þ@âå­?S¡<¬8È:Øn@âå­?S¡?…Í€>Ì?O=¤	>@í.î?eª`<­û¢:Üµ/@·Ý¤?h$]?€q?-š@·á&?jGZ?€  @·á&?jGZ?ýA@ËùÕ?ñ@ËùÕ?ñA}ç!>1Â>1Â<#×
+A°g=°L<#×
+=°LAˆhj@@  A7?S&ïÚk%˜Ì"Ì˜©%˜Ì"Ì•´!Ã–®ƒ!Ã–&!~%)ÚÚd?Ïú¢>„}é;±hP>„}é;±e¿9á
+7—R89á
+?-B½ÅA~>1Â>1Â<#×
+A°“â=°L<#×
+=°LAˆ|å@@  A7hI&ð	s%˜ê"Ì˜©%˜ê"Ì½Ò!Ý®ƒ!Ý&!Ð)ÛN?Ï…ò>„3“;°â>„3“;±79à‹Ë7–ß½9à‹Ë?¹œB½ZŽ?÷—Ò@	V-V       @iP"Êñf@GKAÖ•À  À  @Ð«B<4Àg  FAA00032017066@ë8/ñÆ»¢@ŸnÌôªÀ@¡#;=S#ÐFFFF@ë80¼å?xªÜ›O¿xªÜ›O?}’O·ð®?nçŒC‰†¿gpˆdy7‹PCTFFULLA³ÀÅ#µº²V           A³À»«ÿ”…A³ÀÎ›kàßBÛ‘-E—{b        BœÿDDT­Bœÿ?€ƒDHþAÙ1ªDüvB1ìãDHþAÙ1ª@éQt>};¯<¿çò:?—@éQt>};¯?…ùY=“	?uÿ<¸TÕ@ô5%>Š%<Â©:
+.N@¸°»>‹Â‚?€ ?Œx6@¸²[>™_ÿ?€  @¸²[>™_ÿ?ýx@Ìâ5>ª#v@Ìâ5>ª#vA}Ób=fÐ=fÐ<#×
+A¯Œ&<Åàv<#×
+<ÅàvA”¬Y@@  A7?S&ðëª$Èm"Í¿$Èm"ä<e "|IÂ¯Í "|I%`ß)ÚÚd?Ðç‘=­zC;²2k=­zC;ÅçÔ9ä‹7¨Ð“9ä‹>vßB½ÅA}üW=fÐ=fÐ<#×
+A¯ ¡<Åàv<#×
+<ÅàvA”ÀÔ@@  A7hI&ñé$È7¨"Í¿$È7¨"äi& "œ&Â¯Í "œ&%»)ÛN?Ðr]=­ï;±«š=­ï;ÅxË9•7¨PÛ9•>*OB½ZŽ>ñK?ÖtV       @iP"Êñf@GKAÖ•À  À  A®b<4Àg  FBÛ‘-BÛ‘-00032017065@ë84ë~ú@Ÿn<Ÿ¾k@¡#ŠØÈ©PFFFF@ë83þµa?ƒÿ»¥ü.Ê¿ƒÿ»¥ü.Ê?~w †®ìx?h°“8ßù¿c}QÔ!ïƒPCFFFULLA³Æºg½f'V           A³Æ¤å& ïA³ÆÏêT«`CºF,º        Bœ÷[DDWµBœ÷[?€ƒDˆÜ1AþKaE#©HBJÁ\DˆÜ1AþKa@ãdÛ>SA„<±Eö9Ûžn@ãdÛ>SA„?…Ðä=r^?Y%<¡¿@í¹ä>eöÒ<³#÷9àª@¶Îc>hƒ?€“?‘W/@¶Ð£>„«?€  @¶Ð£>„«?Ž¢@ÊÔ¤>’u˜@ÊÔ¤>’u˜A~ +=H³B=H³B<#×
+A°>r<­È™<#×
+<­È™A–šð@@  A7?S&î©$¬8W"Ër•$¬8W"Ò¦E ´®³¯u ´®$ûü>)ÚÚd?ÎÏ°=•Um;°iP=•Um;¶§ý8äh 7›Î“8äh =Ú¹B½ÅA~)!=H³B=H³B<#×
+A°Rí<­È™<#×
+<­È™A–¯k@@  A7hI&î°n$¬Z"Ër•$¬Z"ÒÏ“ Î‚³¯u Î‚$ü-¨)ÛN?Î[©=•¥;¯ãÙ=•¥;¶Aƒ8ãçú7›X³8ãçú=Ú#B½ZŽ>Á#!>ÖKV       @iP"Êñf@GKAÖ•À  À  AÏ»<4Àg  FCºCº00032017067@ë8Å‰¥}\@Ÿnêfáœ@¡,”»??pFFFF@ë8Å}0Ã?²uÜ÷ôèO¿²uÜ÷ôèO?™È”-ôÛ?q/‹;‚w¿q/‹;‚wPCFFFULLA³Ì¾üšVV           A³Ëîõ7\ÑA³ÌˆÁ×ÜC'Þ,F.N*        B7ÞDD`ÎB7Þ?€ƒD™ÓB‰+E4½ãBU¬D™ÓB‰+@êD=>M+<³¨’9ÓÄÊ@êD=>M+?…ÿÕ<ô´|?^f<™ðÍ@õ?!>_î3<µ”b9Øz@½}Q>b_Ö?û…?“|º@½z >‚kR?€  @½z >‚kR?Ž	@Ò@Ó>¸W@Ò@Ó>¸WA}`U=?PÌ=?PÌ<#×
+A° _<¥^Ý<#×
+<¥^ÝA–ïø@@  A7?S&÷<$ª,Ä"Òä‹$ª,Ä"Õ„„þ¶!Æþ$òˆ	)ÚÚd?Öa*=“n;¶Ýý=“n;¹$©8ÜO7í©8ÜO=ÒM#B½ÅA}‰J=?PÌ=?PÌ<#×
+A°4Ú<¥^Ý<#×
+<¥^ÝA—s@@  A7hI&÷lŒ$ªN#"Òä‹$ªN#"Õ®bþDa¶!ÆþDa$ò·˜)ÛN?Õèã=“<¥;¶S¤=“<¥;¸¼Ê8ÛÓn7v.8ÛÓn=Ñ×&B½ZŽ>¹â>Î@äV       @iP"Êñf@GKAÖ•À  À  AÜ·Î<4Àg  FC'Þ,C'Þ,00032017068@ë9EóU-@Ÿn,s:«@¡4›Q¼€FFFF@ë9Eé3Ñ÷?²Ò"y UŒ¿²Ò"y UŒ?™»ƒNS ?l½€(¯L¿l½€(¯LPCFFFULLA³ÑëŽóV           A³Ñ7j+A³Ò ülòÐC)`–GaÅ        BhbDDcÆBhb?€ƒD¤›uB
+äfE}á#B{ˆÐD¤›uB
+äf@øÊ\>Qìš<ú9÷È¹@øÊ\>Qìš?†cr<í
+?ê+<‚nbAš‘>fi»<ýÕÒ9þØ%@·+R>i¸.?õf?‘6,@·#¼>„’Ç?€  @·#¼>„’Ç?ŽØ@Ë@â>“"5@Ë@â>“"5A}öè=I4l=I4l<#×
+A­7~<‹†Ö<#×
+<‹†ÖA•ŸU@@  A7?S&ï ð$­O"Ëß'$­O#=» Õþ›z Õ%A)ÚÚd?Ï>=–l;°Çt=–l<h9ìB7ÜÅÁ9ìB=ô¬úB½ÅA~Þ=I4l=I4l<#×
+A­Kù<‹†Ö<#×
+<‹†ÖA•³Ð@@  A7hI&ï/Î$­%<"Ëß'$­%<#Zÿ òþþ›z òþ%1ë)ÛN?ÎÉÈ=•±A;°A¶=•±A<õ9£]7Üº9£]=ô#´B½ZŽ>ØA>ï÷[V       @iP"Êñf@GKAÖ•À  À  AÎCÕ<4Àg  FC)`–C)`–00032017069@ë9Ì†p™@Ÿn&øÙz#@¡=‡ðû FFFF@ë9ÉJ3Ä ?ÎŒ59j­¿ÎŒ59j­?•Àÿd#Àú?n1«?o“¿n1«?o“PCFFFULLA³ÖuÒ´þ›V           A³ÖiÌÍÜA³ÖØœ!BïCäEÀ^r        BœïDDX¾Bœï?€ƒDb¨!AæÂ&E*•LBNQ“Db¨!AæÂ&@ò‚{>våñ<í÷:è}@ò‚{>våñ?†8M=°?Ð¯<žþ@þKD>‡+<ñVò:Ë@´QÔ>‰•?€þ?Œ^W@´T£>–Kß?€  @´T£>–Kß?Žê@È)ó>¦ÓŽ@È)ó>¦ÓŽA~;=g§è=g§è<#×
+A­§½<ª6?<#×
+<ª6?A”6Ç@@  A7?S&ë^ã$Ä+a"ÈÅÐ$Ä+a#äø -ÉØòß -ÉØ%%ìd)ÚÚd?Ì™=ª¶;®Š=ª¶;öx9±“7Ñç‹9±“>ß±B½ÅA~cý=g§è=g§è<#×
+A­¼8<ª6?<#×
+<ª6?A”KB@@  A7hI&ë$ÄQÙ"ÈÅÐ$ÄQÙ# Ë -ëìòß -ëì%&í)ÛN?Ë¥=©ºG;­“Õ=©ºG;õ‰i9]7ÑH½9]>ŽøB½ZŽ>þ;?ÃV       @iP"Êñf@GKAÖ•À  À  A­Ž<4Àg  FBïCäBïCä00032017070@ë:Ce„ÕÅ@Ÿn1dÇœé@¡Dry4Æ FFFF@ë:Cj
+Z?¥bÖêdô§¿¥bÖêdô§?~)£<†?i†¦ø§Ç¿i†¦ø§ÇPCFFFULLA³Û«YjjV           A³ÛŸö\AÝA³Û¶.V’÷C(±E±¿Ó        BœÿDDX¾Bœÿ?€ƒDÚáBØÿEmbVBrÿDÚáBØÿ@ø6>`\A=²R:Ûƒ@ø6>`\A?†aâ<ýš~?‚+<‡•Az†>v<‡=ÔÆ:Ñ@±§Ä>z1?€ ?ŽR½@±©T>Šýv?€  @±©T>Šýv?ŽN@Å:ù>šL©@Å:ù>šL©A~|¯=Yr =Yr <#×
+A¬ ‘<I3<#×
+<I3A”¼¿@@  A7?S&çëÒ$µpm"ÅÔ$µpm#¸ó %ÓÂ>‹ %ÓÂ%8Ñ)ÚÚd?Éâ=Sâ;«Šb=Sâ<
+59ÊU7ìG9ÊU>v)B½ÅA~¥¥=Yr =Yr <#×
+A¬µ<I3<#×
+<I3A”Ñ:@@  A7hI&èM$µ”"ÅÔ$µ”#ØE %ôG>‹ %ôG%Wt)ÛN?È©=œû;«š=œû<
+19y©7ë”I9y©>*)B½ZŽ>ïVG?Ú¯V       @iP"Êñf@GKAÖ•À  À  AºÒ<4Àg  FC(±C(±00032017071@ë:ÁÎëFd@Ÿn<yñŽð@¡LY›ÏðFFFF@ë:ÁÁRMŒ?¤ïcÔ„¯¿¤ïcÔ„¯?‰Ð©%RÊÓ?dK9læ»¿¿dK9læ»¿PCFFFULLA³áhSÍÚV           A³áEZø…
+A³á‹L¡‚ªCF‹ãR        B0 DDbÎB0 ?€ƒD•ËdB¥)EFPoB^ÍD•ËdB¥)@ò±X>Vèk<Ñk
+9ëG!@ò±X>Vèk?†9Ž<ø:Æ?˜þ<“7î@þ~Ê>kS†<Ô09ðÜo@½fY>n6‹?ü?‘²£@½cÁ>‡“?€  @½cÁ>‡“?Ž@@ÒHç>–ˆO@ÒHç>–ˆOA}_ª=Fø4=Fø4<#×
+A®ÇŸ<Þ¶<#×
+<Þ¶A–Ë@@  A7?S&÷E$±t"Òì¥$±t"ùS† œñÔ­K œñ%»¼)ÚÚd?Öif=™|š;¶å=™|š;Ø1w8õ–7¸j
+8õ–=é¨;B½ÅA}ˆ =Fø4=Fø4<#×
+A®Ü<Þ¶<#×
+<Þ¶A–F@@  A7hI&÷v$±%*"Òì¥$±%*"ù„j ¸µÔ­K ¸µ%Ö')ÛN?Õñ=™&};¶Z¥=™&};×¸+8õÄ7·Þ…8õÄ=é%$B½ZŽ>Îfr>å(çV       @iP"Êñf@GKAÖ•À  À  AÑ’Œ<4Àg  FCC00032017072@ë;M6ú@ŸnH°ˆ§@¡UùêÙPFFFF@ë;IÇˆv ?€	ÿM?¿€	ÿM??¹ ÕèÕA                PCFTFULLA³çÌÿÔV           A³çµÜY5üA³çãE¦r2C
+OF5¥5        BXbDDcÆBXb?€ƒD{ðAöÅáE;¯®BX‹÷D{ðAöÅá@ð Ú>d³}<â¼ð:Í?@ð Ú>d³}?†'=kÿ?»«<—|½@ûŠ:>z+`<åÎÙ:+ì@´ê¡>}‹p?÷k?Žjs@´ä>Æ?€  @´ä>Æ?Ž%Þ@Èã>œ£æ@Èã>œ£æA~*ý=Xºt=Xºt<#×
+A®›<¢G+<#×
+<¢G+A•¹@@  A7?S&ì8•$¸1"É$¸1#L Å`æË Å`%Kû)ÚÚd?ÌÔ]=Ÿ¶á;®¸=Ÿ¶á;êQo9Î7Çß÷9Î>RåB½ÅA~Só=Xºt=Xºt<#×
+A®)<¢G+<#×
+<¢G+A•'4@@  A7hI&ìfç$¸U/"É$¸U/#7Ë äPæË äP%it)ÛN?Ìar=Ÿ]F;®4_=Ÿ]F;éÍø9D7ÇH¿9D>	ÇB½ZŽ>æ7Ô>ÿ¡xV       @iP"Êñf@GKAÖ•À  À  A»Æ‹<4Àg  FC
+OC
+O00032017073@ë;èASÌÏ@ŸnVJv)Í@¡^À6$6 FFFF@ë;è:Hû?²=Šû”¿²=Šû”?€ ‰wãfl                PCTTFULLA³îM™ƒùV           A³înƒ<A³îó-„¶Bú0qGc¿        BHbDDeÖBHb?€ƒDtÃuAïrBE.Ç/BPå,DtÃuAïrB@úrÂ>uò<éC:N@úrÂ>uò?†nÚ=	‡‚?È<	ùA„„>†‹û<ìZê:ÿj@¾m¼>ˆSç?ùo?×û@¾hÚ>—u?€  @¾hÚ>—u?Ž,Ñ@Ó~ý>§Í^@Ó~ý>§Í^A}F=\†¦=\†¦<#×
+A­Ö%<¨)„<#×
+<¨)„A”z‚@@  A7?S&ø²1$ÅQ""Ô#­$ÅQ"#
+ö¼ (&Iíõ (&I% ò)ÚÚd?×¥’=«n;·ò¶=«n;ðþd9ÍÚ7Í‘¸9ÍÚ>ŽÀB½ÅA}o=\†¦=\†¦<#×
+A­ê <¨)„<#×
+<¨)„A”Žý@@  A7hI&øâõ$ÅwÔ"Ô#­$ÅwÔ#ü (GBíõ (GB%!¬)ÛN?×,•=ª¸p;·g‹=ª¸p;ðw/9|7Ìö29|>@tB½ZŽ>öy›?ßV       @iP"Êñf@GKAÖ•À  À  A¸I<4Àg  FBú0qBú0q00032017074@ë<‹útn@Ÿnd°õÞ@¡hìŽ°FFFF@ë<Šü_ø5?ÕÌr*ˆB¿ÕÌr*ˆB?€nÕ °å                PCTTFULLA³ô*‰J´V           A³ó¹À<
+ÐA³ô›RY]OB»“¥Ga’        BHbDD]ÆBHb?€ƒD+çžAÉA·D×¥HB$q D+çžAÉA·@êœ}>‰UÅ<¿×ª:Jf@êœ}>‰UÅ?†1=#”Â?vŽ<Çt@õŸ×>•éø<Â	:w¡@º£>—©_?ùo?ŠÊý@¹ÿÞ>¤s?€  @¹ÿÞ>¤s?Ž2®@Î¡>¶°Ñ@Î¡>¶°ÑA}­ž=u¾Ø=u¾Ø<#×
+A¯ŒÙ<ÖA<#×
+<ÖAA“åæ@@  A7?S&òù¢$ÖÒû"ÏBe$ÖÒû"ä* /ÁÐÂ  /ÁÐ%,Ú)ÚÚd?Ò¯£=ºF®;³·s=ºF®;Å×ä9f’7¨Âû9f’>4B½ÅA}Ö”=u¾Ø=u¾Ø<#×
+A¯¡T<ÖA<#×
+<ÖAA“úa@@  A7hI&ó)G$Öý"ÏBe$Öý"äVÁ /äGÂ  /äG%,3˜)ÛN?Ò9o=¹Þ,;³/|=¹Þ,;Åhä97¨CM9>àXB½ZŽ?»è?TÝV       @iP"Êñf@GKAÖ•À  À  A¡–»<4Àg  FB»“¥B»“¥00032017075@ë=oŸìª@Ÿnp›«Ô9@¡qƒæ4PFFFF@ë=hû•!?ÕžMè±6Ü¿ÕžMè±6Ü?jO¹žHT?^Ô)À÷4¿VÖÄz÷J­PCTFFULLA³ù/:ð§V           A³øë¤M¾A³ùrÑÂ ~C#êMG-£        BœïDDWµBœï?€ƒD–‰7B(ÔE=•BZ	;D–‰7B(Ô@ëÃ>O÷X<Ás9Ýþß@ëÃ>O÷X?†‘<÷<ê?x<–k¨@ö*=>cÃ<Ã=ˆ9âÕè@ºR>e´?€þ?’cQ@ºU>ƒY×?€  @ºU>ƒY×?Ž7á@Ïª>‘ñ@Ïª>‘ñA}¥	=Cï=Cï<#×
+A¯<¡vÌ<#×
+<¡vÌA–ˆ’@@  A7?S&óqÅ$«œn"Ï¨à$«œn"å”Ç ]èÃÕ ]è$þZ)ÚÚd?ÓÏ=”Î=;´O=”Î=;Çr8çI7©ÏL8çI=ÜO¸B½ÅA}Íÿ=Cï=Cï<#×
+A¯“<¡vÌ<#×
+<¡vÌA–@@  A7hI&ó¡‚$«¾"Ï¨à$«¾"åÁÌ xÃÕ x$þE,)ÛN?Ò¡a=”zÀ;³ˆ=”zÀ;Æ¢Â8æÇÌ7©NÔ8æÇÌ=ÛÔB½ZŽ>Âu>Ø'V       @iP"Êñf@GKAÖ•À  À  AÕ¼<4Àg  FC#êMC#êM00032017076@ë=Ž>z.ò@Ÿn{I‚¥n@¡y ŠXÐFFFF@ë=”›û¹Õ?ƒèPïÝ¿ƒèPïÝ?„Çm{R‡                PCFTFULLA¼þí¿·pzV           A¼þËñfA¼ÿŽSÌŽCÀ¹F‡:q        BßDDZ½Bß?€ƒE¼¤B?a[E·«´B˜„E¼¤B?a[@Ìqd=þ€†<Ÿ8Ø9ƒÊâ@Ìqd=þ€†?…5<«î?5ö<W³R@ÔÂ|>	Má< ºi9†(E@£qÔ>
+Ö’?ÿ?¤V‚@£qŒ>2@À?€  @£qŒ>2@À?–\®@¿ÿi>Qdó@¿ÿi>QdóA~ôD=‘=‘<#×
+A±/›<gÿÐ<#×
+<gÿÐAšØ@@  A7?S&áÄ¥$v9„"À”ê$v9„"¼ÿ¦Á¡7‘Á$š®))ÚÚd?ÃÄ=U€ù;¦ýM=U€ù;£áî8ˆÊK7‹Êú8ˆÊK=†óB½ÅA9=‘=‘<#×
+A±D<gÿÐ<#×
+<gÿÐAšì@@  A7hI&áðë$viÌ"À”ê$viÌ"½$µà¡7‘à$šÌ~)ÛN?ÃV3=U	0;¦~÷=U	0;£…ü8ˆ}7‹a78ˆ}=…Ô³B½ZŽ>_ö>ƒ‹V       @iP"Êñf@GKAÖ•À  À  B‘!<4Àg  FCÀ¹CÀ¹00030083042@ì¹nO°@Ÿªw»NP@¯)·Ìd°FFFF@ìš #Æ?»­L¿»­L?’“>
+Ò–æ?c÷Ø‚ý9Á¿c÷Ø‚ý9ÁPCFFFULLA¾zùŸêq7V           A¾zùsØØA¾zùÌÏ	–B°½VB³’a        Bœ÷[DDV­Bœ÷[?€ƒDFÉA»3D§	XBþLDFÉA»3@ÕRí>‡p <»”:êØ@ÕRí>‡p ?…q+=/ùN?2Ê<â)²@ÞdÅ>’£o<Ÿ5¡:YJ@­•ƒ>”/ž?€“?‰å8@­—¥>Ÿ¤T?€  @­—¥>Ÿ¤T?—tŸ@Íg>¼åO@Íg>¼åOA}È"=œ“=œ“<#×
+A±D·<óFŒ<#×
+<óFŒA“Û¦@@  A7?S&ñ‡â$Þß"Îÿ$Þß"»6| #ÛÜŸ±š #ÛÜ%,Ýh)ÚÚd?Ño=ÀšY;²¥÷=ÀšY;¢U…9e7ŠxÖ9e>äB½ÅA}ñ=œ“=œ“<#×
+A±Y2<óFŒ<#×
+<óFŒA“ð!@@  A7hI&ñ·>$ÞJm"Îÿ$ÞJm"»[2 #ûþŸ±š #ûþ%,ÿN)ÛN?Ðù†=À.J;²Ï=À.J;¡úq9Å®7Š9Å®>vB½ZŽ>øxS?ùV       @iP"Êñf@GKAÖ•À  À  Ašþ<4Àg  FB°½VB°½V00081964001@ì<–o~†`@Ÿ„Ñ’Š½î@°´ÑŒgçØFFFF@ì<”M0Ü†?yË*%ukß¿yË*%ukß?0¾8àFQ?tAÑÁŠú¿píHËÔ\íPCFFFULLA¾~À2Ü±V           A¾~{Î;ÍA¾~—}•C ÷CÉB        BœßDDZ½Bœß?€ƒDR¯}Aà5jD÷Ê B0£2DR¯}Aà5j@ÈOÙ>U+Q<™“Ú9Úôd@ÈOÙ>U+Q?…=¾Å?*v<¹¤@ÐJ;>e¥ž<šùô9Þ¼•@ ÎŒ>h+
+?€ä?¦@ Ò->€vN?€  @ Ò->€vN?—v·@¾M>˜´@¾M>˜´A¼=^¶=^¶<#×
+A±€£<Ç¼ç<#×
+<Ç¼çA–ƒ@@  A7?S&ßÅñ$²¿h"¾áH$²¿h"¶<2 ôö›r¡ ôö%ÏŸ)ÚÚd?Â	2=šþm;¥ƒ=šþm;ž“8ã¤7†ÊO8ã¤=éÊ¹B½ÅAD²=^¶=^¶<#×
+A±•<Ç¼ç<#×
+<Ç¼çA–þ@@  A7hI&ßñÒ$²âu"¾áH$²âu"¶_ï ¤›r¡ ¤%ê)ÛN?ÁœU=š§w;¥V=š§w;«ë8âœ97†dU8âœ9=éGŽB½ZŽ>ÁÁ&>åJ»V       @iP"Êñf@GKAÖ•À  À  AµÐ7<4Àg  FC ÷C ÷00081964002@ì<àøÐþ@Ÿ„Øl¸¹@°·%ÖôŒÈFFFF@ì<áÅrÉ?£äí°zN¿£äí°zN?oeçC#Hã?a=²“¼¶¿Z'%*S]PCTFFULLAÀÿmV¡bV           AÀÿjå)AÀÿoÈ=›AïAg        Bp¤DDhÞBp¤?€ƒBnk…@î™qBnk…@ö4ÁBnk…@î™q@Æ?ý?Ff,<3:…k(@Æ?ý?Ff,?…->	ã©?€}m>"¿@ÎË?U‘<± :†b@º?VZ?ô[?`¼@º”?Xß¢?€  @º”?Xß¢?™µô@ßw„?‚7Í@ßw„?‚7ÍA|QF>!÷ >!÷ <#×
+A¹ì>ÿÅ<#×
+>ÿÅAŠ;Y@@  A7?S'bÞ%™:"à%†%™:"u žž ž&ç•)ÚÚd?ãÚ>>„Æ;Â\>„Æ;=:9‰@6áš9‰@>ãoB½ÅA|z<>!÷ >!÷ <#×
+A¹&g>ÿÅ<#×
+>ÿÅAŠOÔ@@  A7hI'|¢%™=A"à%†%™=A"Ÿ\ ž$ž ž$&@)ÛN?ãZh>„{Š;ÁÉ>„{Š;ó	9ˆ¸a6àï]9ˆ¸a>â…B½ZŽ?¹pe?Þ¥ÓV       @iP"Êñf@GKAÖ•À  À  @äô–<4Àg  FAïAï00011106001@ì‘Ô"@ŸŒJ¾½V@³^Â\ÄøFFFF@ì‘Ô¥ Ý?ƒ„½·ƒ¿ƒ„½·ƒ?Šª€œ…?v¥ö¸ó@¿qûÜ¯ÃÒ}PCFFFULLAÁ dÌ©’V           AÁ Hü·ãÒAÁ €œ›@OAÕ.FÞ        B0 DD^½B0 ?€ƒCAøRAU×‘D'Ë#AÌXÔCAøRAU×‘@és? €:=r™: P@és? €:?…÷ü=™ó!?‚à= ƒ@óýH?0™=ƒW:¤à’@¢¢?tÅ?ü?‚d&@¢ k??€  @¢ k??™·q@ÂŒ¬?.Eå@ÂŒ¬?.EåA~¹Œ=øúÝ=øúÝ<#×
+A¬Æ×=+Ÿ<#×
+=+ŸA‹Ó&@@  A7?S&äÄÎ%Lí"Ã$)%Lí#ÿ$ Áà¡ëN Áà¡%Ùðš)ÚÚd?Æ^>1±w;©5y>1±w<"!9¨ï7è>Å9¨ï>¼úOB½ÅA~â‚=øúÝ=øúÝ<#×
+A¬ÛR=+Ÿ<#×
+=+ŸA‹ç¡@@  A7hI&äñ«%M6"Ã$)%M6#í Â¦ëN Â¦%ÚW)ÛN?ÅîÒ>1MÅ;¨µu>1MÅ<ÕÀ9§¾ž7ç9§¾ž>¼HB½ZŽ?šWh?¹W"V       @iP"Êñf@GKAÖ•À  À  A«<4Àg  FAÕ.AÕ.00011106002@ì’Â¯ƒþ@ŸŒP¢ôÄ@³`Ü%ïÔÈFFFF@ì’Ö”¤ã?¤•a-¨ç`¿¤•a-¨ç`?‘.â@§e	?oPpìãSÞ¿oPpìãSÞPCFFFULL                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
