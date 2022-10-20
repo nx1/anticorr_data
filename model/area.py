@@ -49,7 +49,7 @@ class Model:
 
         self.extent = 20
 
-        self.ngrid = 10000
+        self.ngrid = 100000
         
         # Timers
         self.t_eval = np.nan
@@ -362,12 +362,12 @@ class Model:
         
         #plt.tight_layout()
         
-        fn = f'plt_out/{self.__str__()}.png'
-        print(f'Saving to : {fn}')
-        plt.savefig(fn)
+        #fn = f'plt_out/{self.__str__()}.png'
+        #print(f'Saving to : {fn}')
+        #plt.savefig(fn)
         self.t_plot = time() - t0
-        #plt.show()
-        plt.close(fig)
+        plt.show()
+        #plt.close(fig)
         
 
     def run(self):
