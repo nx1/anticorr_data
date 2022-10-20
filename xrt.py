@@ -65,7 +65,6 @@ def load_xrt(simbad_name='NAME_NGC_1313_X-1', curve='PC', pandas=True):
         table = calc_xrt_flags(table)
         table = table[~table['FLAG_RATE<=0']]
         table = table[~table['FLAG>5STD']]
-
         return table
 
 def rename_xrt_cols(Table):

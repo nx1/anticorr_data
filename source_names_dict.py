@@ -1,3 +1,12 @@
+def get_simbad_name_glob(simbad_name):
+    # fix glob square bracket issue
+    to_replace = {'[':'[[]',
+                  ']':'[]]'}
+
+    simbad_name_glob = simbad_name.translate(str.maketrans(to_replace)) # Used to fix globbing square brackets
+    return simbad_name_glob
+
+
 
 source_names_dict = {'ESO_243-49_HLX-1'             : 'ESO243-49',
                      'NAME_Holmberg_IX_X-1'         : 'Holmberg_IX',
@@ -38,7 +47,10 @@ source_names_dict = {'ESO_243-49_HLX-1'             : 'ESO243-49',
                      'NAME_IC_10_X-1'               : 'IC10',
                      '[WMR2006]_NGC4945_XMM1'       : 'NGC4945',
                      '[LM2005]_NGC_4559_ULX1'       : 'NGC4559',
-                     'NAME_M101-ULX1'               : 'M101'}
+                     'NAME_M101-ULX1'               : 'M101',
+                     '[LM2005]_IC_342_ULX1'         : 'IC342',
+                     '[BBL2003b]_IC_342_X-2'        : 'IC342'
+                     }
 
 
 source_names_readable = {'ESO_243-49_HLX-1'             : 'ESO 243-49 HLX-1',
@@ -80,7 +92,9 @@ source_names_readable = {'ESO_243-49_HLX-1'             : 'ESO 243-49 HLX-1',
                          'NAME_IC_10_X-1'               : 'IC10 X-1',
                          '[WMR2006]_NGC4945_XMM1'       : 'NGC4945 XMM-1',
                          '[LM2005]_NGC_4559_ULX1'       : 'NGC4559 ULX-1',
-                         'NAME_M101-ULX1'               : 'M101 ULX-1'}
+                         'NAME_M101-ULX1'               : 'M101 ULX-1',
+                         '[LM2005]_IC_342_ULX1'         : 'IC342 ULX-1',
+                         '[BBL2003b]_IC_342_X-2'        : 'IC342 ULX-2'}
 
 
 
@@ -240,9 +254,48 @@ simbad_ulxs_by_nbib = ["USNO-B1.0 1540-00162426",
 
 
 
-
-
-
+source_distances_mpc ={'NOVA_Cyg_1989' : 0.0023,
+                       'SWIFT_J0243.6+6124' : 0.0055,
+                       'SS433' : 0.0055,
+                       'SMC_X-3' : 0.06,
+                       'NAME_IC_10_X-1' : 0.7943,
+                       'M31_ULX-1' : 0.8200,
+                       '[LM2005]_NGC_598_ULX1' : 0.9300,
+                       'NAME_NGC_300_ULX1' : 2.0230,
+                       '[SRW2006b]_NGC_55_ULX' : 2.1100,
+                       '[LM2005]_IC_342_ULX1' : 3.4356,
+                       '[BBL2003b]_IC_342_X-2' : 3.4356,
+                       'Holmberg_II_X-1' : 3.4674,
+                       '[WMR2006]_NGC4945_XMM1' : 3.4674,
+                       '[LM2005]_NGC_3031_ULX1' : 3.5975,
+                       'M82_X-2' : 3.6141,
+                       '[LB2005]_NGC_253_X2' : 3.6983,
+                       '[LB2005]_NGC_253_X9' : 3.6983,
+                       '[LM2005]_NGC_247_ULX1' : 3.7200,
+                       'NAME_NGC_7793_P13' : 3.7325,
+                       'NAME_Holmberg_IX_X-1' : 3.8500,
+                       'NAME_NGC_1313_X-1' : 4.2500,
+                       'NAME_NGC_1313_X-2' : 4.2500,
+                       '[LM2005]_NGC_5204_ULX1' : 4.5900,
+                       'NAME_UGC_6456_ULX' : 4.6300,
+                       '[LM2005]_NGC_4395_ULX1' : 4.7500,
+                       '[LB2005]_NGC_5236_X11' : 4.8978,
+                       'NAME_M83_ULX-1' : 4.8978,
+                       '[LM2005]_NGC_5408_ULX1' : 5.3211,
+                       '[LB2005]_NGC_6946_ULX1' : 6.7298,
+                       '[LB2005]_NGC_6946_ULX3' : 6.7298,
+                       'NAME_M101-ULX1' : 7.1121,
+                       'RX_J133001+47137' : 7.6000,
+                       '[SST2011]_J141939.39+564137.8' : 7.8300,
+                       '[LM2005]_NGC_4559_ULX1' : 8.8700,
+                       'NAME_NGC_925_ULX-1' : 9.2045,
+                       'NAME_NGC_925_ULX-2' : 9.2045,
+                       'NAME_NGC_7090_ULX3' : 9.5060,
+                       'NAME_NGC_5907_ULX' : 17.2187,
+                       '[SK2009]_X2' : 17.2982,
+                       'NAME_NGC_1365-X1' : 17.2982,
+                       '[LM2005]_NGC_1042_ULX1' : 19.2000,
+                       'ESO_243-49_HLX-1' : 115.3500}
 
 
 

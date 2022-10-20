@@ -59,28 +59,43 @@ filters = ['B', 'U', 'V', 'UVM2', 'UVW1', 'UVW2', 'WHITE']
 # Filter bandpass information https://swift.gsfc.nasa.gov/proposals/tech_appd/swiftta_v12/node39.html
 # The centroid positions here may be slightly different as I think i got them from a diffeerent paper.
 # All values are provided in Angstroms.
+# See also http://svo2.cab.inta-csic.es/svo/theory/fps3/index.php?id=Swift/UVOT.V&&mode=browse&gname=Swift&gname2=UVOT#filter
 
 filter_cent = {'B'    : 4392,
                'U'    : 3465,
                'V'    : 5468,
-               'UVM2' : 2246,
                'UVW1' : 2600,
+               'UVM2' : 2246,
                'UVW2' : 1928,
                'WHITE': 3471}
 
 filter_fwhm = {'B'    : 975,
                'U'    : 785,
                'V'    : 769,
-               'UVM2' : 498,
                'UVW1' : 693,
+               'UVM2' : 498,
                'UVW2' : 687,
                'WHITE': 6400}
+               
+filter_ref   = {'U' : 3467.05,
+                'B' : 4349.56,
+                'V' : 5411.43,
+                'UVW1' : 2580.75,
+                'UVM2' : 2246.43,
+                'UVW2' : 2054.61}
+
+filter_W_eff   = {'U' : 662.50,
+                 'B'  : 866.22,
+                 'V'  : 655.67,
+                 'UVW1' : 801.92,
+                 'UVM2' : 533.85,
+                 'UVW2' : 667.73}
 
 filter_colors = {'B'    : 'steelblue',
                  'U'    : 'indigo',
                  'V'    : 'green',
-                 'UVM2' : 'magenta',
                  'UVW1' : 'cyan',
+                 'UVM2' : 'magenta',
                  'UVW2' : 'orange',
                  'WHITE': 'gray'}
 

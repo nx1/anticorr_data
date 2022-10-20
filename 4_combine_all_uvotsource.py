@@ -35,6 +35,11 @@ for s in source_dirs[1:]:
 
         for f in tqdm(uvotsource_files):
             tab = Table.read(f)
+            # Get rid of meta info
+            tab.meta['HISTORY'] = ''
+            tab.meta['comments'] = ''
+            tab.meta['COMMENT'] = ''
+
             tab['OBSID'] = re.search(r'\d{11}', f)[0]
             all_tabs.append(tab)
 

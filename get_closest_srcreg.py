@@ -51,10 +51,11 @@ def get_src_region_dict(return_df=False):
         tab = s.query_object(simbad_name)
         sc1 = SkyCoord(tab['RA'][0], tab['DEC'][0], unit=(u.hourangle, u.deg))
         
-        
-        src_reg_files = glob(f'/mnt/d/anticorr_data/download_scripts/{local_name}/*src*.reg*')
         bkg_reg_file  = glob(f'/mnt/d/anticorr_data/download_scripts/{local_name}/*bkg*.reg*')[0]
+        print(f'Reading bkg file: {bkg_reg_file}')
+        reg_dict_bkg, sc_bkg = read_region_file(bkg_reg_file)
 
+        src_reg_files = glob(f'/mnt/d/anticorr_data/download_scripts/{local_name}/*src*.reg*')
         for r in src_reg_files:
             reg_dict, sc2 = read_region_file(r)
             sep = sc1.separation(sc2)
@@ -62,8 +63,6 @@ def get_src_region_dict(return_df=False):
                 min_sep = sep
                 min_sep_file = r
             #print(f'{simbad_name:<30} {r} Seperation = {sep}')
-
-        reg_dict_bkg, sc_bkg = read_region_file(r)
 
         
         dict2 = {}
@@ -76,6 +75,7 @@ def get_src_region_dict(return_df=False):
         dict2['local_sc']    = sc2
         dict2['local_ra']    = sc2.ra
         dict2['local_dec']   = sc2.dec
+        dict2['local_radius'] = reg_dict['radius']
         dict2['closest_srcreg'] = min_sep_file
         dict2['closest_srcreg_short'] = '/'.join(min_sep_file.split('/')[-2:])
         dict2['closest_srcreg_sep_deg'] = min_sep
@@ -84,6 +84,7 @@ def get_src_region_dict(return_df=False):
         dict2['bkg_sc']     = sc_bkg
         dict2['bkg_ra']     = sc_bkg.ra
         dict2['bkg_dec']    = sc_bkg.dec
+        dict2['bkg_radius'] = reg_dict_bkg['radius']
         all_dicts.append(dict2)
     
         src_region_dict[simbad_name] = min_sep_file
@@ -99,4 +100,16 @@ def get_src_region_dict(return_df=False):
 
 if __name__ == "__main__":
     src_region_dict, df = get_src_region_dict(return_df=True)
-    print(df[['simbad_name', 'local_name', 'readable_name', 'simbad_ra', 'simbad_dec', 'local_ra', 'local_dec', 'closest_srcreg_short', 'closest_srcreg_sep_arcsec', 'bkg_ra', 'bkg_dec']].sort_values('closest_srcreg_sep_arcsec', ascending=False))
+    print(df.columns)
+    print(df[['simbad_name', 'local_name', 'simbad_ra', 'simbad_dec', 'local_ra', 'local_dec', 'closest_srcreg_short', 'closest_srcreg_sep_arcsec', 'bkg_ra', 'bkg_dec']].sort_values('closest_srcreg_sep_arcsec', ascending=False))
+    df2 = df[['readable_name', 'local_ra', 'local_dec', 'local_radius', 'closest_srcreg_sep_arcsec', 'bkg_ra', 'bkg_dec', 'bkg_radius']].sort_values('closest_srcreg_sep_arcsec', ascending=False)
+
+
+    latex_outfile = 'tables/closest_srcreg.tex'
+
+    print(df2)
+    print(f'saving to {latex_outfile}')
+    df2.to_latex(latex_outfile,index=False)
+
+
+
