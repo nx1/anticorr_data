@@ -7,7 +7,7 @@ from sympy import symbols, Eq, solve, nsolve, latex
 from sympy.utilities.lambdify import lambdify
 from scipy.spatial.transform import Rotation as R
 from skspatial.measurement import area_signed
-
+from triangulation import area_triangulation
 
 np.seterr(invalid='ignore') # Ignore sqrt(nan)
 np.set_printoptions(threshold=10, linewidth=150, precision=4)   #np.inf
@@ -77,8 +77,9 @@ class Model:
         self.x_rot_lens = [np.nan]
         self.y_rot_lens = [np.nan]
         
-        # Initialize area
+        # Initialize areas
         self.area_irr_proj = np.nan
+        self.area_irr_proj_tri = np.nan
 
         
 
@@ -338,7 +339,7 @@ class Model:
         
         ax5.plot(self.x_rot_seg1, self.y_rot_seg1, color='green', label='x,y_rot_seg1')
         ax5.plot(self.x_rot_seg2, self.y_rot_seg2, color='purple', label='x,y_rot_seg2')
-        ax5.plot(self.x_rot_lens, self.y_rot_lens, color='red', label=f'Projected Area = {self.area_irr_proj:.2f}')
+        ax5.plot(self.x_rot_lens, self.y_rot_lens, color='red', label=f'Projected Area = {self.area_irr_proj:.2f} tri={self.area_irr_proj_tri:.2f}')
         ax5.set_aspect('equal')
 
         ax5_in = ax5.inset_axes([0.8, 0.1, 0.15, 0.15])
@@ -506,8 +507,11 @@ class Model:
         self.x_rot_lens = np.concatenate([self.x_rot_seg1, self.x_circ_rot_segment])
         self.y_rot_lens = np.concatenate([self.y_rot_seg1, self.y_circ_rot_segment])
         
-        # Calculate the area of the Lens
+        # Calculate the area of the Lens via Shoelace formula
         self.area_irr_proj = self.area_2d(self.x_rot_lens, self.y_rot_lens)
+        
+        # Calculate the area of the Lens via Triangulation
+        self.area_irr_proj_tri = area_triangulation(self.x_rot_lens, self.y_rot_lens)
 
         self.t_eval = time() - t0
         return 0
