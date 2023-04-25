@@ -22,7 +22,6 @@ def load_df_prop():
         all_df.append(df)
     df_prop = pd.concat(all_df)
     df_prop_idx = df_prop.set_index(['simbad_name','xrt_curve', 'uvot_filter', 'include_bad', 'include_UL', 'name'])
-    df_prop
     return df_prop
     
 def load_df_fit_samples():

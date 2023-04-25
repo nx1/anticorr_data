@@ -4,7 +4,7 @@ from astropy.table import unique, join
 from source_names_dict import source_names_dict
 from xrt import load_xrt, rename_xrt_cols
 from uvot import load_uvotsource
-from get_closest_srcreg import get_src_region_dict 
+from table_closest_srcreg import get_src_region_dict 
 
 def load_joined(simbad_name, xrt_curve, uvot_filter, src_region_dict, join_hr=False):
     # Load X-ray Data

@@ -12,7 +12,7 @@ from astroquery.simbad import Simbad
 
 import warnings
 from source_names_dict import source_names_dict
-from get_closest_srcreg import get_src_region_dict
+from table_closest_srcreg import get_src_region_dict
 
 warnings.filterwarnings('ignore', category=UnitsWarning, append=True)
 

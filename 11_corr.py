@@ -77,7 +77,7 @@ def correlate(fits_path, include_bad, include_UL):
     ####################
     # SETUP SIMULATION # 
     ####################
-    
+
     res = {} # Dictionary for storing results
 
     # IF YOU CHANGE THIS, CHANGE THEM IN CALC_SUBSETS TOO
@@ -88,8 +88,14 @@ def correlate(fits_path, include_bad, include_UL):
 
     N_mc = 10000
     
-    
-    
+    print('correlate()')
+    print('----------')
+    print('Input:')
+    print(f'fits_path   = {fits_path}')
+    print(f'include_bad = {include_bad}')
+    print(f'include_UL  = {include_UL}')
+    print(f'N_mc        = {N_mc}')
+    print('')
 
     if 'curve_nosys' in fits_path:
         xrt_curve = 'FULL'
@@ -98,9 +104,24 @@ def correlate(fits_path, include_bad, include_UL):
         xrt_curve = fits_path.split('/')[-1].split(',')[-1][:-5]
         xrt_rate_err = 'Error'
 
+    print('Using XRT curve:')
+    print(f'xrt_curve = {xrt_curve}')
+    print('')
+
+    print('Using Rates:')
+    print(f'uvot_rate     = {uvot_rate}')
+    print(f'uvot_rate_err = {uvot_rate_err}')
+    print(f'xrt_rate      = {xrt_rate}')
+    print(f'xrt_rate_err  = {xrt_rate_err}')
+    print('')
+
     uvot_filter = fits_path.split('/')[-1].split(',')[1]
     simbad_name = fits_path.split('/')[-1].split(',')[0]
     readable_name = source_names_readable[simbad_name]
+
+    print(f'uvot_filter = {uvot_filter}')
+    print(f'simbad_name = {simbad_name}')
+    print(f'readable_name = {readable_name}')
 
     # Setup Paths
     plot_path = Path(f'/mnt/d/anticorr_data/lightcurves/correlation_output/{simbad_name}/plots')
@@ -115,8 +136,8 @@ def correlate(fits_path, include_bad, include_UL):
     out_plot_corr_pdf  = plot_path/f'{outfile},corr.pdf'
     
     if out_table_mc.exists():
-        print(f'{out_table_mc} exists! Skipping...')
-        return None
+        print(f'Monte carlo output table exists!')
+        print(f'Skipping fits_path={fits_path} include_bad={include_bad} include_UL={include_UL}')
     
     
     ###############
@@ -261,22 +282,31 @@ if __name__ == "__main__":
     curve_nosys_files = glob(f'lightcurves/joined/*curve_nosys*.fits')
     hardrat_files     = glob(f'lightcurves/joined/*hardrat*.fits')
     
-    for fits_path in tqdm(curve_nosys_files):
+    print('correlate.py')
+    print('------------')
+    print('Test for linear correlation between two bands')
+    print(f'N_hardrat_files={len(hardrat_files)} N_curve_nosys_files={len(curve_nosys_files)}')
+    print('Press any key to start, Ctrl+C to quit')
+    input()
+    for fits_path in curve_nosys_files:
         try:
             correlate(fits_path, include_bad=True, include_UL=False)
+            input()
             correlate(fits_path, include_bad=False, include_UL=False)
             correlate(fits_path, include_bad=True, include_UL=True)
             correlate(fits_path, include_bad=False, include_UL=True)
-        except:
-            print(f'Error {fits_path}')
+
+        except Exception as e:
+            print(f'Error {fits_path} Exception = {e}')
+
         print('#'*50)
         print('#'*50)
 
-    for fits_path in tqdm(hardrat_files):
+    for fits_path in hardrat_files:
         try:
             correlate(fits_path, include_bad=True, include_UL=False)
             correlate(fits_path, include_bad=False, include_UL=False)
-        except:
-            print(f'Error {fits_path}')
+        except Exception as e:
+            print(f'Error {fits_path} Exception = {e}')
         print('#'*50)
         print('#'*50)

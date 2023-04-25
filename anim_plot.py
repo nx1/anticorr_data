@@ -8,7 +8,7 @@ from mpl_toolkits.axes_grid1 import make_axes_locatable
 
 from astropy.table import unique, join
 
-from get_closest_srcreg import get_src_region_dict
+from table_closest_srcreg import get_src_region_dict
 from source_names_dict import source_names_dict, source_names_w_counterparts, source_names_readable
 from uvot import load_uvotsource, calc_uvot_flags, filters, filter_colors, filter_markers
 from xrt import load_xrt, rename_xrt_cols

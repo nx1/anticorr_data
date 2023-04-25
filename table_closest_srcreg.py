@@ -106,10 +106,12 @@ if __name__ == "__main__":
 
 
     latex_outfile = 'tables/closest_srcreg.tex'
-
+    csv_outfile   = 'tables/closest_srcreg.csv'
     print(df2)
     print(f'saving to {latex_outfile}')
+    print(f'saving to {csv_outfile}')
     df2.to_latex(latex_outfile,index=False)
+    df2.to_csv(csv_outfile,index=False)
 
 
 

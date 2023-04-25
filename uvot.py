@@ -6,7 +6,7 @@ from astropy.table import Table
 from astropy.time import Time
 
 from source_names_dict import source_names_dict
-from get_closest_srcreg import get_src_region_dict
+from table_closest_srcreg import get_src_region_dict
 from xrt import log_flag_summary 
 
 
