@@ -19,6 +19,5 @@ Instead, the XRT coordinates were used for UVOT reduction.  Features
 
 The model/area.py file contains a model for calculating the observed area at an
 arbitrary inclination for a star irradiated by a conical beam of emission.
-Contributing
 
 License: GPL.
