@@ -16,7 +16,11 @@ def area_triangulation(x, y):
     coords = np.column_stack((x, y))
     
     # triangulate the coordinates
-    tri = Delaunay(coords)
+    try:
+        tri = Delaunay(coords)
+    except ValueError:
+        print("Value Error, array probably contains NaNs, returning 0")
+        return 0
     
     # calculate the area of each triangle
     areas = []

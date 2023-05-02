@@ -240,12 +240,11 @@ class Model:
         ax1.set_zlim(-extent, extent)
         
         # Plot Sphere
-        u, v = np.mgrid[0:2*np.pi:30j, 0:np.pi:20j]
+        u, v = np.mgrid[0:2*np.pi:50j, 0:np.pi:40j]
         x_sp = x0 + r*np.cos(u)*np.sin(v)
         y_sp = y0 + r*np.sin(u)*np.sin(v)
         z_sp = z0 + r*np.cos(v)
         #ax1.plot_wireframe(x_sp, y_sp, z_sp, color="grey", alpha=0.8)
-        ax1.plot_surface(x_sp, y_sp, z_sp, color="lightblue", alpha=0.5)
 
         # Plot equatorial circle
         ax1.plot(self.x_circ, self.y_circ, self.z_circ, color='blue')
@@ -257,7 +256,9 @@ class Model:
         zline = m * xline
         yline = np.zeros(10)
         ax1.plot(xline, yline, zline, color='red', ls='dotted', label=f'i={self.i}')
-       
+ 
+        ax1.plot_surface(x_sp, y_sp, z_sp, color="lightblue", alpha=0.5)
+        ax1.set_zsort('average')
         # Axes settings
         ax1.set_xlabel('X')
         ax1.set_ylabel('Y')

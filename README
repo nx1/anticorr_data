@@ -1,0 +1,53 @@
+Long-Term X-Ray/UV Variability in ULXs
+======================================
+
+This repository contains the various scripts used for downloading of raw data,
+pipeline reduction, and analysis for both the XRT and UVOT aboard the The Neil
+Gehrels Swift Observatory https://swift.gsfc.nasa.gov/ for around ~40
+Ultraluminous X-ray sources (ULXs). 
+
+This code was written without the expectation of anyone other than myself using it
+and as such is not fully documented and may contain bugs. There are also scripts that
+are half-finished or experimental.
+
+The main reduction scripts are to be called in numerical order and anyone with
+familiarity with heasoft should be able to quickly modify them for their own
+needs.
+
+This code does not contain methods for the centroiding sources in the UVOT,
+this is as the XRT coordinates were used for the UVOT reduction.
+
+The model/area.py file contains a model for the calculation of the area observed
+at arbitrary inclination for a star irradiated by a conical beam of emission.
+
+
+
+
+
+
+
+
+Long-Term X-Ray/UV Variability in ULXs
+======================================
+
+This repository contains various scripts for downloading raw data, pipeline
+reduction, and analysis of the XRT and UVOT instruments aboard the Neil Gehrels
+Swift Observatory (https://swift.gsfc.nasa.gov/) for approximately 40
+Ultraluminous X-ray sources (ULXs).
+
+Please note that this code was originally developed for personal use and may
+not be fully documented or free of bugs. Some scripts may be incomplete or
+experimental.  Getting Started
+
+The main reduction scripts should be executed in numerical order. Users
+familiar with HEASoft should be able to easily modify them for their own needs.
+Limitations
+
+This code does not include methods for centroiding sources in the UVOT.
+Instead, the XRT coordinates were used for UVOT reduction.  Features
+
+The model/area.py file contains a model for calculating the observed area at an
+arbitrary inclination for a star irradiated by a conical beam of emission.
+Contributing
+
+License: GPL.

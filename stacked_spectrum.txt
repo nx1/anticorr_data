@@ -1,0 +1,107 @@
+SWIFT XRT stacked spectrum extraction.
+======================================
+
+Step 1: Load all data in xselect, extract src and bkg spectra.
+==============================================================
+xrt_stack_spectrum.sh
+ls */*pcw3po_cl.evt.gz >> xrt_pc.txt
+xselect @xrt_stack_spectrum.xcm
+
+xrt_stack_spectrum.xcm
+session                                  
+read events @xrt_pc.txt
+./                                       
+y                          
+filter region src_xrt.reg
+extract spectrum
+save spectrum PC.pi
+clear region
+all
+filter region bkg_xrt.reg
+extract spectrum
+save spectrum PCback.pi
+exit              
+
+Step 2: Use Ximage to combine all exposure maps
+===============================================
+ls */*pcw3po_ex.img.gz
+
+ximage
+read 00031442062/sw00031442062xpcw3po_ex.img.gz
+read 00031442054/sw00031442054xpcw3po_ex.img.gz
+read 00031442050/sw00031442050xpcw3po_ex.img.gz
+sum
+save
+write sum_ex.img
+exit
+
+fparkey F sum_ex.img+0 VIGNAPP add=yes
+
+
+Step 3: Use xrtmkarf with the summed exposure map to create ARF
+===============================================================
+xrtmkarf expofile=sum_ex.img
+PC.pi
+yes
+PC_exp.arf
+-1
+-1
+
+step 3.5: Check which rmf file to use:
+======================================
+quzcif
+SWIFT
+XRT
+-
+-
+matrix
+2013-10-21
+19:03:16
+
+/home/x1/caldb/data/swift/xrt/cpf/rmf/swxpc0to12s6_20130101v014.rmf
+
+
+
+Step 4: use grppha with spectrum, arf and rmf to create grouped spectrum
+========================================================================
+grppha
+PC.pi
+PC_grp.pi
+bad 0-29
+group min 1
+chkey backfile PCback.pi
+chkey ancrfile PC_exp.arf
+chkey respfile /home/x1/caldb/data/swift/xrt/cpf/rmf/swxpc0to12s6_20130101v014.rmf
+exit
+
+
+Step 5: Use Xspec to load spectrum
+==================================
+xspec
+
+data 1:1 PC_grp.pi
+cpd /xw
+setplot energy
+ig 0.0-0.3
+plot data
+
+mo tbabs*(diskbb+pow)
+fit
+plot data
+plot eeuf
+
+flux 0 10
+
+reploting low count rates
+--------------------------
+The main thing is setplot rebin 2 1000 -- this just visually bins the spectrum 
+i.e. doesn't change the data for fitting) so that each bin either has a signal to noise of 2, or has 1000 counts in each
+setplot rebin 2 1000   
+ig bad
+ig 1:0.-0.3 10.-**
+plot ldata
+
+
+
+setplot area
+plot ld
